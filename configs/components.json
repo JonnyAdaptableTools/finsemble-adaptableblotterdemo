@@ -1,9 +1,95 @@
 {
     "comment": "this file contains the components that will be loaded into Finsemble.",
     "components": {
+        "accountDetail": {
+            "window": {
+                "url": "/components/accountDetail/accountDetail.html",
+                "width": 800,
+                "height": 600
+            },
+            "component": {
+            },
+            "foreign": {
+                "services": {
+                    "dockingService": {
+                        "canGroup": true,
+                        "isArrangable": true
+                    }
+                },
+                "components": {
+                    "App Launcher": {
+                        "launchableByUser": true
+                    },
+                    "Window Manager": {
+                        "FSBLHeader": true,
+                        "persistWindowState": true
+                    },
+                    "Toolbar": {
+                        "iconClass": "accountDetail"
+                    }
+                }
+            }
+        },
+        "accountList": {
+            "window": {
+                "url": "/components/accountList/accountList.html",
+                "width": 800,
+                "height": 600
+            },
+            "component": {
+            },
+            "foreign": {
+                "services": {
+                    "dockingService": {
+                        "canGroup": true,
+                        "isArrangable": true
+                    }
+                },
+                "components": {
+                    "App Launcher": {
+                        "launchableByUser": true
+                    },
+                    "Window Manager": {
+                        "FSBLHeader": true,
+                        "persistWindowState": true
+                    },
+                    "Toolbar": {
+                        "iconClass": "accountList"
+                    }
+                }
+            }
+        },
+        "accountStatement": {
+            "window": {
+                "url": "/components/accountStatement/accountStatement.html",
+                "width": 800,
+                "height": 600
+            },
+            "component": {
+            },
+            "foreign": {
+                "services": {
+                    "dockingService": {
+                        "canGroup": true,
+                        "isArrangable": true
+                    }
+                },
+                "components": {
+                    "App Launcher": {
+                        "launchableByUser": true
+                    },
+                    "Window Manager": {
+                        "FSBLHeader": true,
+                        "persistWindowState": true
+                    },
+                    "Toolbar": {
+                        "iconClass": "accountStatement"
+                    }
+                }
+            }
+        },
         "Toolbar": {
             "window": {
-                "id": "launcher",
                 "url": "/components/system/toolbar/toolbar.html",
                 "height": 40,
                 "top": 0,
@@ -17,42 +103,6 @@
                 }
             },
             "component": {
-                "menuItems": [
-                    {
-                        "@TODO": "this is not implemented yet in Toolbar"
-                    },
-                    {
-                        "align": "left",
-                        "icon": "@TODO name of icon",
-                        "component": "File Menu"
-                    },
-                    {
-                        "align": "left",
-                        "label": "Workspaces",
-                        "component": "Workspace Management Menu"
-                    },
-                    {
-                        "align": "left",
-                        "label": "Apps",
-                        "component": "Workspace Management Menu"
-                    },
-                    {
-                        "align": "right",
-                        "icon": "@TODO",
-                        "method": "autoArrange"
-                    },
-                    {
-                        "align": "right",
-                        "icon": "@TODO",
-                        "method": "bringToFront"
-                    },
-                    {
-                        "align": "right",
-                        "icon": "@TODO",
-                        "method": "launchChat"
-                    }
-                ],
-                "type": "Toolbar",
                 "spawnOnStartup": true,
                 "spawnOnAllMonitors": true
             },
@@ -73,32 +123,29 @@
                 }
             }
         },
-		"Finsemble Documentation": {
-			"window": {
-				"url": "https://documentation.chartiq.com/finsemble/tutorial-gettingStarted.html",
-				"height": 800,
-				"width": 1000
-			},
-			"component": {
-				"type": "Finsemble Documentation"
-			},
-			"foreign": {
-				"services": {
-					"dockingService": {
-						"isArrangable": true
-					}
-				},
-				"components": {
-					"App Launcher": {
-						"launchableByUser": true
-					},
-					"Window Manager": {
-						"persistWindowState": true,
-						"FSBLHeader": true,
-						"showLinker": false
-					}
-				}
-			}
-		}
-	}
+        "Finsemble Documentation": {
+            "window": {
+                "url": "https://documentation.chartiq.com/finsemble/tutorial-gettingStarted.html",
+                "height": 800,
+                "width": 1000
+            },
+            "foreign": {
+                "services": {
+                    "dockingService": {
+                        "isArrangable": true
+                    }
+                },
+                "components": {
+                    "App Launcher": {
+                        "launchableByUser": true
+                    },
+                    "Window Manager": {
+                        "persistWindowState": true,
+                        "FSBLHeader": true,
+                        "showLinker": false
+                    }
+                }
+            }
+        }
+    }
 }
