@@ -22,7 +22,7 @@
     },
     "runtime": {
         "arguments": "--noerrdialogs  --v=1 --no-sandbox  --enable-crash-reporting",
-        "version": "stable"
+        "version": "alpha"
     },
     "shortcut": {
         "company": "ChartIQ",
@@ -59,6 +59,19 @@
         }
     ],
     "finsemble": {
+        "forceRouterToOFB": false,
+        "autoSignOn": {
+            "hardcoded": {
+                "rsrchx" : {
+                    "username": "terry@chartiq.com",
+                    "password": "ireallylovecharts"
+                },
+                "symphony" : {
+                    "username": "Nomura",
+                    "password": "Ilovecharts Ilovecharts1"
+                }
+            }
+        },
         "applicationRoot": "http://localhost:3375/",
         "moduleRoot": "http://localhost:3375/finsemble",
         "cssOverridePath": "$applicationRoot/components/assets/css/finsemble-overrides.css",

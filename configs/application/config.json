@@ -10,10 +10,11 @@
 			"enabled": true
 		},
 		"assimilation": {
+			"port": 8392,
 			"enabled": false,
 			"blacklist": [],
 			"whitelist": [],
-			"onlySpawned": false
+			"onlySpawned": true
 		}
 	},
 	"importConfig": [
@@ -22,5 +23,6 @@
 		"$applicationRoot/configs/application/services.json",
 		"$applicationRoot/configs/other/defaultWorkspaces.json",
 		"$applicationRoot/configs/application/processConfig.json"
-	]
+	],
+	"importThirdPartyConfig": []
 }
