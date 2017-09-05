@@ -5,7 +5,8 @@
             "window": {
                 "url": "https://documentation.chartiq.com/finsemble/tutorial-gettingStarted.html",
                 "height": 800,
-                "width": 1000
+                "width": 1000,
+                "type": "openfinApplication"
             },
             "component": {},
             "foreign": {
