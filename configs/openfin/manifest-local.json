@@ -22,7 +22,7 @@
     },
     "runtime": {
         "arguments": "--noerrdialogs  --v=1 --no-sandbox  --enable-crash-reporting",
-        "version": "alpha"
+        "version": "stable"
     },
     "shortcut": {
         "company": "ChartIQ",
@@ -50,14 +50,6 @@
         "email": "finsemble@chartiq.com"
     },
     "fileName": "ChartIQ-local-installer",
-    "appAssets": [
-        {
-            "src": "http://localhost:3375/yourSubDirectory/node_modules/@chartiq/finsemble/dist//hosted/putty.zip",
-            "version": "1.0.0",
-            "alias": "putty",
-            "target": "putty.exe"
-        }
-    ],
     "finsemble": {
         "forceRouterToOFB": false,
         "autoSignOn": {
