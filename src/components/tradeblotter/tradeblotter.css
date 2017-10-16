@@ -4,7 +4,8 @@ body {
 
 .hypergrid-container {
     position: relative;
-    height: 80vh;
+    height: calc(100% - 80px);
+    width: 100%;
 }
 
 .finbar-horizontal div.thumb{
