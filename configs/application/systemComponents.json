@@ -129,7 +129,10 @@
 				"height": 163,
 				"ephemeral": true
 			},
-			"component": {},
+			"component": {
+				"spawnOnStartup": true,
+				"category": "system"
+			},
 			"foreign": {
 				"services": {
 					"dockingService": {
@@ -303,8 +306,7 @@
 				"height": 32,
 				"compound-header": true
 			},
-			"component": {
-			},
+			"component": {},
 			"foreign": {
 				"services": {
 					"dockingService": {
@@ -398,12 +400,18 @@
 					},
 					{
 						"align": "right",
-						"fontIcon": {"font": "finfont", "label": "Y"},
+						"fontIcon": {
+							"font": "finfont",
+							"label": "Y"
+						},
 						"method": "FSBL.Clients.WorkspaceClient.autoArrange();"
 					},
 					{
 						"align": "right",
-						"fontIcon": {"font": "finfont", "label": "i"},
+						"fontIcon": {
+							"font": "finfont",
+							"label": "i"
+						},
 						"method": "FSBL.Clients.WorkspaceClient.bringWindowsToFront()"
 					},
 					{

@@ -7,8 +7,7 @@
                 "height": 800,
                 "width": 1000
             },
-            "component":{
-            },
+            "component": {},
             "foreign": {
                 "services": {
                     "dockingService": {
@@ -23,6 +22,141 @@
                         "persistWindowState": true,
                         "FSBLHeader": true,
                         "showLinker": false
+                    }
+                }
+            }
+        },
+        "Position Blotter": {
+            "window": {
+                "url": "$applicationRoot/components/positionblotter/positionblotter.html",
+                "frame": false,
+                "resizable": true,
+                "autoShow": true,
+                "top": "center",
+                "left": "center",
+                "width": 800,
+                "height": 600
+            },
+            "component": {
+                "inject": false
+            },
+            "foreign": {
+                "services": {
+                    "dockingService": {
+                        "canGroup": true,
+                        "isArrangable": true
+                    }
+                },
+                "components": {
+                    "App Launcher": {
+                        "launchableByUser": true
+                    },
+                    "Window Manager": {
+                        "showLinker": true,
+                        "FSBLHeader": true,
+                        "persistWindowState": true
+                    },
+                    "Toolbar": {
+                        "iconClass": "positionblotter"
+                    }
+                }
+            }
+        },
+        "Price Blotter": {
+            "window": {
+                "url": "$applicationRoot/components/priceblotter/priceblotter.html",
+                "frame": false,
+                "resizable": true,
+                "autoShow": true,
+                "top": "center",
+                "left": "center",
+                "width": 800,
+                "height": 600
+            },
+            "component": {
+                "inject": false
+            },
+            "foreign": {
+                "services": {
+                    "dockingService": {
+                        "canGroup": true,
+                        "isArrangable": true
+                    }
+                },
+                "components": {
+                    "App Launcher": {
+                        "launchableByUser": true
+                    },
+                    "Window Manager": {
+                        "showLinker": true,
+                        "FSBLHeader": true,
+                        "persistWindowState": true
+                    },
+                    "Toolbar": {
+                        "iconClass": "priceblotter"
+                    }
+                }
+            }
+        },
+        "Trade Blotter": {
+            "window": {
+                "url": "$applicationRoot/components/tradeblotter/tradeblotter.html",
+                "frame": false,
+                "resizable": true,
+                "autoShow": true,
+                "top": "center",
+                "left": "center",
+                "width": 800,
+                "height": 600
+            },
+            "component": {
+                "inject": false
+            },
+            "foreign": {
+                "services": {
+                    "dockingService": {
+                        "canGroup": true,
+                        "isArrangable": true
+                    }
+                },
+                "components": {
+                    "App Launcher": {
+                        "launchableByUser": true
+                    },
+                    "Window Manager": {
+                        "showLinker": true,
+                        "FSBLHeader": true,
+                        "persistWindowState": true
+                    },
+                    "Toolbar": {
+                        "iconClass": "tradeblotter"
+                    }
+                }
+            }
+        },
+        "CharIq": {
+            "window": {
+                "url": "http://finsemble.chartiq.com/fin/components/premium/chart/sample-template-advanced.html",
+                "defaultTop": 200,
+                "defaultLeft": 100,
+                "defaultWidth": 640,
+                "defaultHeight": 480,
+                "minWidth": 180,
+                "minHeight": 400
+            },
+            "component": {
+                "type": "blotter"
+            },
+            "foreign": {
+                "services": {},
+                "components": {
+                    "App Launcher": {
+                        "launchableByUser": true
+                    },
+                    "Window Manager": {
+                        "FSBLHeader": true,
+                        "persistWindowState": true,
+                        "showLinker": true
                     }
                 }
             }

@@ -1,0 +1,18 @@
+body {
+	margin:0px;
+}
+
+.hypergrid-container {
+    position: relative;
+    height: 80vh;
+}
+
+.finbar-horizontal div.thumb{
+    background-color: black !important;
+    height: 17px !important;
+}
+
+.finbar-vertical div.thumb{
+    background-color: black !important;
+    width: 17px !important;
+}

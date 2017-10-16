@@ -1,1 +1,14 @@
-{}
+{
+    "positionblotter": {
+        "entry": ".\\src\\components\\positionblotter\\positionblotter.js",
+        "output": "\\components\\positionblotter\\positionblotter"
+    },
+    "priceblotter": {
+        "entry": ".\\src\\components\\priceblotter\\priceblotter.js",
+        "output": "\\components\\priceblotter\\priceblotter"
+    },
+    "tradeblotter": {
+        "entry": ".\\src\\components\\tradeblotter\\tradeblotter.js",
+        "output": "\\components\\tradeblotter\\tradeblotter"
+    }
+}
