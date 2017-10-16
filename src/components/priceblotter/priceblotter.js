@@ -3,7 +3,8 @@ var demoHelper = require('../../demohelper');
 
 FSBL.addEventListener('onReady', function () {
 	FSBL.initialize(function () {
-		FSBL.Clients.WindowClient.setWindowTitle("Price Blotter");
+		setTimeout(() =>
+			FSBL.Clients.WindowClient.setWindowTitle("Price Blotter"), 1);
 		FSBL.Clients.RouterClient.query("Prices", null, function (error, response) {
 			if (!error) {
 				console.log("Prices Response: " + JSON.stringify(response));
