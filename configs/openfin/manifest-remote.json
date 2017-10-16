@@ -4,7 +4,7 @@
         "name": "Adaptable Blotter finsemble",
         "url": "http://beta.adaptableblotter.com/finsembledemo/node_modules/@chartiq/finsemble/dist/components/system/serviceManager/serviceManager.html",
         "uuid": "Finsemble",
-        "applicationIcon": "http://beta.adaptableblotter.com/finsembledemo/node_modules/@chartiq/finsemble/dist/components/assets/img/Finsemble_Taskbar_Icon.png",
+        "applicationIcon": "http://images8.webydo.com/92/9227175/3958/FB1B6AA0-1649-8F4A-7ED2-1F1B38CCFC1A.png",
         "defaultTop": 0,
         "defaultLeft": 0,
         "showTaskbarIcon": true,
@@ -27,7 +27,7 @@
     "shortcut": {
         "company": "Adaptable Tools",
         "description": "Adaptable Blotter",
-        "icon": "http://beta.adaptableblotter.com/finsembledemo/node_modules/@chartiq/finsemble/dist/components/assets/img/Finsemble_Taskbar_Icon.ico",
+        "icon": "http://images8.webydo.com/92/9227175/3958/FB1B6AA0-1649-8F4A-7ED2-1F1B38CCFC1A.png",
         "name": "Adaptable Blotter finsemble - Beta",
         "target": [
             "desktop",

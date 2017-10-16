@@ -1,6 +1,35 @@
-@import '../sass/_globals';
-@import '../sass/_windowFrame';
-@import '../sass/_toolbar';
-@import '../sass/_windowManager';
-@import '../sass/_workspaceManagement';
-@import '../sass/_menus';
+// @import '../sass/_globals';
+// @import '../sass/_windowFrame';
+// @import '../sass/_toolbar';
+// @import '../sass/_windowManager';
+// @import '../sass/_workspaceManagement';
+// @import '../sass/_menus';
+
+.toolbar-brand-logo {
+    width: 46px;
+    margin: 4px 14px;
+    background: url("http://images8.webydo.com/92/9227175/3958/FB1B6AA0-1649-8F4A-7ED2-1F1B38CCFC1A.png");
+    background-size: 100% 100%; }
+  
+    .menu-icon {
+        width: 46px;
+        margin: 4px 14px;
+        background: url("http://images8.webydo.com/92/9227175/3958/FB1B6AA0-1649-8F4A-7ED2-1F1B38CCFC1A.png");
+        background-size: 100% 100%; }
+      
+        .priceblotter {
+            width: 46px;
+            margin: 4px 14px;
+            background: url("http://images8.webydo.com/92/9227175/3958/FB1B6AA0-1649-8F4A-7ED2-1F1B38CCFC1A.png");
+            background-size: 100% 100%; }
+          
+            .positionblotter {
+                width: 46px;
+                margin: 4px 14px;
+                background: url("http://images8.webydo.com/92/9227175/3958/FB1B6AA0-1649-8F4A-7ED2-1F1B38CCFC1A.png");
+                background-size: 100% 100%; }
+                .tradeblotter {
+                    width: 46px;
+                    margin: 4px 14px;
+                    background: url("http://images8.webydo.com/92/9227175/3958/FB1B6AA0-1649-8F4A-7ED2-1F1B38CCFC1A.png");
+                    background-size: 100% 100%; }
