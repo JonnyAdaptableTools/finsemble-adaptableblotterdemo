@@ -21,5 +21,24 @@ FSBL.addEventListener('onReady', function () {
 
 function receivedChart(data) {
 	var container = document.getElementById('data');
-	container.innerHTML = data;
+	let dataObj = JSON.parse(data);
+	let header = null;
+	let values = "";
+	//build header
+	dataObj.forEach((element) => {
+		if(!header){
+			header = "<tr>";
+			element[1].forEach((pair) => {
+				header += "<th>" + pair.columnID + "</th>";
+			});
+			header += "</tr>";
+		}
+		values += "<tr>";
+		element[1].forEach((pair) => {
+			values += "<td>" + pair.value + "</td>";
+		});
+		values += "</tr>";
+	});
+	let tableDate = "<table style=\"border: 1px black;\">" + header + values + "</table>";
+	container.innerHTML = tableDate;
 }
