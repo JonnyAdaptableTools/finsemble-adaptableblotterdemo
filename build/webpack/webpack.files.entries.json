@@ -10,5 +10,9 @@
     "tradeblotter": {
         "entry": ".\\src\\components\\tradeblotter\\tradeblotter.js",
         "output": "\\components\\tradeblotter\\tradeblotter"
+    },
+    "blotterreceiver": {
+        "entry": ".\\src\\components\\blotterreceiver\\blotterreceiver.js",
+        "output": "\\components\\blotterreceiver\\blotterreceiver"
     }
 }

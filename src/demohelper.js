@@ -251,6 +251,19 @@ function publishSymbolWhenSelectionChanged(grid, demoDataObject) {
     });
 }
 
+function setEmittersWhenSelectionChanged(grid, adaptableblotter) {
+    grid.addEventListener('fin-selection-changed', () => {
+        FSBL.Clients.DataTransferClient.setEmitters({
+            emitters: [
+                {
+                    type: "adaptableblotter.selectedcells",
+                    data: { selectedCells: JSON.stringify(adaptableblotter.getSelectedCells().Selection) }
+                }
+            ]
+        })
+    });
+}
+
 function hypergridThemeChangeWhenAbChange(adaptableblotter, grid, demoDataObject) {
     adaptableblotter.AdaptableBlotterStore.TheStore.subscribe(() => {
         if (demoDataObject.themeName !== adaptableblotter.AdaptableBlotterStore.TheStore.getState().Theme.CurrentTheme) {
@@ -368,3 +381,4 @@ module.exports.maximizeWidgetWhenABPopupVisible = maximizeWidgetWhenABPopupVisib
 module.exports.publishQuickSearchWhenChanged = publishQuickSearchWhenChanged;
 module.exports.hypergridThemeChangeWhenAbChange = hypergridThemeChangeWhenAbChange;
 module.exports.publishSymbolWhenSelectionChanged = publishSymbolWhenSelectionChanged;
+module.exports.setEmittersWhenSelectionChanged = setEmittersWhenSelectionChanged;

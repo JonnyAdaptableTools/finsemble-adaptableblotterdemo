@@ -24,6 +24,7 @@ FSBL.addEventListener('onReady', function () {
 				demoHelper.publishQuickSearchWhenChanged(adaptableBlotter, demoDataObject);
 				demoHelper.hypergridThemeChangeWhenAbChange(adaptableBlotter, hypergrid, demoDataObject);
 				demoHelper.publishSymbolWhenSelectionChanged(hypergrid, demoDataObject);
+				demoHelper.setEmittersWhenSelectionChanged(hypergrid, adaptableBlotter);
 				console.log('Received initial list of trades');
 				FSBL.Clients.RouterClient.addListener("NewTrade", function (error, response) {
 					if (error) {
@@ -74,7 +75,7 @@ FSBL.addEventListener('onReady', function () {
 					//decending sort on trade ID
 					adaptableBlotter.toggleSort(0);
 					adaptableBlotter.toggleSort(0);
-				},1000);
+				}, 1000);
 				//we want to ignore the first triggers from other components... cant be bothered to do it properly so just subscribing to the topic after 5 sec
 				setTimeout(() => {
 					FSBL.Clients.LinkerClient.subscribe("quickSearch", function (quickSearch) {

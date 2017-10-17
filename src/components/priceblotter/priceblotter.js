@@ -19,6 +19,7 @@ FSBL.addEventListener('onReady', function () {
 				demoHelper.publishQuickSearchWhenChanged(adaptableBlotter, demoDataObject);
 				demoHelper.hypergridThemeChangeWhenAbChange(adaptableBlotter, hypergrid, demoDataObject);
 				demoHelper.publishSymbolWhenSelectionChanged(hypergrid, demoDataObject);
+				demoHelper.setEmittersWhenSelectionChanged(hypergrid, adaptableBlotter);
 				console.log('Received initial list of prices');
 				FSBL.Clients.RouterClient.addListener("UpdatePrice", function (err, resp) {
 					if (err) {

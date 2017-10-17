@@ -19,6 +19,7 @@ FSBL.addEventListener('onReady', function () {
 				demoHelper.publishQuickSearchWhenChanged(adaptableBlotter, demoDataObject);
 				demoHelper.hypergridThemeChangeWhenAbChange(adaptableBlotter, hypergrid, demoDataObject);
 				demoHelper.publishSymbolWhenSelectionChanged(hypergrid, demoDataObject);
+				demoHelper.setEmittersWhenSelectionChanged(hypergrid, adaptableBlotter);
 				console.log('Received initial list of positions');
 				FSBL.Clients.RouterClient.addListener("UpdatePosition", function (error, response) {
 					if (error) {
