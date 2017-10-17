@@ -13,7 +13,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@chartiq/finsemble": "^1.3.5",
+    "@chartiq/finsemble": "^1.3.6",
     "adaptableblotter": "^1.2.4",
     "fin-hypergrid": "^1.3.0",
     "gulp-4.0.build": "^4.0.0-build.a271520",
