@@ -25,7 +25,13 @@ The blotters are shipped with default configuration data. You can nevertheless c
 * Positions Blotter : Columns Pnl, CurrentPrice, Position are flashing. And some widget from the dashboard are hidden
 * Prices Blotter : Columns BloombergBid, BloombergAsk, Bid, Ask, ChangeOnDay are flashing
 
-## Linked Widget
-For the purpose of the demo, if you link blotters together they will maintain the same filter on the column "Instrument Id". 
-See below where the Trades and Positions Blotter are linked and maintain the same filter on the Instrument Id
-![filter](https://raw.githubusercontent.com/jonathannaim/finsemble-adaptableblotterdemo/master/doc/filter.jpg)
+## Linked Widgets
+For the purpose of the demo, if you link blotters together they will maintain the quick search text value 
+See below where the Trades and Positions Blotter are linked
+![quicksearch](https://raw.githubusercontent.com/jonathannaim/finsemble-adaptableblotterdemo/master/doc/quicksearch.jpg)
+
+When linking, ChartIQ and Adaptable Blotters together they will link on the "symbol" topic. On the blotter, when you select a cell
+in the column Instrument Id, it will show the corresponding symbol information in the widgets such as News and Advanced Chart. On a 
+ChartIQ component, when you lookup for a symbol, it will set the Quick Search test of the linked Blotter to that symbol
+See below where the Position Blotter, Trade Blotter, News and Advanced Chart are linked
+![chartiq](https://raw.githubusercontent.com/jonathannaim/finsemble-adaptableblotterdemo/master/doc/chartiq.jpg)
