@@ -5,6 +5,51 @@
             "windows": [],
             "initializedWindows":[],
             "components": []
+        },
+        {
+            "name": "3 Blotters",
+            "windows": [],
+            "initializedWindows": [],
+            "components": [
+                {
+                    "type": "Position Blotter",
+                    "options": {
+                        "defaultTop": 40,
+                        "defaultLeft": 1267
+                    }
+                },
+                {
+                    "type": "Price Blotter",
+                    "options": {
+                        "defaultTop": 40,
+                        "defaultLeft": 0
+                    }
+                },
+                {
+                    "type": "Trade Blotter",
+                    "options": {
+                        "defaultTop": 530,
+                        "defaultLeft": 0,
+                        "defaultWidth" : 1281
+                    }
+                },
+                {
+                    "type": "Advanced Chart",
+                    "options": {
+                        "defaultTop": 530,
+                        "defaultLeft": 1281,
+                        "defaultHeight" : 510,
+                        "defaultWidth" : 639
+                    }
+                },
+                {
+                    "type": "News",
+                    "options": {
+                        "defaultTop": 40,
+                        "defaultLeft": 941
+                    }
+                }
+            ]
         }
 	]
 }
