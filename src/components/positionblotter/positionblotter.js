@@ -4,7 +4,7 @@ var demoHelper = require('../../demohelper');
 FSBL.addEventListener('onReady', function () {
 	FSBL.initialize(function () {
 		setTimeout(() =>
-			FSBL.Clients.WindowClient.setWindowTitle("Position Blotter"), 1);
+			FSBL.Clients.WindowClient.setWindowTitle("Position Blotter"), 1000);
 		FSBL.Clients.RouterClient.query("Positions", null, function (error, response) {
 			if (!error) {
 				console.log("Positions Response: " + JSON.stringify(response));

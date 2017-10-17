@@ -4,7 +4,7 @@ var demoHelper = require('../../demohelper');
 FSBL.addEventListener('onReady', function () {
 	FSBL.initialize(function () {
 		setTimeout(() =>
-			FSBL.Clients.WindowClient.setWindowTitle("Trade Blotter"), 1);
+			FSBL.Clients.WindowClient.setWindowTitle("Trade Blotter"), 1000);
 		FSBL.Clients.RouterClient.query("Trades", null, function (error, response) {
 			if (!error) {
 				console.log("Trades Response: " + JSON.stringify(response));
