@@ -272,21 +272,21 @@ function areArraysEqual(arr1, arr2) {
 }
 
 let lightTheme = {
-    font: '14px Helvetica Neue, Helvetica, Arial, sans-serif',
-    fontBold: 'bold 14px Helvetica Neue, Helvetica, Arial, sans-serif',
+    font: '12px Helvetica Neue, Helvetica, Arial, sans-serif',
+    fontBold: 'bold 12px Helvetica Neue, Helvetica, Arial, sans-serif',
     color: '#003f59',
     backgroundColor: 'white',
     altbackground: '#e6f2f8',
     foregroundSelectionColor: 'white',
     backgroundSelectionColor: 'rgba(13, 106, 146, 0.5)',
 
-    columnHeaderFont: '14px Helvetica Neue, Helvetica, Arial, sans-serif',
+    columnHeaderFont: '12px Helvetica Neue, Helvetica, Arial, sans-serif',
     columnHeaderColor: '#00435e',
     columnHeaderBackgroundColor: '#d9ecf5',
     columnHeaderForegroundSelectionColor: 'rgb(25, 25, 25)',
     columnHeaderBackgroundSelectionColor: 'rgb(255, 220, 97)',
 
-    rowHeaderFont: '14px Helvetica Neue, Helvetica, Arial, sans-serif',
+    rowHeaderFont: '12px Helvetica Neue, Helvetica, Arial, sans-serif',
     rowHeaderColor: '#00435e',
     rowHeaderBackgroundColor: '#d9ecf5',
     rowHeaderForegroundSelectionColor: 'rgb(25, 25, 25)',
@@ -314,20 +314,20 @@ let lightTheme = {
 };
 
 let darkTheme = {
-    font: '14px Helvetica Neue, Helvetica, Arial, sans-serif',
+    font: '12px Helvetica Neue, Helvetica, Arial, sans-serif',
     color: 'white',
     backgroundColor: '#07071E',
     altbackground: '#07071E',
     foregroundSelectionColor: 'white',
     backgroundSelectionColor: 'rgba(61, 119, 254, 0.5)',
 
-    columnHeaderFont: '14px Helvetica Neue, Helvetica, Arial, sans-serif',
+    columnHeaderFont: '12px Helvetica Neue, Helvetica, Arial, sans-serif',
     columnHeaderColor: 'white',
     columnHeaderBackgroundColor: '#07071E',
     columnHeaderForegroundSelectionColor: 'white',
     columnHeaderBackgroundSelectionColor: '#3D77FE',
 
-    rowHeaderFont: '14px Helvetica Neue, Helvetica, Arial, sans-serif',
+    rowHeaderFont: '12px Helvetica Neue, Helvetica, Arial, sans-serif',
     rowHeaderColor: 'white',
     rowHeaderBackgroundColor: '#07071E',
     rowHeaderForegroundSelectionColor: 'white',
