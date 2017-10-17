@@ -167,9 +167,7 @@ function maximizeWidgetWhenABPopupVisible(adaptableblotter, demoDataObject) {
         if (demoDataObject.popupState !== adaptableblotter.AdaptableBlotterStore.TheStore.getState().Popup) {
             demoDataObject.popupState = adaptableblotter.AdaptableBlotterStore.TheStore.getState().Popup;
             if (demoDataObject.popupState.ActionConfigurationPopup.ShowPopup === true &&
-                demoDataObject.didMaximizeForPopup == false) {
-                //there is still a bug on finsemble side
-                //FSBL.Clients.WindowClient.windowState !== "maximized") {
+                FSBL.Clients.WindowClient.windowState !== "maximized") {
                 demoDataObject.didMaximizeForPopup = true;
                 FSBL.Clients.WindowClient.maximize();
             }
