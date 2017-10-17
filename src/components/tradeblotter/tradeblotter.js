@@ -18,9 +18,6 @@ FSBL.addEventListener('onReady', function () {
 				setupEditorsAndFormats(hypergrid);
 				//we use the window generated name as the blotterId
 				let adaptableBlotter = demoHelper.initAdaptableBlotter(hypergrid, FSBL.Clients.WindowClient.windowName, "tradeId");
-				//decending sort on trade ID
-				adaptableBlotter.toggleSort(0);
-				adaptableBlotter.toggleSort(0);
 				let demoDataObject = new demoHelper.DemoDataObject();
 				demoHelper.maximizeWidgetWhenABPopupVisible(adaptableBlotter, demoDataObject);
 				// demoHelper.publishInstrumentExpressionWhenChanged(adaptableBlotter, demoDataObject);
@@ -73,6 +70,11 @@ FSBL.addEventListener('onReady', function () {
 				// 		});
 				// 	}
 				// });
+				setTimeout(() => {
+					//decending sort on trade ID
+					adaptableBlotter.toggleSort(0);
+					adaptableBlotter.toggleSort(0);
+				},1000);
 				//we want to ignore the first triggers from other components... cant be bothered to do it properly so just subscribing to the topic after 5 sec
 				setTimeout(() => {
 					FSBL.Clients.LinkerClient.subscribe("quickSearch", function (quickSearch) {
