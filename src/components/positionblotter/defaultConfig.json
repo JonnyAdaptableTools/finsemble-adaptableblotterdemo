@@ -77,7 +77,7 @@
             },
             {
                 "Strategy": "Filter",
-                "IsVisible": true,
+                "IsVisible": false,
                 "IsCollapsed": true
             }
         ]

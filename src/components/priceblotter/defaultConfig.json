@@ -63,5 +63,45 @@
                 "IsPredefined": true
             }
         ]
+    },
+    "Dashboard": {
+        "DashboardStrategyControls": [
+            {
+                "Strategy": "Functions",
+                "IsVisible": true,
+                "IsCollapsed": true
+            },
+            {
+                "Strategy": "DashboardShortcuts",
+                "IsVisible": true,
+                "IsCollapsed": true,
+                "ControlConfiguration": [
+                    "Dashboard",
+                    "Smart Edit",
+                    "Plus/Minus",
+                    "Conditional Style"
+                ]
+            },
+            {
+                "Strategy": "AdvancedSearch",
+                "IsVisible": false,
+                "IsCollapsed": true
+            },
+            {
+                "Strategy": "QuickSearch",
+                "IsVisible": true,
+                "IsCollapsed": true
+            },
+            {
+                "Strategy": "Layout",
+                "IsVisible": false,
+                "IsCollapsed": true
+            },
+            {
+                "Strategy": "Filter",
+                "IsVisible": false,
+                "IsCollapsed": true
+            }
+        ]
     }
 }
