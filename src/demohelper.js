@@ -153,7 +153,8 @@ function initAdaptableBlotter(grid, blotterId, primaryKey) {
 
 class DemoDataObject {
     constructor() {
-        this.windowMaximised = false;
+        this.popupState = null;
+        this.didMaximizeForPopup = false;
         this.currentInstrumentExpression = null;
         this.currentQuickSearch = null;
         this.currentTheme = "";
@@ -163,15 +164,20 @@ class DemoDataObject {
 
 function maximizeWidgetWhenABPopupVisible(adaptableblotter, demoDataObject) {
     adaptableblotter.AdaptableBlotterStore.TheStore.subscribe(() => {
-        if (adaptableblotter.AdaptableBlotterStore.TheStore.getState().Popup.ActionConfigurationPopup.ShowPopup === true) {
-            if (!demoDataObject.windowMaximised) {
+        if (demoDataObject.popupState !== adaptableblotter.AdaptableBlotterStore.TheStore.getState().Popup) {
+            demoDataObject.popupState = adaptableblotter.AdaptableBlotterStore.TheStore.getState().Popup;
+            if (demoDataObject.popupState.ActionConfigurationPopup.ShowPopup === true &&
+                demoDataObject.didMaximizeForPopup == false) {
+                //there is still a bug on finsemble side
+                //FSBL.Clients.WindowClient.windowState !== "maximized") {
+                demoDataObject.didMaximizeForPopup = true;
                 FSBL.Clients.WindowClient.maximize();
-                demoDataObject.windowMaximised = true;
             }
-        }
-        else {
-            FSBL.Clients.WindowClient.restore();
-            demoDataObject.windowMaximised = false;
+            else if (demoDataObject.popupState.ActionConfigurationPopup.ShowPopup === false &&
+                demoDataObject.didMaximizeForPopup) {
+                FSBL.Clients.WindowClient.restore();
+                demoDataObject.didMaximizeForPopup = false;
+            }
         }
     });
 }
