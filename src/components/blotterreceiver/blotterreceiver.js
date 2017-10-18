@@ -39,6 +39,6 @@ function receivedChart(data) {
 		});
 		values += "</tr>";
 	});
-	let tableDate = "<table style=\"border: 1px black;\">" + header + values + "</table>";
+	let tableDate = "<table class=\"table table-bordered table-hover\">" + header + values + "</table>";
 	container.innerHTML = tableDate;
 }
