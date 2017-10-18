@@ -171,6 +171,23 @@ function webpackComponents(done) {
 	});
 }
 
+function webpackComponentsNoWatch(done) {
+	const exec = require('child_process').exec;
+	const instance = exec('node ./build/child_processes/componentBuildProcessnowatch.js');
+	instance.stdout.on('data', function (data) {
+		handleWebpackStdOut(data, done);
+		var filesToBuild = require('./build/webpack/webpack.files.entries.json');
+		if (Object.keys(filesToBuild).length === 0) {
+			done();
+		}
+	});
+	instance.on("exit", function(code){
+		if(code === 0){
+			done();
+		}
+	});
+}
+
 function launchOpenfin(env) {
 	return openfinLauncher.launchOpenFin({
 		//new
@@ -191,7 +208,7 @@ gulp.task('build', gulp.series(
 	'copy',
 	// webpackClients,
 	// webpackServices,
-	webpackComponents,
+	webpackComponentsNoWatch,
 	// webpackReactComponents,
 	buildSass
 ));
