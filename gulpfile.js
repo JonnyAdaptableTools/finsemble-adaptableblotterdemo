@@ -182,7 +182,9 @@ function webpackComponentsNoWatch(done) {
 		}
 	});
 	instance.on("exit", function(code){
+		console.log(webpackOutColor("exit with code " + code));
 		if(code === 0){
+			console.log(webpackOutColor("Calling Done!!"));
 			done();
 		}
 	});
