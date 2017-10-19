@@ -2,7 +2,7 @@
     "comment": "Houses config for any custom services that you'd like to import into Finsemble.",
     "services": {
         "blotterdataService": {
-            "useWindow": false,
+            "useWindow": true,
             "active": true,
             "name": "blotterdataService",
             "file": "blotterdata/blotterdataService.js",
