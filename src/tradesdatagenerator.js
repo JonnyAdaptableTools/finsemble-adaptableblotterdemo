@@ -18,7 +18,7 @@ class TradesDataGenerator {
         var trade =
             {
                 "tradeId": i,
-                "instrumentId": this.getRandomItem(this.getInstrumentId()),
+                "instrumentId": instrumentId,
                 "instrumentName": this.getInstrumentName(instrumentId),
                 "notional": this.getRandomItem(this.getNotionals()),
                 "deskId": this.generateRandomInt(0, 250),
