@@ -22,7 +22,7 @@
     },
     "runtime": {
         "arguments": "--noerrdialogs  --v=1 --no-sandbox  --enable-crash-reporting",
-        "version": "stable"
+        "version": "7.*"
     },
     "shortcut": {
         "company": "Adaptable Tools",
