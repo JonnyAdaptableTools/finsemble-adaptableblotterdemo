@@ -111,7 +111,7 @@
         },
         "Advanced Chart": {
             "window": {
-                "url": "http://finsemble.chartiq.com/fin/components/premium/chart/sample-template-advanced.html",
+                "url": "http://finsemble.chartiq.com/components/premium/reactChart/index.html",
                 "defaultTop": 200,
                 "defaultLeft": 100,
                 "defaultWidth": 640,
@@ -138,7 +138,7 @@
         },
         "News": {
             "window": {
-                "url": "https://finsemble.chartiq.com/fin/components/premium/news/news.html",
+                "url": "https://finsemble.chartiq.com/components/premium/news/news.html",
                 "top": "center",
                 "left": "center",
                 "width": "17%",
