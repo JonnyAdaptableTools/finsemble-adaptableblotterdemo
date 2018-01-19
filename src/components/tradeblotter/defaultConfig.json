@@ -1,8 +1,8 @@
 {
-        "QuickSearch": {
+    "QuickSearch": {
         "QuickSearchText": "",
-        "QuickSearchOperator": 9,
-        "QuickSearchDisplayType": 2,
+        "QuickSearchOperator": "StartsWith",
+        "QuickSearchDisplayType": "ShowRowAndColourCell",
         "QuickSearchBackColor": "#ffa500"
     }
 }

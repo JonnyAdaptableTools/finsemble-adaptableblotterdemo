@@ -1,8 +1,8 @@
 {
-        "QuickSearch": {
+    "QuickSearch": {
         "QuickSearchText": "",
-        "QuickSearchOperator": 9,
-        "QuickSearchDisplayType": 2,
+        "QuickSearchOperator": "StartsWith",
+        "QuickSearchDisplayType": "ShowRowAndColourCell",
         "QuickSearchBackColor": "#ffa500"
     },
     "FlashingCell": {
@@ -10,10 +10,7 @@
             {
                 "IsLive": true,
                 "ColumnName": "pnl",
-                "FlashingCellDuration": {
-                    "Name": "1/2 Second",
-                    "Duration": 500
-                },
+                "FlashingCellDuration": 500,
                 "UpBackColor": "#008000",
                 "DownBackColor": "#FF0000",
                 "IsPredefined": true
@@ -21,10 +18,7 @@
             {
                 "IsLive": true,
                 "ColumnName": "currentPrice",
-                "FlashingCellDuration": {
-                    "Name": "1/2 Second",
-                    "Duration": 500
-                },
+                "FlashingCellDuration": 500,
                 "UpBackColor": "#008000",
                 "DownBackColor": "#FF0000",
                 "IsPredefined": true
@@ -32,10 +26,7 @@
             {
                 "IsLive": true,
                 "ColumnName": "position",
-                "FlashingCellDuration": {
-                    "Name": "1/2 Second",
-                    "Duration": 500
-                },
+                "FlashingCellDuration":500,
                 "UpBackColor": "#008000",
                 "DownBackColor": "#FF0000",
                 "IsPredefined": true
@@ -46,13 +37,11 @@
         "DashboardStrategyControls": [
             {
                 "Strategy": "Functions",
-                "IsVisible": true,
-                "IsCollapsed": true
+                "IsVisible": true
             },
             {
-                "Strategy": "DashboardShortcuts",
+                "Strategy": "DashboardBookmarks",
                 "IsVisible": true,
-                "IsCollapsed": true,
                 "ControlConfiguration": [
                     "Dashboard",
                     "Smart Edit",
@@ -62,23 +51,19 @@
             },
             {
                 "Strategy": "AdvancedSearch",
-                "IsVisible": false,
-                "IsCollapsed": true
+                "IsVisible": false
             },
             {
                 "Strategy": "QuickSearch",
-                "IsVisible": true,
-                "IsCollapsed": true
+                "IsVisible": true
             },
             {
                 "Strategy": "Layout",
-                "IsVisible": false,
-                "IsCollapsed": true
+                "IsVisible": false
             },
             {
                 "Strategy": "Filter",
-                "IsVisible": false,
-                "IsCollapsed": true
+                "IsVisible": false
             }
         ]
     }
