@@ -6,7 +6,9 @@ FSBL.addEventListener('onReady', function () {
 		setTimeout(() =>
 			FSBL.Clients.WindowClient.setWindowTitle("Position Blotter"), 1000);
 		FSBL.Clients.RouterClient.query("Positions", null, function (error, response) {
-			if (!error) {
+			if(error){
+				alert(error)
+			}if (!error) {
 				console.log("Positions Response: " + JSON.stringify(response));
 				//we create the hypergrid with the received data
 				let hypergrid = demoHelper.createGrid(response.data, "position");

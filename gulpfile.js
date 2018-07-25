@@ -168,7 +168,9 @@ function webpackComponents(done) {
 		if (Object.keys(filesToBuild).length === 0) {
 			done();
 		}
+
 	});
+	done();
 }
 
 function webpackComponentsNoWatch(done) {

@@ -6,7 +6,12 @@ FSBL.addEventListener('onReady', function () {
 		setTimeout(() =>
 			FSBL.Clients.WindowClient.setWindowTitle("Trade Blotter"), 1000);
 		FSBL.Clients.RouterClient.query("Trades", null, function (error, response) {
+			alert("here")
+			if(error){
+				alert(error)
+			}
 			if (!error) {
+			alert("and here")
 				console.log("Trades Response: " + JSON.stringify(response));
 				response.data.forEach(trade => {
 					trade.tradeDate = new Date(trade.tradeDate);
