@@ -1,0 +1,6 @@
+{
+	"preload": {
+		"output": "preloads/nativeOverrides",
+		"entry": "./src-built-in/preloads/nativeOverrides.js"
+	}
+}

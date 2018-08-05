@@ -1,19 +1,20 @@
 {
-    "comment": "Houses config for custom components that you'd like to import into Finsemble.",
+    "comment": "Sample component configuration",
     "components": {
-        "Position Blotter": {
+        "Welcome Component": {
             "window": {
-                "url": "$applicationRoot/components/positionblotter/positionblotter.html",
+                "url": "$applicationRoot/components/welcome/welcome.html",
                 "frame": false,
                 "resizable": true,
                 "autoShow": true,
                 "top": "center",
                 "left": "center",
-                "width": "34%",
-                "height": "49%"
+                "width": 400,
+                "height": 370
             },
             "component": {
-                "inject": false
+                "inject": false,
+                "spawnOnStartup": false
             },
             "foreign": {
                 "services": {
@@ -27,34 +28,40 @@
                         "launchableByUser": true
                     },
                     "Window Manager": {
-                        "showLinker": true,
+                        "showLinker": false,
                         "FSBLHeader": true,
                         "persistWindowState": true
                     },
                     "Toolbar": {
-                        "iconClass": "positionblotter"
+                        "iconClass": "welcome"
                     }
                 }
             }
         },
-        "Price Blotter": {
+        "Notepad": {
             "window": {
-                "url": "$applicationRoot/components/priceblotter/priceblotter.html",
-                "frame": false,
-                "resizable": true,
+                "id": "Notepad",
+                "native": true,
+                "path": "notepad.exe",
+                "url": "",
+                "defaultHeight": 600,
                 "autoShow": true,
-                "top": "center",
-                "left": "center",
-                "width": "49%",
-                "height": "49%"
+                "alwaysOnTop": false,
+                "resizable": true,
+                "showTaskbarIcon": false,
+                "contextMenu": true,
+                "addToWorkspace": true
             },
             "component": {
-                "inject": false
+                "spawnOnHotkey": [
+                    "ctrl",
+                    "alt",
+                    "n"
+                ]
             },
             "foreign": {
                 "services": {
-                    "dockingService": {
-                        "canGroup": true,
+                    "workspaceService": {
                         "isArrangable": true
                     }
                 },
@@ -63,105 +70,107 @@
                         "launchableByUser": true
                     },
                     "Window Manager": {
-                        "showLinker": true,
-                        "FSBLHeader": true,
-                        "persistWindowState": true
+                        "persistWindowState": false,
+                        "FSBLHeader": true
                     },
                     "Toolbar": {
-                        "iconClass": "priceblotter"
+                        "iconURL": "$applicationRoot/components/assets/img/notepad.png"
                     }
                 }
             }
         },
-        "Trade Blotter": {
+        "Getting Started Tutorial": {
             "window": {
-                "url": "$applicationRoot/components/tradeblotter/tradeblotter.html",
-                "frame": false,
-                "resizable": true,
-                "autoShow": true,
-                "top": "center",
-                "left": "center",
-                "width": "100%",
-                "height": "51%"
+                "url": "https://www.chartiq.com/tutorials/?slug=finsemble-seed-project",
+                "height": 800,
+                "width": 1000
             },
             "component": {
-                "inject": false
+                "spawnOnStartup": false
             },
             "foreign": {
                 "services": {
                     "dockingService": {
-                        "canGroup": true,
                         "isArrangable": true
                     }
                 },
                 "components": {
                     "App Launcher": {
-                        "launchableByUser": true
+                        "launchableByUser": false
                     },
                     "Window Manager": {
-                        "showLinker": true,
-                        "FSBLHeader": true,
-                        "persistWindowState": true
-                    },
-                    "Toolbar": {
-                        "iconClass": "tradeblotter"
-                    }
-                }
-            }
-        },
-        "Advanced Chart": {
-            "window": {
-                "url": "http://finsemble.chartiq.com/components/premium/reactChart/index.html",
-                "defaultTop": 200,
-                "defaultLeft": 100,
-                "defaultWidth": 640,
-                "defaultHeight": 480,
-                "minWidth": 180,
-                "minHeight": 400
-            },
-            "component": {
-                "type": "chart"
-            },
-            "foreign": {
-                "services": {},
-                "components": {
-                    "App Launcher": {
-                        "launchableByUser": true
-                    },
-                    "Window Manager": {
-                        "FSBLHeader": true,
                         "persistWindowState": true,
-                        "showLinker": true
+                        "FSBLHeader": true,
+                        "showLinker": false
                     }
                 }
             }
         },
-        "News": {
+        "Finsemble Documentation": {
             "window": {
-                "url": "https://finsemble.chartiq.com/components/premium/news/news.html",
-                "top": "center",
+                "url": "http://documentation.chartiq.com/finsemble",
                 "left": "center",
-                "width": "17%",
-                "height": "49%"
+                "top": "center",
+                "height": 800,
+                "width": 1000
             },
-            "component": {
-                "type": "news"
-            },
+            "component": {},
             "foreign": {
-                "services": {},
+                "services": {
+                    "dockingService": {
+                        "isArrangable": true
+                    }
+                },
                 "components": {
                     "App Launcher": {
-                        "launchableByUser": true
+                        "launchableByUser": false
                     },
                     "Window Manager": {
+                        "persistWindowState": false,
                         "FSBLHeader": true,
-                        "persistWindowState": true,
-                        "showLinker": true
+                        "showLinker": false
                     }
                 }
             }
         },
-        "Blotter Receiver": {
+        "defaultAuthentication": {
+            "window": {
+                "url": "$applicationRoot/components/authentication/defaultAuthentication.html",
+                "top": "center",
+                "left": "center",
+                "width": 358,
+                "height": 458,
+                "ephemeral": true,
+                "options": {
+                    "autoShow": false
+                }
+            },
+            "component": {
+                "neededClients": [
+                    "LauncherClient",
+                    "AuthenticationClient",
+                    "StorageClient"
+                ],
+                "category": "system"
+            },
+            "foreign": {
+                "services": {
+                    "dockingService": {
+                        "isArrangable": false
+                    }
+                },
+                "components": {
+                    "App Launcher": {
+                        "launchableByUser": false
+                    },
+                    "Window Manager": {
+                        "FSBLHeader": false,
+                        "persistWindowState": false
+                    }
+                }
+            }
+        },
+        "blotterreceiver": {
             "window": {
                 "url": "$applicationRoot/components/blotterreceiver/blotterreceiver.html",
                 "frame": false,
@@ -187,12 +196,120 @@
                         "launchableByUser": true
                     },
                     "Window Manager": {
-                        "showLinker": false,
                         "FSBLHeader": true,
-                        "persistWindowState": true
+                        "persistWindowState": true,
+                        "showLinker": true
                     },
                     "Toolbar": {
                         "iconClass": "blotterreceiver"
+                    }
+                }
+            }
+        },
+        "positionblotter": {
+            "window": {
+                "url": "$applicationRoot/components/positionblotter/positionblotter.html",
+                "frame": false,
+                "resizable": true,
+                "autoShow": true,
+                "top": "center",
+                "left": "center",
+                "width": 800,
+                "height": 600
+            },
+            "component": {
+                "inject": false
+            },
+            "foreign": {
+                "services": {
+                    "dockingService": {
+                        "canGroup": true,
+                        "isArrangable": true
+                    }
+                },
+                "components": {
+                    "App Launcher": {
+                        "launchableByUser": true
+                    },
+                    "Window Manager": {
+                        "FSBLHeader": true,
+                        "persistWindowState": true,
+                        "showLinker": true
+                    },
+                    "Toolbar": {
+                        "iconClass": "positionblotter"
+                    }
+                }
+            }
+        },
+        "priceblotter": {
+            "window": {
+                "url": "$applicationRoot/components/priceblotter/priceblotter.html",
+                "frame": false,
+                "resizable": true,
+                "autoShow": true,
+                "top": "center",
+                "left": "center",
+                "width": 800,
+                "height": 600
+            },
+            "component": {
+                "inject": false
+            },
+            "foreign": {
+                "services": {
+                    "dockingService": {
+                        "canGroup": true,
+                        "isArrangable": true
+                    }
+                },
+                "components": {
+                    "App Launcher": {
+                        "launchableByUser": true
+                    },
+                    "Window Manager": {
+                        "FSBLHeader": true,
+                        "persistWindowState": true,
+                        "showLinker": true
+                    },
+                    "Toolbar": {
+                        "iconClass": "priceblotter"
+                    }
+                }
+            }
+        },
+        "tradeblotter": {
+            "window": {
+                "url": "$applicationRoot/components/tradeblotter/tradeblotter.html",
+                "frame": false,
+                "resizable": true,
+                "autoShow": true,
+                "top": "center",
+                "left": "center",
+                "width": 800,
+                "height": 600
+            },
+            "component": {
+                "inject": false
+            },
+            "foreign": {
+                "services": {
+                    "dockingService": {
+                        "canGroup": true,
+                        "isArrangable": true
+                    }
+                },
+                "components": {
+                    "App Launcher": {
+                        "launchableByUser": true
+                    },
+                    "Window Manager": {
+                        "FSBLHeader": true,
+                        "persistWindowState": true,
+                        "showLinker": true
+                    },
+                    "Toolbar": {
+                        "iconClass": "tradeblotter"
                     }
                 }
             }

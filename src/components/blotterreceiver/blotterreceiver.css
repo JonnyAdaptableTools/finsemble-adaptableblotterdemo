@@ -1,7 +1,10 @@
+html {
+    overflow: hidden;
+}
 body {
+    overflow: auto;
 	margin:0px;
 }
-
 table {
     border-collapse: collapse;
 }

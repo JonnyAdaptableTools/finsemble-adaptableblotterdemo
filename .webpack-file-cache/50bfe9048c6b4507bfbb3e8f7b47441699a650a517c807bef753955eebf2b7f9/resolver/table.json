@@ -1,0 +1,2453 @@
+{
+	"version": 1,
+	"nextByte": 35260,
+	"blockSize": 256,
+	"logSize": 2097152,
+	"map": {
+		"normal/[\".\",\"./src/components/blotterreceiver/blotterreceiver.js\"]": {
+			"key": "normal/[\".\",\"./src/components/blotterreceiver/blotterreceiver.js\"]",
+			"size": 74,
+			"start": 0
+		},
+		"normal/[\".\",\"./src/components/positionblotter/positionblotter.js\"]": {
+			"key": "normal/[\".\",\"./src/components/positionblotter/positionblotter.js\"]",
+			"size": 74,
+			"start": 74
+		},
+		"normal/[\".\",\"./src/components/priceblotter/priceblotter.js\"]": {
+			"key": "normal/[\".\",\"./src/components/priceblotter/priceblotter.js\"]",
+			"size": 68,
+			"start": 148
+		},
+		"normal/[\".\",\"./src/components/tradeblotter/tradeblotter.js\"]": {
+			"key": "normal/[\".\",\"./src/components/tradeblotter/tradeblotter.js\"]",
+			"size": 68,
+			"start": 216
+		},
+		"normal/[\"src/components/positionblotter\",\"../../demohelper\"]": {
+			"key": "normal/[\"src/components/positionblotter\",\"../../demohelper\"]",
+			"size": 42,
+			"start": 284
+		},
+		"normal/[\"src/components/blotterreceiver\",\"../../demohelper\"]": {
+			"key": "normal/[\"src/components/blotterreceiver\",\"../../demohelper\"]",
+			"size": 42,
+			"start": 326
+		},
+		"normal/[\"src/components/priceblotter\",\"../../demohelper\"]": {
+			"key": "normal/[\"src/components/priceblotter\",\"../../demohelper\"]",
+			"size": 42,
+			"start": 368
+		},
+		"normal/[\"src/components/tradeblotter\",\"../../demohelper\"]": {
+			"key": "normal/[\"src/components/tradeblotter\",\"../../demohelper\"]",
+			"size": 42,
+			"start": 410
+		},
+		"normal/[\"src\",\"adaptableblotter/dist/adaptableblotterhypergrid-bundle.min\"]": {
+			"key": "normal/[\"src\",\"adaptableblotter/dist/adaptableblotterhypergrid-bundle.min\"]",
+			"size": 99,
+			"start": 452
+		},
+		"normal/[\"src\",\"fin-hypergrid\"]": {
+			"key": "normal/[\"src\",\"fin-hypergrid\"]",
+			"size": 60,
+			"start": 551
+		},
+		"normal/[\"node_modules/fin-hypergrid\",\"./src/Hypergrid\"]": {
+			"key": "normal/[\"node_modules/fin-hypergrid\",\"./src/Hypergrid\"]",
+			"size": 68,
+			"start": 611
+		},
+		"normal/[\"node_modules/fin-hypergrid/src\",\"./Base\"]": {
+			"key": "normal/[\"node_modules/fin-hypergrid/src\",\"./Base\"]",
+			"size": 63,
+			"start": 679
+		},
+		"normal/[\"node_modules/fin-hypergrid/src\",\"./themes\"]": {
+			"key": "normal/[\"node_modules/fin-hypergrid/src\",\"./themes\"]",
+			"size": 65,
+			"start": 742
+		},
+		"normal/[\"node_modules/fin-hypergrid/src\",\"./defaults\"]": {
+			"key": "normal/[\"node_modules/fin-hypergrid/src\",\"./defaults\"]",
+			"size": 67,
+			"start": 807
+		},
+		"normal/[\"node_modules/fin-hypergrid/src\",\"./lib/polyfills\"]": {
+			"key": "normal/[\"node_modules/fin-hypergrid/src\",\"./lib/polyfills\"]",
+			"size": 72,
+			"start": 874
+		},
+		"normal/[\"node_modules/fin-hypergrid/src\",\"./lib/dynamicProperties\"]": {
+			"key": "normal/[\"node_modules/fin-hypergrid/src\",\"./lib/dynamicProperties\"]",
+			"size": 80,
+			"start": 946
+		},
+		"normal/[\"node_modules/fin-hypergrid/src\",\"./lib/Canvas\"]": {
+			"key": "normal/[\"node_modules/fin-hypergrid/src\",\"./lib/Canvas\"]",
+			"size": 69,
+			"start": 1026
+		},
+		"normal/[\"node_modules/fin-hypergrid/src\",\"./lib/SelectionModel\"]": {
+			"key": "normal/[\"node_modules/fin-hypergrid/src\",\"./lib/SelectionModel\"]",
+			"size": 77,
+			"start": 1095
+		},
+		"normal/[\"node_modules/fin-hypergrid/src\",\"./lib/Localization\"]": {
+			"key": "normal/[\"node_modules/fin-hypergrid/src\",\"./lib/Localization\"]",
+			"size": 75,
+			"start": 1172
+		},
+		"normal/[\"node_modules/fin-hypergrid/src\",\"./lib/events\"]": {
+			"key": "normal/[\"node_modules/fin-hypergrid/src\",\"./lib/events\"]",
+			"size": 69,
+			"start": 1247
+		},
+		"normal/[\"node_modules/fin-hypergrid/src\",\"./lib/selection\"]": {
+			"key": "normal/[\"node_modules/fin-hypergrid/src\",\"./lib/selection\"]",
+			"size": 72,
+			"start": 1316
+		},
+		"normal/[\"node_modules/fin-hypergrid/src\",\"./lib/scrolling\"]": {
+			"key": "normal/[\"node_modules/fin-hypergrid/src\",\"./lib/scrolling\"]",
+			"size": 72,
+			"start": 1388
+		},
+		"normal/[\"node_modules/fin-hypergrid/src\",\"./lib/modules\"]": {
+			"key": "normal/[\"node_modules/fin-hypergrid/src\",\"./lib/modules\"]",
+			"size": 70,
+			"start": 1460
+		},
+		"normal/[\"node_modules/fin-hypergrid/src\",\"./behaviors/Behavior\"]": {
+			"key": "normal/[\"node_modules/fin-hypergrid/src\",\"./behaviors/Behavior\"]",
+			"size": 77,
+			"start": 1530
+		},
+		"normal/[\"node_modules/fin-hypergrid/src\",\"./behaviors/JSON\"]": {
+			"key": "normal/[\"node_modules/fin-hypergrid/src\",\"./behaviors/JSON\"]",
+			"size": 73,
+			"start": 1607
+		},
+		"normal/[\"node_modules/fin-hypergrid/src/lib\",\"../Base\"]": {
+			"key": "normal/[\"node_modules/fin-hypergrid/src/lib\",\"../Base\"]",
+			"size": 63,
+			"start": 1680
+		},
+		"normal/[\"node_modules/fin-hypergrid/src/lib\",\"./modules\"]": {
+			"key": "normal/[\"node_modules/fin-hypergrid/src/lib\",\"./modules\"]",
+			"size": 70,
+			"start": 1743
+		},
+		"normal/[\"node_modules/fin-hypergrid/src/lib\",\"../behaviors/Behavior\"]": {
+			"key": "normal/[\"node_modules/fin-hypergrid/src/lib\",\"../behaviors/Behavior\"]",
+			"size": 77,
+			"start": 1813
+		},
+		"normal/[\"node_modules/fin-hypergrid/src/behaviors\",\"./Behavior\"]": {
+			"key": "normal/[\"node_modules/fin-hypergrid/src/behaviors\",\"./Behavior\"]",
+			"size": 77,
+			"start": 1890
+		},
+		"normal/[\"node_modules/fin-hypergrid/src/behaviors\",\"../Base\"]": {
+			"key": "normal/[\"node_modules/fin-hypergrid/src/behaviors\",\"../Base\"]",
+			"size": 63,
+			"start": 1967
+		},
+		"normal/[\"node_modules/fin-hypergrid/src\",\"../package.json\"]": {
+			"key": "normal/[\"node_modules/fin-hypergrid/src\",\"../package.json\"]",
+			"size": 64,
+			"start": 2030
+		},
+		"normal/[\"node_modules/fin-hypergrid/src\",\"./lib/error\"]": {
+			"key": "normal/[\"node_modules/fin-hypergrid/src\",\"./lib/error\"]",
+			"size": 68,
+			"start": 2094
+		},
+		"normal/[\"node_modules/fin-hypergrid/src\",\"./lib/deprecated\"]": {
+			"key": "normal/[\"node_modules/fin-hypergrid/src\",\"./lib/deprecated\"]",
+			"size": 73,
+			"start": 2162
+		},
+		"normal/[\"node_modules/fin-hypergrid/src/lib\",\"./deprecated\"]": {
+			"key": "normal/[\"node_modules/fin-hypergrid/src/lib\",\"./deprecated\"]",
+			"size": 73,
+			"start": 2235
+		},
+		"normal/[\"node_modules/fin-hypergrid/src\",\"./lib/graphics\"]": {
+			"key": "normal/[\"node_modules/fin-hypergrid/src\",\"./lib/graphics\"]",
+			"size": 71,
+			"start": 2308
+		},
+		"normal/[\"node_modules/fin-hypergrid/src/lib\",\"./graphics\"]": {
+			"key": "normal/[\"node_modules/fin-hypergrid/src/lib\",\"./graphics\"]",
+			"size": 71,
+			"start": 2379
+		},
+		"normal/[\"node_modules/fin-hypergrid/src/lib\",\"./InclusiveRectangle\"]": {
+			"key": "normal/[\"node_modules/fin-hypergrid/src/lib\",\"./InclusiveRectangle\"]",
+			"size": 81,
+			"start": 2450
+		},
+		"normal/[\"node_modules/fin-hypergrid/src/behaviors\",\"./columnEnumDecorators\"]": {
+			"key": "normal/[\"node_modules/fin-hypergrid/src/behaviors\",\"./columnEnumDecorators\"]",
+			"size": 89,
+			"start": 2531
+		},
+		"normal/[\"node_modules/fin-hypergrid/src/behaviors\",\"../dataModels/JSON\"]": {
+			"key": "normal/[\"node_modules/fin-hypergrid/src/behaviors\",\"../dataModels/JSON\"]",
+			"size": 74,
+			"start": 2620
+		},
+		"normal/[\"node_modules/fin-hypergrid/src/behaviors\",\"./Column\"]": {
+			"key": "normal/[\"node_modules/fin-hypergrid/src/behaviors\",\"./Column\"]",
+			"size": 75,
+			"start": 2694
+		},
+		"normal/[\"node_modules/fin-hypergrid/src/behaviors\",\"../lib/cellEventFactory\"]": {
+			"key": "normal/[\"node_modules/fin-hypergrid/src/behaviors\",\"../lib/cellEventFactory\"]",
+			"size": 79,
+			"start": 2769
+		},
+		"normal/[\"node_modules/fin-hypergrid/src/behaviors\",\"../lib/misc\"]": {
+			"key": "normal/[\"node_modules/fin-hypergrid/src/behaviors\",\"../lib/misc\"]",
+			"size": 67,
+			"start": 2848
+		},
+		"normal/[\"node_modules/fin-hypergrid/src/behaviors\",\"./rowProperties\"]": {
+			"key": "normal/[\"node_modules/fin-hypergrid/src/behaviors\",\"./rowProperties\"]",
+			"size": 82,
+			"start": 2915
+		},
+		"normal/[\"node_modules/fin-hypergrid/src/behaviors\",\"./subgrids\"]": {
+			"key": "normal/[\"node_modules/fin-hypergrid/src/behaviors\",\"./subgrids\"]",
+			"size": 77,
+			"start": 2997
+		},
+		"normal/[\"node_modules/fin-hypergrid/src\",\"../css\"]": {
+			"key": "normal/[\"node_modules/fin-hypergrid/src\",\"../css\"]",
+			"size": 64,
+			"start": 3074
+		},
+		"normal/[\"node_modules/fin-hypergrid/src\",\"./renderer\"]": {
+			"key": "normal/[\"node_modules/fin-hypergrid/src\",\"./renderer\"]",
+			"size": 73,
+			"start": 3138
+		},
+		"normal/[\"node_modules/fin-hypergrid/src\",\"./cellRenderers\"]": {
+			"key": "normal/[\"node_modules/fin-hypergrid/src\",\"./cellRenderers\"]",
+			"size": 78,
+			"start": 3211
+		},
+		"normal/[\"node_modules/fin-hypergrid/src\",\"./cellEditors\"]": {
+			"key": "normal/[\"node_modules/fin-hypergrid/src\",\"./cellEditors\"]",
+			"size": 76,
+			"start": 3289
+		},
+		"normal/[\"node_modules/fin-hypergrid/src\",\"./dataModels\"]": {
+			"key": "normal/[\"node_modules/fin-hypergrid/src\",\"./dataModels\"]",
+			"size": 75,
+			"start": 3365
+		},
+		"normal/[\"node_modules/fin-hypergrid/src\",\"object-iterators\"]": {
+			"key": "normal/[\"node_modules/fin-hypergrid/src\",\"object-iterators\"]",
+			"size": 63,
+			"start": 3440
+		},
+		"normal/[\"node_modules/fin-hypergrid/src/lib\",\"object-iterators\"]": {
+			"key": "normal/[\"node_modules/fin-hypergrid/src/lib\",\"object-iterators\"]",
+			"size": 63,
+			"start": 3503
+		},
+		"normal/[\"node_modules/fin-hypergrid/src/behaviors\",\"../lib/deprecated\"]": {
+			"key": "normal/[\"node_modules/fin-hypergrid/src/behaviors\",\"../lib/deprecated\"]",
+			"size": 73,
+			"start": 3566
+		},
+		"normal/[\"node_modules/fin-hypergrid/src/behaviors\",\"../lib/error\"]": {
+			"key": "normal/[\"node_modules/fin-hypergrid/src/behaviors\",\"../lib/error\"]",
+			"size": 68,
+			"start": 3639
+		},
+		"normal/[\"node_modules/fin-hypergrid/src/behaviors\",\"../dataModels\"]": {
+			"key": "normal/[\"node_modules/fin-hypergrid/src/behaviors\",\"../dataModels\"]",
+			"size": 75,
+			"start": 3707
+		},
+		"normal/[\"node_modules/fin-hypergrid/src\",\"inject-stylesheet-template\"]": {
+			"key": "normal/[\"node_modules/fin-hypergrid/src\",\"inject-stylesheet-template\"]",
+			"size": 73,
+			"start": 3782
+		},
+		"normal/[\"node_modules/fin-hypergrid/src/renderer\",\"../Base\"]": {
+			"key": "normal/[\"node_modules/fin-hypergrid/src/renderer\",\"../Base\"]",
+			"size": 63,
+			"start": 3855
+		},
+		"normal/[\"node_modules/fin-hypergrid/src/renderer\",\"../lib/InclusiveRectangle\"]": {
+			"key": "normal/[\"node_modules/fin-hypergrid/src/renderer\",\"../lib/InclusiveRectangle\"]",
+			"size": 81,
+			"start": 3918
+		},
+		"normal/[\"node_modules/fin-hypergrid/src/dataModels\",\"./JSON\"]": {
+			"key": "normal/[\"node_modules/fin-hypergrid/src/dataModels\",\"./JSON\"]",
+			"size": 74,
+			"start": 3999
+		},
+		"normal/[\"node_modules/fin-hypergrid/src/dataModels\",\"./DataModel\"]": {
+			"key": "normal/[\"node_modules/fin-hypergrid/src/dataModels\",\"./DataModel\"]",
+			"size": 79,
+			"start": 4073
+		},
+		"normal/[\"node_modules/fin-hypergrid/src/dataModels\",\"../lib/DataSourceOrigin\"]": {
+			"key": "normal/[\"node_modules/fin-hypergrid/src/dataModels\",\"../lib/DataSourceOrigin\"]",
+			"size": 79,
+			"start": 4152
+		},
+		"normal/[\"node_modules/fin-hypergrid/src/behaviors\",\"../lib/toFunction\"]": {
+			"key": "normal/[\"node_modules/fin-hypergrid/src/behaviors\",\"../lib/toFunction\"]",
+			"size": 73,
+			"start": 4231
+		},
+		"normal/[\"node_modules/fin-hypergrid/src/behaviors\",\"./cellProperties\"]": {
+			"key": "normal/[\"node_modules/fin-hypergrid/src/behaviors\",\"./cellProperties\"]",
+			"size": 83,
+			"start": 4304
+		},
+		"normal/[\"node_modules/fin-hypergrid/src/behaviors\",\"./columnProperties\"]": {
+			"key": "normal/[\"node_modules/fin-hypergrid/src/behaviors\",\"./columnProperties\"]",
+			"size": 85,
+			"start": 4387
+		},
+		"normal/[\"node_modules/fin-hypergrid/src/lib\",\"./WritablePoint\"]": {
+			"key": "normal/[\"node_modules/fin-hypergrid/src/lib\",\"./WritablePoint\"]",
+			"size": 76,
+			"start": 4472
+		},
+		"normal/[\"node_modules/fin-hypergrid/src/renderer\",\"./layer-props\"]": {
+			"key": "normal/[\"node_modules/fin-hypergrid/src/renderer\",\"./layer-props\"]",
+			"size": 79,
+			"start": 4548
+		},
+		"normal/[\"node_modules/fin-hypergrid/src/renderer\",\"./by-cells\"]": {
+			"key": "normal/[\"node_modules/fin-hypergrid/src/renderer\",\"./by-cells\"]",
+			"size": 76,
+			"start": 4627
+		},
+		"normal/[\"node_modules/fin-hypergrid/src/renderer\",\"./by-columns\"]": {
+			"key": "normal/[\"node_modules/fin-hypergrid/src/renderer\",\"./by-columns\"]",
+			"size": 78,
+			"start": 4703
+		},
+		"normal/[\"node_modules/fin-hypergrid/src/renderer\",\"./by-columns-and-rows\"]": {
+			"key": "normal/[\"node_modules/fin-hypergrid/src/renderer\",\"./by-columns-and-rows\"]",
+			"size": 87,
+			"start": 4781
+		},
+		"normal/[\"node_modules/fin-hypergrid/src/renderer\",\"./by-columns-discrete\"]": {
+			"key": "normal/[\"node_modules/fin-hypergrid/src/renderer\",\"./by-columns-discrete\"]",
+			"size": 87,
+			"start": 4868
+		},
+		"normal/[\"node_modules/fin-hypergrid/src/renderer\",\"./by-rows\"]": {
+			"key": "normal/[\"node_modules/fin-hypergrid/src/renderer\",\"./by-rows\"]",
+			"size": 75,
+			"start": 4955
+		},
+		"normal/[\"node_modules/fin-hypergrid/src/cellRenderers\",\"../lib/Registry\"]": {
+			"key": "normal/[\"node_modules/fin-hypergrid/src/cellRenderers\",\"../lib/Registry\"]",
+			"size": 71,
+			"start": 5030
+		},
+		"normal/[\"node_modules/fin-hypergrid/src/cellEditors\",\"../lib/Registry\"]": {
+			"key": "normal/[\"node_modules/fin-hypergrid/src/cellEditors\",\"../lib/Registry\"]",
+			"size": 71,
+			"start": 5101
+		},
+		"normal/[\"node_modules/fin-hypergrid/src/cellRenderers\",\"./CellRenderer\"]": {
+			"key": "normal/[\"node_modules/fin-hypergrid/src/cellRenderers\",\"./CellRenderer\"]",
+			"size": 85,
+			"start": 5172
+		},
+		"normal/[\"node_modules/fin-hypergrid/src/cellRenderers\",\"./Button\"]": {
+			"key": "normal/[\"node_modules/fin-hypergrid/src/cellRenderers\",\"./Button\"]",
+			"size": 79,
+			"start": 5257
+		},
+		"normal/[\"node_modules/fin-hypergrid/src/cellRenderers\",\"./SimpleCell\"]": {
+			"key": "normal/[\"node_modules/fin-hypergrid/src/cellRenderers\",\"./SimpleCell\"]",
+			"size": 83,
+			"start": 5336
+		},
+		"normal/[\"node_modules/fin-hypergrid/src/cellRenderers\",\"./SliderCell\"]": {
+			"key": "normal/[\"node_modules/fin-hypergrid/src/cellRenderers\",\"./SliderCell\"]",
+			"size": 83,
+			"start": 5419
+		},
+		"normal/[\"node_modules/fin-hypergrid/src/cellRenderers\",\"./SparkBar\"]": {
+			"key": "normal/[\"node_modules/fin-hypergrid/src/cellRenderers\",\"./SparkBar\"]",
+			"size": 81,
+			"start": 5502
+		},
+		"normal/[\"node_modules/fin-hypergrid/src/cellRenderers\",\"./LastSelection\"]": {
+			"key": "normal/[\"node_modules/fin-hypergrid/src/cellRenderers\",\"./LastSelection\"]",
+			"size": 86,
+			"start": 5583
+		},
+		"normal/[\"node_modules/fin-hypergrid/src/cellRenderers\",\"./SparkLine\"]": {
+			"key": "normal/[\"node_modules/fin-hypergrid/src/cellRenderers\",\"./SparkLine\"]",
+			"size": 82,
+			"start": 5669
+		},
+		"normal/[\"node_modules/fin-hypergrid/src/cellRenderers\",\"./ErrorCell\"]": {
+			"key": "normal/[\"node_modules/fin-hypergrid/src/cellRenderers\",\"./ErrorCell\"]",
+			"size": 82,
+			"start": 5751
+		},
+		"normal/[\"node_modules/fin-hypergrid/src/cellRenderers\",\"./Tag\"]": {
+			"key": "normal/[\"node_modules/fin-hypergrid/src/cellRenderers\",\"./Tag\"]",
+			"size": 76,
+			"start": 5833
+		},
+		"normal/[\"node_modules/fin-hypergrid/src/cellRenderers\",\"./TreeCell\"]": {
+			"key": "normal/[\"node_modules/fin-hypergrid/src/cellRenderers\",\"./TreeCell\"]",
+			"size": 81,
+			"start": 5909
+		},
+		"normal/[\"node_modules/fin-hypergrid/src/cellEditors\",\"./CellEditor\"]": {
+			"key": "normal/[\"node_modules/fin-hypergrid/src/cellEditors\",\"./CellEditor\"]",
+			"size": 81,
+			"start": 5990
+		},
+		"normal/[\"node_modules/fin-hypergrid/src/cellEditors\",\"./Color\"]": {
+			"key": "normal/[\"node_modules/fin-hypergrid/src/cellEditors\",\"./Color\"]",
+			"size": 76,
+			"start": 6071
+		},
+		"normal/[\"node_modules/fin-hypergrid/src/cellEditors\",\"./Date\"]": {
+			"key": "normal/[\"node_modules/fin-hypergrid/src/cellEditors\",\"./Date\"]",
+			"size": 75,
+			"start": 6147
+		},
+		"normal/[\"node_modules/fin-hypergrid/src/cellEditors\",\"./Number\"]": {
+			"key": "normal/[\"node_modules/fin-hypergrid/src/cellEditors\",\"./Number\"]",
+			"size": 77,
+			"start": 6222
+		},
+		"normal/[\"node_modules/fin-hypergrid/src/cellEditors\",\"./Slider\"]": {
+			"key": "normal/[\"node_modules/fin-hypergrid/src/cellEditors\",\"./Slider\"]",
+			"size": 77,
+			"start": 6299
+		},
+		"normal/[\"node_modules/fin-hypergrid/src/cellEditors\",\"./Spinner\"]": {
+			"key": "normal/[\"node_modules/fin-hypergrid/src/cellEditors\",\"./Spinner\"]",
+			"size": 78,
+			"start": 6376
+		},
+		"normal/[\"node_modules/fin-hypergrid/src/cellEditors\",\"./Textfield\"]": {
+			"key": "normal/[\"node_modules/fin-hypergrid/src/cellEditors\",\"./Textfield\"]",
+			"size": 80,
+			"start": 6454
+		},
+		"normal/[\"node_modules/fin-hypergrid/src/dataModels\",\"./HeaderSubgrid\"]": {
+			"key": "normal/[\"node_modules/fin-hypergrid/src/dataModels\",\"./HeaderSubgrid\"]",
+			"size": 83,
+			"start": 6534
+		},
+		"normal/[\"node_modules/fin-hypergrid/src\",\"overrider\"]": {
+			"key": "normal/[\"node_modules/fin-hypergrid/src\",\"overrider\"]",
+			"size": 56,
+			"start": 6617
+		},
+		"normal/[\"node_modules/fin-hypergrid/src/dataModels\",\"overrider\"]": {
+			"key": "normal/[\"node_modules/fin-hypergrid/src/dataModels\",\"overrider\"]",
+			"size": 56,
+			"start": 6673
+		},
+		"normal/[\"node_modules/fin-hypergrid/src/behaviors\",\"overrider\"]": {
+			"key": "normal/[\"node_modules/fin-hypergrid/src/behaviors\",\"overrider\"]",
+			"size": 56,
+			"start": 6729
+		},
+		"normal/[\"node_modules/fin-hypergrid/src\",\"extend-me\"]": {
+			"key": "normal/[\"node_modules/fin-hypergrid/src\",\"extend-me\"]",
+			"size": 56,
+			"start": 6785
+		},
+		"normal/[\"node_modules/fin-hypergrid/src/dataModels\",\"../Base\"]": {
+			"key": "normal/[\"node_modules/fin-hypergrid/src/dataModels\",\"../Base\"]",
+			"size": 63,
+			"start": 6841
+		},
+		"normal/[\"node_modules/fin-hypergrid/src/behaviors\",\"../features\"]": {
+			"key": "normal/[\"node_modules/fin-hypergrid/src/behaviors\",\"../features\"]",
+			"size": 73,
+			"start": 6904
+		},
+		"normal/[\"node_modules/fin-hypergrid/src/lib\",\"./error\"]": {
+			"key": "normal/[\"node_modules/fin-hypergrid/src/lib\",\"./error\"]",
+			"size": 68,
+			"start": 6977
+		},
+		"normal/[\"node_modules/fin-hypergrid/src/lib\",\"sparse-boolean-array\"]": {
+			"key": "normal/[\"node_modules/fin-hypergrid/src/lib\",\"sparse-boolean-array\"]",
+			"size": 67,
+			"start": 7045
+		},
+		"normal/[\"node_modules/fin-hypergrid/src/lib\",\"finbars\"]": {
+			"key": "normal/[\"node_modules/fin-hypergrid/src/lib\",\"finbars\"]",
+			"size": 54,
+			"start": 7112
+		},
+		"normal/[\"node_modules/fin-hypergrid/src/behaviors\",\"synonomous\"]": {
+			"key": "normal/[\"node_modules/fin-hypergrid/src/behaviors\",\"synonomous\"]",
+			"size": 57,
+			"start": 7166
+		},
+		"normal/[\"node_modules/fin-hypergrid/src/renderer\",\"../defaults\"]": {
+			"key": "normal/[\"node_modules/fin-hypergrid/src/renderer\",\"../defaults\"]",
+			"size": 67,
+			"start": 7223
+		},
+		"normal/[\"node_modules/fin-hypergrid/src/cellRenderers\",\"../Base\"]": {
+			"key": "normal/[\"node_modules/fin-hypergrid/src/cellRenderers\",\"../Base\"]",
+			"size": 63,
+			"start": 7290
+		},
+		"normal/[\"node_modules/fin-hypergrid/src/cellEditors\",\"../Base\"]": {
+			"key": "normal/[\"node_modules/fin-hypergrid/src/cellEditors\",\"../Base\"]",
+			"size": 63,
+			"start": 7353
+		},
+		"normal/[\"node_modules/fin-hypergrid/src/cellEditors\",\"../lib/Localization\"]": {
+			"key": "normal/[\"node_modules/fin-hypergrid/src/cellEditors\",\"../lib/Localization\"]",
+			"size": 75,
+			"start": 7416
+		},
+		"normal/[\"node_modules/fin-hypergrid/src/features\",\"../lib/Registry\"]": {
+			"key": "normal/[\"node_modules/fin-hypergrid/src/features\",\"../lib/Registry\"]",
+			"size": 71,
+			"start": 7491
+		},
+		"normal/[\"node_modules/fin-hypergrid/src/lib\",\"./fields\"]": {
+			"key": "normal/[\"node_modules/fin-hypergrid/src/lib\",\"./fields\"]",
+			"size": 69,
+			"start": 7562
+		},
+		"normal/[\"node_modules/fin-hypergrid/src/renderer\",\"./bundle-columns\"]": {
+			"key": "normal/[\"node_modules/fin-hypergrid/src/renderer\",\"./bundle-columns\"]",
+			"size": 82,
+			"start": 7631
+		},
+		"normal/[\"node_modules/fin-hypergrid/src/renderer\",\"./bundle-rows\"]": {
+			"key": "normal/[\"node_modules/fin-hypergrid/src/renderer\",\"./bundle-rows\"]",
+			"size": 79,
+			"start": 7713
+		},
+		"normal/[\"node_modules/fin-hypergrid/src/cellRenderers\",\"../../images/index\"]": {
+			"key": "normal/[\"node_modules/fin-hypergrid/src/cellRenderers\",\"../../images/index\"]",
+			"size": 67,
+			"start": 7792
+		},
+		"normal/[\"node_modules/fin-hypergrid/src/behaviors\",\"../../images\"]": {
+			"key": "normal/[\"node_modules/fin-hypergrid/src/behaviors\",\"../../images\"]",
+			"size": 67,
+			"start": 7859
+		},
+		"normal/[\"node_modules/fin-hypergrid/src/renderer\",\"../../images\"]": {
+			"key": "normal/[\"node_modules/fin-hypergrid/src/renderer\",\"../../images\"]",
+			"size": 67,
+			"start": 7926
+		},
+		"normal/[\"node_modules/fin-hypergrid/src\",\"rectangular\"]": {
+			"key": "normal/[\"node_modules/fin-hypergrid/src\",\"rectangular\"]",
+			"size": 58,
+			"start": 7993
+		},
+		"normal/[\"node_modules/fin-hypergrid/src/lib\",\"rectangular\"]": {
+			"key": "normal/[\"node_modules/fin-hypergrid/src/lib\",\"rectangular\"]",
+			"size": 58,
+			"start": 8051
+		},
+		"normal/[\"node_modules/fin-hypergrid/src/behaviors\",\"rectangular\"]": {
+			"key": "normal/[\"node_modules/fin-hypergrid/src/behaviors\",\"rectangular\"]",
+			"size": 58,
+			"start": 8109
+		},
+		"normal/[\"node_modules/fin-hypergrid/src/cellEditors\",\"../lib/DOM/effects\"]": {
+			"key": "normal/[\"node_modules/fin-hypergrid/src/cellEditors\",\"../lib/DOM/effects\"]",
+			"size": 74,
+			"start": 8167
+		},
+		"normal/[\"node_modules/fin-hypergrid/src/features\",\"./Feature\"]": {
+			"key": "normal/[\"node_modules/fin-hypergrid/src/features\",\"./Feature\"]",
+			"size": 75,
+			"start": 8241
+		},
+		"normal/[\"node_modules/fin-hypergrid/src/features\",\"./CellClick\"]": {
+			"key": "normal/[\"node_modules/fin-hypergrid/src/features\",\"./CellClick\"]",
+			"size": 77,
+			"start": 8316
+		},
+		"normal/[\"node_modules/fin-hypergrid/src/features\",\"./CellEditing\"]": {
+			"key": "normal/[\"node_modules/fin-hypergrid/src/features\",\"./CellEditing\"]",
+			"size": 79,
+			"start": 8393
+		},
+		"normal/[\"node_modules/fin-hypergrid/src/features\",\"./CellSelection\"]": {
+			"key": "normal/[\"node_modules/fin-hypergrid/src/features\",\"./CellSelection\"]",
+			"size": 81,
+			"start": 8472
+		},
+		"normal/[\"node_modules/fin-hypergrid/src/features\",\"./ColumnMoving\"]": {
+			"key": "normal/[\"node_modules/fin-hypergrid/src/features\",\"./ColumnMoving\"]",
+			"size": 80,
+			"start": 8553
+		},
+		"normal/[\"node_modules/fin-hypergrid/src/features\",\"./ColumnResizing\"]": {
+			"key": "normal/[\"node_modules/fin-hypergrid/src/features\",\"./ColumnResizing\"]",
+			"size": 82,
+			"start": 8633
+		},
+		"normal/[\"node_modules/fin-hypergrid/src/features\",\"./ColumnSelection\"]": {
+			"key": "normal/[\"node_modules/fin-hypergrid/src/features\",\"./ColumnSelection\"]",
+			"size": 83,
+			"start": 8715
+		},
+		"normal/[\"node_modules/fin-hypergrid/src/features\",\"./ColumnSorting\"]": {
+			"key": "normal/[\"node_modules/fin-hypergrid/src/features\",\"./ColumnSorting\"]",
+			"size": 81,
+			"start": 8798
+		},
+		"normal/[\"node_modules/fin-hypergrid/src/features\",\"./Filters\"]": {
+			"key": "normal/[\"node_modules/fin-hypergrid/src/features\",\"./Filters\"]",
+			"size": 75,
+			"start": 8879
+		},
+		"normal/[\"node_modules/fin-hypergrid/src/features\",\"./KeyPaging\"]": {
+			"key": "normal/[\"node_modules/fin-hypergrid/src/features\",\"./KeyPaging\"]",
+			"size": 77,
+			"start": 8954
+		},
+		"normal/[\"node_modules/fin-hypergrid/src/features\",\"./RowSelection\"]": {
+			"key": "normal/[\"node_modules/fin-hypergrid/src/features\",\"./RowSelection\"]",
+			"size": 80,
+			"start": 9031
+		},
+		"normal/[\"node_modules/fin-hypergrid/src/features\",\"./OnHover\"]": {
+			"key": "normal/[\"node_modules/fin-hypergrid/src/features\",\"./OnHover\"]",
+			"size": 75,
+			"start": 9111
+		},
+		"normal/[\"node_modules/fin-hypergrid/src/features\",\"./ThumbwheelScrolling\"]": {
+			"key": "normal/[\"node_modules/fin-hypergrid/src/features\",\"./ThumbwheelScrolling\"]",
+			"size": 87,
+			"start": 9186
+		},
+		"normal/[\"node_modules/synonomous\",\"./transformers\"]": {
+			"key": "normal/[\"node_modules/synonomous\",\"./transformers\"]",
+			"size": 64,
+			"start": 9273
+		},
+		"normal/[\"node_modules/fin-hypergrid/src/lib\",\"synonomous/transformers\"]": {
+			"key": "normal/[\"node_modules/fin-hypergrid/src/lib\",\"synonomous/transformers\"]",
+			"size": 64,
+			"start": 9337
+		},
+		"normal/[\"node_modules/sparse-boolean-array\",\"./../webpack/buildin/module.js\"]": {
+			"key": "normal/[\"node_modules/sparse-boolean-array\",\"./../webpack/buildin/module.js\"]",
+			"size": 63,
+			"start": 9401
+		},
+		"normal/[\"node_modules/fin-hypergrid/images\",\"object-iterators\"]": {
+			"key": "normal/[\"node_modules/fin-hypergrid/images\",\"object-iterators\"]",
+			"size": 63,
+			"start": 9464
+		},
+		"normal/[\"node_modules/fin-hypergrid/src/features\",\"../Base\"]": {
+			"key": "normal/[\"node_modules/fin-hypergrid/src/features\",\"../Base\"]",
+			"size": 63,
+			"start": 9527
+		},
+		"normal/[\"node_modules/fin-hypergrid/src/features\",\"../cellEditors/CellEditor\"]": {
+			"key": "normal/[\"node_modules/fin-hypergrid/src/features\",\"../cellEditors/CellEditor\"]",
+			"size": 81,
+			"start": 9590
+		},
+		"normal/[\"node_modules/inject-stylesheet-template\",\"automat\"]": {
+			"key": "normal/[\"node_modules/inject-stylesheet-template\",\"automat\"]",
+			"size": 54,
+			"start": 9671
+		},
+		"normal/[\"node_modules/fin-hypergrid/images\",\"./images\"]": {
+			"key": "normal/[\"node_modules/fin-hypergrid/images\",\"./images\"]",
+			"size": 68,
+			"start": 9725
+		},
+		"normal/[\"node_modules/fin-hypergrid/src/lib\",\"fin-hypergrid-data-source-base\"]": {
+			"key": "normal/[\"node_modules/fin-hypergrid/src/lib\",\"fin-hypergrid-data-source-base\"]",
+			"size": 77,
+			"start": 9793
+		},
+		"normal/[\"node_modules/fin-hypergrid/src/cellEditors\",\"mustache\"]": {
+			"key": "normal/[\"node_modules/fin-hypergrid/src/cellEditors\",\"mustache\"]",
+			"size": 58,
+			"start": 9870
+		},
+		"normal/[\"node_modules/finbars\",\"css-injector\"]": {
+			"key": "normal/[\"node_modules/finbars\",\"css-injector\"]",
+			"size": 59,
+			"start": 9928
+		},
+		"normal/[\"node_modules/fin-hypergrid-data-source-base\",\"extend-me\"]": {
+			"key": "normal/[\"node_modules/fin-hypergrid-data-source-base\",\"extend-me\"]",
+			"size": 56,
+			"start": 9987
+		},
+		"loader/[\".\",\"babel-loader\"]": {
+			"key": "loader/[\".\",\"babel-loader\"]",
+			"size": 63,
+			"start": 10043
+		},
+		"normal/[\".\",\"./src-built-in/components/adhocComponentForm/app.jsx\"]": {
+			"key": "normal/[\".\",\"./src-built-in/components/adhocComponentForm/app.jsx\"]",
+			"size": 75,
+			"start": 10106
+		},
+		"normal/[\".\",\"./src-built-in/components/welcome/welcome.js\"]": {
+			"key": "normal/[\".\",\"./src-built-in/components/welcome/welcome.js\"]",
+			"size": 67,
+			"start": 10181
+		},
+		"normal/[\".\",\"./src-built-in/components/appLauncher/src/app.jsx\"]": {
+			"key": "normal/[\".\",\"./src-built-in/components/appLauncher/src/app.jsx\"]",
+			"size": 72,
+			"start": 10248
+		},
+		"normal/[\".\",\"./src-built-in/components/overflowMenu/src/app.jsx\"]": {
+			"key": "normal/[\".\",\"./src-built-in/components/overflowMenu/src/app.jsx\"]",
+			"size": 73,
+			"start": 10320
+		},
+		"normal/[\".\",\"./src-built-in/components/toolbar/src/app.jsx\"]": {
+			"key": "normal/[\".\",\"./src-built-in/components/toolbar/src/app.jsx\"]",
+			"size": 68,
+			"start": 10393
+		},
+		"normal/[\".\",\"./src-built-in/components/linker/src/linker.jsx\"]": {
+			"key": "normal/[\".\",\"./src-built-in/components/linker/src/linker.jsx\"]",
+			"size": 70,
+			"start": 10461
+		},
+		"normal/[\".\",\"./src-built-in/components/workspaceManagementMenu/src/app.jsx\"]": {
+			"key": "normal/[\".\",\"./src-built-in/components/workspaceManagementMenu/src/app.jsx\"]",
+			"size": 84,
+			"start": 10531
+		},
+		"normal/[\".\",\"./src-built-in/components/fileMenu/src/app.jsx\"]": {
+			"key": "normal/[\".\",\"./src-built-in/components/fileMenu/src/app.jsx\"]",
+			"size": 69,
+			"start": 10615
+		},
+		"normal/[\".\",\"./src-built-in/components/yesNoDialog/src/app.jsx\"]": {
+			"key": "normal/[\".\",\"./src-built-in/components/yesNoDialog/src/app.jsx\"]",
+			"size": 72,
+			"start": 10684
+		},
+		"normal/[\".\",\"./src-built-in/components/singleInputDialog/src/app.jsx\"]": {
+			"key": "normal/[\".\",\"./src-built-in/components/singleInputDialog/src/app.jsx\"]",
+			"size": 78,
+			"start": 10756
+		},
+		"normal/[\".\",\"./src-built-in/components/userPreferences/src/app.jsx\"]": {
+			"key": "normal/[\".\",\"./src-built-in/components/userPreferences/src/app.jsx\"]",
+			"size": 76,
+			"start": 10834
+		},
+		"normal/[\".\",\"./src-built-in/components/appCatalog/src/app.jsx\"]": {
+			"key": "normal/[\".\",\"./src-built-in/components/appCatalog/src/app.jsx\"]",
+			"size": 71,
+			"start": 10910
+		},
+		"normal/[\".\",\"./src-built-in/components/inputAndSelectionDialog/src/app.jsx\"]": {
+			"key": "normal/[\".\",\"./src-built-in/components/inputAndSelectionDialog/src/app.jsx\"]",
+			"size": 84,
+			"start": 10981
+		},
+		"normal/[\".\",\"./src-built-in/components/searchMenu/src/app.jsx\"]": {
+			"key": "normal/[\".\",\"./src-built-in/components/searchMenu/src/app.jsx\"]",
+			"size": 71,
+			"start": 11065
+		},
+		"normal/[\".\",\"./src-built-in/components/processMonitor/src/app.jsx\"]": {
+			"key": "normal/[\".\",\"./src-built-in/components/processMonitor/src/app.jsx\"]",
+			"size": 75,
+			"start": 11136
+		},
+		"normal/[\"src-built-in/components/appLauncher/src\",\"../appLauncher.css\"]": {
+			"key": "normal/[\"src-built-in/components/appLauncher/src\",\"../appLauncher.css\"]",
+			"size": 76,
+			"start": 11211
+		},
+		"normal/[\"src-built-in/components/adhocComponentForm\",\"./adhoc.css\"]": {
+			"key": "normal/[\"src-built-in/components/adhocComponentForm\",\"./adhoc.css\"]",
+			"size": 77,
+			"start": 11287
+		},
+		"normal/[\"src-built-in/components/fileMenu/src\",\"../fileMenu.css\"]": {
+			"key": "normal/[\"src-built-in/components/fileMenu/src\",\"../fileMenu.css\"]",
+			"size": 70,
+			"start": 11364
+		},
+		"normal/[\"src-built-in/components/workspaceManagementMenu/src\",\"../workspaceManagementMenu.css\"]": {
+			"key": "normal/[\"src-built-in/components/workspaceManagementMenu/src\",\"../workspaceManagementMenu.css\"]",
+			"size": 100,
+			"start": 11434
+		},
+		"normal/[\"src-built-in/components/appCatalog/src\",\"../appCatalog.css\"]": {
+			"key": "normal/[\"src-built-in/components/appCatalog/src\",\"../appCatalog.css\"]",
+			"size": 74,
+			"start": 11534
+		},
+		"normal/[\"src-built-in/components/userPreferences/src\",\"./navSections.json\"]": {
+			"key": "normal/[\"src-built-in/components/userPreferences/src\",\"./navSections.json\"]",
+			"size": 85,
+			"start": 11608
+		},
+		"normal/[\"src-built-in/components/userPreferences/src\",\"../userPreferences.css\"]": {
+			"key": "normal/[\"src-built-in/components/userPreferences/src\",\"../userPreferences.css\"]",
+			"size": 84,
+			"start": 11693
+		},
+		"normal/[\"src-built-in/components/linker/src\",\"./css/linkerWindow.css\"]": {
+			"key": "normal/[\"src-built-in/components/linker/src\",\"./css/linkerWindow.css\"]",
+			"size": 80,
+			"start": 11777
+		},
+		"normal/[\"src-built-in/components/searchMenu/src\",\"../searchMenu.css\"]": {
+			"key": "normal/[\"src-built-in/components/searchMenu/src\",\"../searchMenu.css\"]",
+			"size": 74,
+			"start": 11857
+		},
+		"normal/[\"src-built-in/components/appLauncher/src\",\"../../assets/css/finfont.css\"]": {
+			"key": "normal/[\"src-built-in/components/appLauncher/src\",\"../../assets/css/finfont.css\"]",
+			"size": 71,
+			"start": 11931
+		},
+		"normal/[\"src-built-in/components/fileMenu/src\",\"../../assets/css/finfont.css\"]": {
+			"key": "normal/[\"src-built-in/components/fileMenu/src\",\"../../assets/css/finfont.css\"]",
+			"size": 71,
+			"start": 12002
+		},
+		"normal/[\"src-built-in/components/workspaceManagementMenu/src\",\"../../assets/css/finfont.css\"]": {
+			"key": "normal/[\"src-built-in/components/workspaceManagementMenu/src\",\"../../assets/css/finfont.css\"]",
+			"size": 71,
+			"start": 12073
+		},
+		"normal/[\"src-built-in/components/linker/src\",\"../../assets/css/finfont.css\"]": {
+			"key": "normal/[\"src-built-in/components/linker/src\",\"../../assets/css/finfont.css\"]",
+			"size": 71,
+			"start": 12144
+		},
+		"normal/[\"src-built-in/components/appCatalog/src\",\"../../assets/css/finfont.css\"]": {
+			"key": "normal/[\"src-built-in/components/appCatalog/src\",\"../../assets/css/finfont.css\"]",
+			"size": 71,
+			"start": 12215
+		},
+		"normal/[\"src-built-in/components/userPreferences/src\",\"../../assets/css/finfont.css\"]": {
+			"key": "normal/[\"src-built-in/components/userPreferences/src\",\"../../assets/css/finfont.css\"]",
+			"size": 71,
+			"start": 12286
+		},
+		"normal/[\"src-built-in/components/searchMenu/src\",\"../../assets/css/finfont.css\"]": {
+			"key": "normal/[\"src-built-in/components/searchMenu/src\",\"../../assets/css/finfont.css\"]",
+			"size": 71,
+			"start": 12357
+		},
+		"normal/[\"src-built-in/components/inputAndSelectionDialog/src\",\"../../assets/css/finfont.css\"]": {
+			"key": "normal/[\"src-built-in/components/inputAndSelectionDialog/src\",\"../../assets/css/finfont.css\"]",
+			"size": 71,
+			"start": 12428
+		},
+		"normal/[\"src-built-in/components/processMonitor/src\",\"../../assets/css/finfont.css\"]": {
+			"key": "normal/[\"src-built-in/components/processMonitor/src\",\"../../assets/css/finfont.css\"]",
+			"size": 71,
+			"start": 12499
+		},
+		"normal/[\"src-built-in/components/appLauncher/src\",\"../../assets/css/finsemble.css\"]": {
+			"key": "normal/[\"src-built-in/components/appLauncher/src\",\"../../assets/css/finsemble.css\"]",
+			"size": 73,
+			"start": 12570
+		},
+		"normal/[\"src-built-in/components/overflowMenu/src\",\"../../assets/css/finsemble.css\"]": {
+			"key": "normal/[\"src-built-in/components/overflowMenu/src\",\"../../assets/css/finsemble.css\"]",
+			"size": 73,
+			"start": 12643
+		},
+		"normal/[\"src-built-in/components/adhocComponentForm\",\"../assets/css/finsemble.css\"]": {
+			"key": "normal/[\"src-built-in/components/adhocComponentForm\",\"../assets/css/finsemble.css\"]",
+			"size": 73,
+			"start": 12716
+		},
+		"normal/[\"src-built-in/components/fileMenu/src\",\"../../assets/css/finsemble.css\"]": {
+			"key": "normal/[\"src-built-in/components/fileMenu/src\",\"../../assets/css/finsemble.css\"]",
+			"size": 73,
+			"start": 12789
+		},
+		"normal/[\"src-built-in/components/workspaceManagementMenu/src\",\"../../assets/css/finsemble.css\"]": {
+			"key": "normal/[\"src-built-in/components/workspaceManagementMenu/src\",\"../../assets/css/finsemble.css\"]",
+			"size": 73,
+			"start": 12862
+		},
+		"normal/[\"src-built-in/components/linker/src\",\"../../assets/css/finsemble.css\"]": {
+			"key": "normal/[\"src-built-in/components/linker/src\",\"../../assets/css/finsemble.css\"]",
+			"size": 73,
+			"start": 12935
+		},
+		"normal/[\"src-built-in/components/yesNoDialog/src\",\"../../assets/css/finsemble.css\"]": {
+			"key": "normal/[\"src-built-in/components/yesNoDialog/src\",\"../../assets/css/finsemble.css\"]",
+			"size": 73,
+			"start": 13008
+		},
+		"normal/[\"src-built-in/components/appCatalog/src\",\"../../assets/css/finsemble.css\"]": {
+			"key": "normal/[\"src-built-in/components/appCatalog/src\",\"../../assets/css/finsemble.css\"]",
+			"size": 73,
+			"start": 13081
+		},
+		"normal/[\"src-built-in/components/userPreferences/src\",\"../../assets/css/finsemble.css\"]": {
+			"key": "normal/[\"src-built-in/components/userPreferences/src\",\"../../assets/css/finsemble.css\"]",
+			"size": 73,
+			"start": 13154
+		},
+		"normal/[\"src-built-in/components/singleInputDialog/src\",\"../../assets/css/finsemble.css\"]": {
+			"key": "normal/[\"src-built-in/components/singleInputDialog/src\",\"../../assets/css/finsemble.css\"]",
+			"size": 73,
+			"start": 13227
+		},
+		"normal/[\"src-built-in/components/searchMenu/src\",\"../../assets/css/finsemble.css\"]": {
+			"key": "normal/[\"src-built-in/components/searchMenu/src\",\"../../assets/css/finsemble.css\"]",
+			"size": 73,
+			"start": 13300
+		},
+		"normal/[\"src-built-in/components/inputAndSelectionDialog/src\",\"../../assets/css/finsemble.css\"]": {
+			"key": "normal/[\"src-built-in/components/inputAndSelectionDialog/src\",\"../../assets/css/finsemble.css\"]",
+			"size": 73,
+			"start": 13373
+		},
+		"normal/[\"src-built-in/components/processMonitor/src\",\"../../assets/css/finsemble.css\"]": {
+			"key": "normal/[\"src-built-in/components/processMonitor/src\",\"../../assets/css/finsemble.css\"]",
+			"size": 73,
+			"start": 13446
+		},
+		"normal/[\"src-built-in/components/linker/src\",\"../../assets/css/CIQ_Seed.css\"]": {
+			"key": "normal/[\"src-built-in/components/linker/src\",\"../../assets/css/CIQ_Seed.css\"]",
+			"size": 72,
+			"start": 13519
+		},
+		"normal/[\"src-built-in/components/inputAndSelectionDialog/src\",\"../inputAndSelectionDialog.css\"]": {
+			"key": "normal/[\"src-built-in/components/inputAndSelectionDialog/src\",\"../inputAndSelectionDialog.css\"]",
+			"size": 100,
+			"start": 13591
+		},
+		"normal/[\"src-built-in/components/processMonitor/src\",\"../processMonitor.css\"]": {
+			"key": "normal/[\"src-built-in/components/processMonitor/src\",\"../processMonitor.css\"]",
+			"size": 82,
+			"start": 13691
+		},
+		"normal/[\"src-built-in/components/appLauncher/src\",\"./stores/appLauncherStore\"]": {
+			"key": "normal/[\"src-built-in/components/appLauncher/src\",\"./stores/appLauncherStore\"]",
+			"size": 91,
+			"start": 13773
+		},
+		"normal/[\"src-built-in/components/fileMenu/src\",\"./stores/fileMenuStore\"]": {
+			"key": "normal/[\"src-built-in/components/fileMenu/src\",\"./stores/fileMenuStore\"]",
+			"size": 85,
+			"start": 13864
+		},
+		"normal/[\"src-built-in/components/workspaceManagementMenu/src\",\"./stores/workspaceManagementMenuStore\"]": {
+			"key": "normal/[\"src-built-in/components/workspaceManagementMenu/src\",\"./stores/workspaceManagementMenuStore\"]",
+			"size": 115,
+			"start": 13949
+		},
+		"normal/[\"src-built-in/components/userPreferences/src\",\"../../workspaceManagementMenu/src/stores/workspaceManagementMenuStore\"]": {
+			"key": "normal/[\"src-built-in/components/userPreferences/src\",\"../../workspaceManagementMenu/src/stores/workspaceManagementMenuStore\"]",
+			"size": 115,
+			"start": 14064
+		},
+		"normal/[\"src-built-in/components/linker/src\",\"./stores/linkerStore\"]": {
+			"key": "normal/[\"src-built-in/components/linker/src\",\"./stores/linkerStore\"]",
+			"size": 81,
+			"start": 14179
+		},
+		"normal/[\"src-built-in/components/processMonitor/src\",\"./helpers\"]": {
+			"key": "normal/[\"src-built-in/components/processMonitor/src\",\"./helpers\"]",
+			"size": 78,
+			"start": 14260
+		},
+		"normal/[\"src-built-in/components/processMonitor/src\",\"./constants\"]": {
+			"key": "normal/[\"src-built-in/components/processMonitor/src\",\"./constants\"]",
+			"size": 80,
+			"start": 14338
+		},
+		"normal/[\"src-built-in/components/toolbar/src\",\"./dynamicToolbar\"]": {
+			"key": "normal/[\"src-built-in/components/toolbar/src\",\"./dynamicToolbar\"]",
+			"size": 79,
+			"start": 14418
+		},
+		"normal/[\"src-built-in/components/searchMenu/src\",\"./stores/searchStore\"]": {
+			"key": "normal/[\"src-built-in/components/searchMenu/src\",\"./stores/searchStore\"]",
+			"size": 85,
+			"start": 14497
+		},
+		"normal/[\"src-built-in/components/yesNoDialog/src\",\"./timer\"]": {
+			"key": "normal/[\"src-built-in/components/yesNoDialog/src\",\"./timer\"]",
+			"size": 74,
+			"start": 14582
+		},
+		"normal/[\"src-built-in/components/appLauncher/src\",\"./components/componentList\"]": {
+			"key": "normal/[\"src-built-in/components/appLauncher/src\",\"./components/componentList\"]",
+			"size": 93,
+			"start": 14656
+		},
+		"normal/[\"src-built-in/components/workspaceManagementMenu/src\",\"./components/workspaceActions\"]": {
+			"key": "normal/[\"src-built-in/components/workspaceManagementMenu/src\",\"./components/workspaceActions\"]",
+			"size": 108,
+			"start": 14749
+		},
+		"normal/[\"src-built-in/components/workspaceManagementMenu/src\",\"./components/workspaceList\"]": {
+			"key": "normal/[\"src-built-in/components/workspaceManagementMenu/src\",\"./components/workspaceList\"]",
+			"size": 105,
+			"start": 14857
+		},
+		"normal/[\"src-built-in/components/appCatalog/src\",\"./components/AppContent\"]": {
+			"key": "normal/[\"src-built-in/components/appCatalog/src\",\"./components/AppContent\"]",
+			"size": 89,
+			"start": 14962
+		},
+		"normal/[\"src-built-in/components/appCatalog/src\",\"../../complexMenu/ComplexMenu\"]": {
+			"key": "normal/[\"src-built-in/components/appCatalog/src\",\"../../complexMenu/ComplexMenu\"]",
+			"size": 76,
+			"start": 15051
+		},
+		"normal/[\"src-built-in/components/userPreferences/src\",\"./components/LeftNav\"]": {
+			"key": "normal/[\"src-built-in/components/userPreferences/src\",\"./components/LeftNav\"]",
+			"size": 91,
+			"start": 15127
+		},
+		"normal/[\"src-built-in/components/userPreferences/src\",\"./components/ContentSection\"]": {
+			"key": "normal/[\"src-built-in/components/userPreferences/src\",\"./components/ContentSection\"]",
+			"size": 98,
+			"start": 15218
+		},
+		"normal/[\"src-built-in/components/userPreferences/src\",\"./stores/UserPreferencesStore\"]": {
+			"key": "normal/[\"src-built-in/components/userPreferences/src\",\"./stores/UserPreferencesStore\"]",
+			"size": 100,
+			"start": 15316
+		},
+		"normal/[\"src-built-in/components/searchMenu/src\",\"./components/componentItem\"]": {
+			"key": "normal/[\"src-built-in/components/searchMenu/src\",\"./components/componentItem\"]",
+			"size": 92,
+			"start": 15416
+		},
+		"normal/[\"src-built-in/components/searchMenu/src\",\"./components/ProviderList\"]": {
+			"key": "normal/[\"src-built-in/components/searchMenu/src\",\"./components/ProviderList\"]",
+			"size": 91,
+			"start": 15508
+		},
+		"normal/[\"src-built-in/components/processMonitor/src\",\"./components/ExpandedApplication\"]": {
+			"key": "normal/[\"src-built-in/components/processMonitor/src\",\"./components/ExpandedApplication\"]",
+			"size": 102,
+			"start": 15599
+		},
+		"normal/[\"src-built-in/components/processMonitor/src\",\"./components/CellRenderer\"]": {
+			"key": "normal/[\"src-built-in/components/processMonitor/src\",\"./components/CellRenderer\"]",
+			"size": 95,
+			"start": 15701
+		},
+		"normal/[\"src-built-in/components/processMonitor/src\",\"./components/Totals\"]": {
+			"key": "normal/[\"src-built-in/components/processMonitor/src\",\"./components/Totals\"]",
+			"size": 89,
+			"start": 15796
+		},
+		"normal/[\"src-built-in/components/processMonitor/src\",\"./components/Toast\"]": {
+			"key": "normal/[\"src-built-in/components/processMonitor/src\",\"./components/Toast\"]",
+			"size": 88,
+			"start": 15885
+		},
+		"normal/[\"src-built-in/components/processMonitor/src\",\"./stores/ProcessMonitorStore\"]": {
+			"key": "normal/[\"src-built-in/components/processMonitor/src\",\"./stores/ProcessMonitorStore\"]",
+			"size": 98,
+			"start": 15973
+		},
+		"normal/[\"src-built-in/components/processMonitor/src\",\"react-table/react-table.css\"]": {
+			"key": "normal/[\"src-built-in/components/processMonitor/src\",\"react-table/react-table.css\"]",
+			"size": 65,
+			"start": 16071
+		},
+		"normal/[\"node_modules/react-table\",\"./react-table.css\"]": {
+			"key": "normal/[\"node_modules/react-table\",\"./react-table.css\"]",
+			"size": 65,
+			"start": 16136
+		},
+		"normal/[\"src-built-in/components/appLauncher\",\"./appLauncher.css\"]": {
+			"key": "normal/[\"src-built-in/components/appLauncher\",\"./appLauncher.css\"]",
+			"size": 76,
+			"start": 16201
+		},
+		"normal/[\"src-built-in/components/fileMenu\",\"./fileMenu.css\"]": {
+			"key": "normal/[\"src-built-in/components/fileMenu\",\"./fileMenu.css\"]",
+			"size": 70,
+			"start": 16277
+		},
+		"normal/[\"src-built-in/components/workspaceManagementMenu\",\"./workspaceManagementMenu.css\"]": {
+			"key": "normal/[\"src-built-in/components/workspaceManagementMenu\",\"./workspaceManagementMenu.css\"]",
+			"size": 100,
+			"start": 16347
+		},
+		"normal/[\"src-built-in/components/appCatalog\",\"./appCatalog.css\"]": {
+			"key": "normal/[\"src-built-in/components/appCatalog\",\"./appCatalog.css\"]",
+			"size": 74,
+			"start": 16447
+		},
+		"normal/[\"src-built-in/components/userPreferences\",\"./userPreferences.css\"]": {
+			"key": "normal/[\"src-built-in/components/userPreferences\",\"./userPreferences.css\"]",
+			"size": 84,
+			"start": 16521
+		},
+		"normal/[\"src-built-in/components/searchMenu\",\"./searchMenu.css\"]": {
+			"key": "normal/[\"src-built-in/components/searchMenu\",\"./searchMenu.css\"]",
+			"size": 74,
+			"start": 16605
+		},
+		"normal/[\"src-built-in/components/inputAndSelectionDialog\",\"./inputAndSelectionDialog.css\"]": {
+			"key": "normal/[\"src-built-in/components/inputAndSelectionDialog\",\"./inputAndSelectionDialog.css\"]",
+			"size": 100,
+			"start": 16679
+		},
+		"normal/[\"src-built-in/components/processMonitor\",\"./processMonitor.css\"]": {
+			"key": "normal/[\"src-built-in/components/processMonitor\",\"./processMonitor.css\"]",
+			"size": 82,
+			"start": 16779
+		},
+		"normal/[\"src-built-in/components/assets/css\",\"./finfont.css\"]": {
+			"key": "normal/[\"src-built-in/components/assets/css\",\"./finfont.css\"]",
+			"size": 71,
+			"start": 16861
+		},
+		"normal/[\"src-built-in/components/assets/css\",\"./finsemble.css\"]": {
+			"key": "normal/[\"src-built-in/components/assets/css\",\"./finsemble.css\"]",
+			"size": 73,
+			"start": 16932
+		},
+		"normal/[\"src-built-in/components/assets/css\",\"./CIQ_Seed.css\"]": {
+			"key": "normal/[\"src-built-in/components/assets/css\",\"./CIQ_Seed.css\"]",
+			"size": 72,
+			"start": 17005
+		},
+		"normal/[\"src-built-in/components/linker/src/css\",\"./linkerWindow.css\"]": {
+			"key": "normal/[\"src-built-in/components/linker/src/css\",\"./linkerWindow.css\"]",
+			"size": 80,
+			"start": 17077
+		},
+		"normal/[\"src-built-in/components/toolbar/src\",\"../../assets/css/finfont.css\"]": {
+			"key": "normal/[\"src-built-in/components/toolbar/src\",\"../../assets/css/finfont.css\"]",
+			"size": 71,
+			"start": 17157
+		},
+		"normal/[\"src-built-in/components/toolbar/src\",\"../../assets/css/finsemble.css\"]": {
+			"key": "normal/[\"src-built-in/components/toolbar/src\",\"../../assets/css/finsemble.css\"]",
+			"size": 73,
+			"start": 17228
+		},
+		"normal/[\"src-built-in/components/appLauncher/src/components\",\"../stores/appLauncherStore\"]": {
+			"key": "normal/[\"src-built-in/components/appLauncher/src/components\",\"../stores/appLauncherStore\"]",
+			"size": 91,
+			"start": 17301
+		},
+		"normal/[\"src-built-in/components/workspaceManagementMenu/src/components\",\"../stores/workspaceManagementMenuStore\"]": {
+			"key": "normal/[\"src-built-in/components/workspaceManagementMenu/src/components\",\"../stores/workspaceManagementMenuStore\"]",
+			"size": 115,
+			"start": 17392
+		},
+		"normal/[\"src-built-in/components/workspaceManagementMenu/src/components\",\"./workspaceActions\"]": {
+			"key": "normal/[\"src-built-in/components/workspaceManagementMenu/src/components\",\"./workspaceActions\"]",
+			"size": 108,
+			"start": 17507
+		},
+		"normal/[\"src-built-in/components/appLauncher/src\",\"react\"]": {
+			"key": "normal/[\"src-built-in/components/appLauncher/src\",\"react\"]",
+			"size": 52,
+			"start": 17615
+		},
+		"normal/[\"src-built-in/components/overflowMenu/src\",\"react\"]": {
+			"key": "normal/[\"src-built-in/components/overflowMenu/src\",\"react\"]",
+			"size": 52,
+			"start": 17667
+		},
+		"normal/[\"src-built-in/components/adhocComponentForm\",\"react\"]": {
+			"key": "normal/[\"src-built-in/components/adhocComponentForm\",\"react\"]",
+			"size": 52,
+			"start": 17719
+		},
+		"normal/[\"src-built-in/components/fileMenu/src\",\"react\"]": {
+			"key": "normal/[\"src-built-in/components/fileMenu/src\",\"react\"]",
+			"size": 52,
+			"start": 17771
+		},
+		"normal/[\"src-built-in/components/workspaceManagementMenu/src\",\"react\"]": {
+			"key": "normal/[\"src-built-in/components/workspaceManagementMenu/src\",\"react\"]",
+			"size": 52,
+			"start": 17823
+		},
+		"normal/[\"src-built-in/components/linker/src\",\"react\"]": {
+			"key": "normal/[\"src-built-in/components/linker/src\",\"react\"]",
+			"size": 52,
+			"start": 17875
+		},
+		"normal/[\"src-built-in/components/yesNoDialog/src\",\"react\"]": {
+			"key": "normal/[\"src-built-in/components/yesNoDialog/src\",\"react\"]",
+			"size": 52,
+			"start": 17927
+		},
+		"normal/[\"src-built-in/components/appCatalog/src\",\"react\"]": {
+			"key": "normal/[\"src-built-in/components/appCatalog/src\",\"react\"]",
+			"size": 52,
+			"start": 17979
+		},
+		"normal/[\"src-built-in/components/userPreferences/src\",\"react\"]": {
+			"key": "normal/[\"src-built-in/components/userPreferences/src\",\"react\"]",
+			"size": 52,
+			"start": 18031
+		},
+		"normal/[\"src-built-in/components/singleInputDialog/src\",\"react\"]": {
+			"key": "normal/[\"src-built-in/components/singleInputDialog/src\",\"react\"]",
+			"size": 52,
+			"start": 18083
+		},
+		"normal/[\"src-built-in/components/searchMenu/src\",\"react\"]": {
+			"key": "normal/[\"src-built-in/components/searchMenu/src\",\"react\"]",
+			"size": 52,
+			"start": 18135
+		},
+		"normal/[\"src-built-in/components/inputAndSelectionDialog/src\",\"react\"]": {
+			"key": "normal/[\"src-built-in/components/inputAndSelectionDialog/src\",\"react\"]",
+			"size": 52,
+			"start": 18187
+		},
+		"normal/[\"src-built-in/components/processMonitor/src\",\"react\"]": {
+			"key": "normal/[\"src-built-in/components/processMonitor/src\",\"react\"]",
+			"size": 52,
+			"start": 18239
+		},
+		"normal/[\"src-built-in/components/toolbar/src\",\"react\"]": {
+			"key": "normal/[\"src-built-in/components/toolbar/src\",\"react\"]",
+			"size": 52,
+			"start": 18291
+		},
+		"normal/[\"src-built-in/components/appLauncher/src\",\"react-dom\"]": {
+			"key": "normal/[\"src-built-in/components/appLauncher/src\",\"react-dom\"]",
+			"size": 56,
+			"start": 18343
+		},
+		"normal/[\"src-built-in/components/overflowMenu/src\",\"react-dom\"]": {
+			"key": "normal/[\"src-built-in/components/overflowMenu/src\",\"react-dom\"]",
+			"size": 56,
+			"start": 18399
+		},
+		"normal/[\"src-built-in/components/adhocComponentForm\",\"react-dom\"]": {
+			"key": "normal/[\"src-built-in/components/adhocComponentForm\",\"react-dom\"]",
+			"size": 56,
+			"start": 18455
+		},
+		"normal/[\"src-built-in/components/workspaceManagementMenu/src\",\"react-dom\"]": {
+			"key": "normal/[\"src-built-in/components/workspaceManagementMenu/src\",\"react-dom\"]",
+			"size": 56,
+			"start": 18511
+		},
+		"normal/[\"src-built-in/components/linker/src\",\"react-dom\"]": {
+			"key": "normal/[\"src-built-in/components/linker/src\",\"react-dom\"]",
+			"size": 56,
+			"start": 18567
+		},
+		"normal/[\"src-built-in/components/yesNoDialog/src\",\"react-dom\"]": {
+			"key": "normal/[\"src-built-in/components/yesNoDialog/src\",\"react-dom\"]",
+			"size": 56,
+			"start": 18623
+		},
+		"normal/[\"src-built-in/components/appCatalog/src\",\"react-dom\"]": {
+			"key": "normal/[\"src-built-in/components/appCatalog/src\",\"react-dom\"]",
+			"size": 56,
+			"start": 18679
+		},
+		"normal/[\"src-built-in/components/userPreferences/src\",\"react-dom\"]": {
+			"key": "normal/[\"src-built-in/components/userPreferences/src\",\"react-dom\"]",
+			"size": 56,
+			"start": 18735
+		},
+		"normal/[\"src-built-in/components/singleInputDialog/src\",\"react-dom\"]": {
+			"key": "normal/[\"src-built-in/components/singleInputDialog/src\",\"react-dom\"]",
+			"size": 56,
+			"start": 18791
+		},
+		"normal/[\"src-built-in/components/searchMenu/src\",\"react-dom\"]": {
+			"key": "normal/[\"src-built-in/components/searchMenu/src\",\"react-dom\"]",
+			"size": 56,
+			"start": 18847
+		},
+		"normal/[\"src-built-in/components/inputAndSelectionDialog/src\",\"react-dom\"]": {
+			"key": "normal/[\"src-built-in/components/inputAndSelectionDialog/src\",\"react-dom\"]",
+			"size": 56,
+			"start": 18903
+		},
+		"normal/[\"src-built-in/components/processMonitor/src\",\"react-dom\"]": {
+			"key": "normal/[\"src-built-in/components/processMonitor/src\",\"react-dom\"]",
+			"size": 56,
+			"start": 18959
+		},
+		"normal/[\"src-built-in/components/toolbar/src\",\"react-dom\"]": {
+			"key": "normal/[\"src-built-in/components/toolbar/src\",\"react-dom\"]",
+			"size": 56,
+			"start": 19015
+		},
+		"normal/[\"src-built-in/components/complexMenu\",\"../assets/css/finfont.css\"]": {
+			"key": "normal/[\"src-built-in/components/complexMenu\",\"../assets/css/finfont.css\"]",
+			"size": 71,
+			"start": 19071
+		},
+		"normal/[\"src-built-in/components/complexMenu\",\"../assets/css/finsemble.css\"]": {
+			"key": "normal/[\"src-built-in/components/complexMenu\",\"../assets/css/finsemble.css\"]",
+			"size": 73,
+			"start": 19142
+		},
+		"normal/[\"src-built-in/components/appLauncher/src/components\",\"react\"]": {
+			"key": "normal/[\"src-built-in/components/appLauncher/src/components\",\"react\"]",
+			"size": 52,
+			"start": 19215
+		},
+		"normal/[\"src-built-in/components/userPreferences/src/components\",\"../stores/UserPreferencesStore\"]": {
+			"key": "normal/[\"src-built-in/components/userPreferences/src/components\",\"../stores/UserPreferencesStore\"]",
+			"size": 100,
+			"start": 19267
+		},
+		"normal/[\"src-built-in/components/workspaceManagementMenu/src/components\",\"react\"]": {
+			"key": "normal/[\"src-built-in/components/workspaceManagementMenu/src/components\",\"react\"]",
+			"size": 52,
+			"start": 19367
+		},
+		"normal/[\"src-built-in/components/searchMenu/src/components\",\"./componentItem\"]": {
+			"key": "normal/[\"src-built-in/components/searchMenu/src/components\",\"./componentItem\"]",
+			"size": 92,
+			"start": 19419
+		},
+		"normal/[\"src-built-in/components/appCatalog/src/components\",\"react\"]": {
+			"key": "normal/[\"src-built-in/components/appCatalog/src/components\",\"react\"]",
+			"size": 52,
+			"start": 19511
+		},
+		"normal/[\"src-built-in/components/complexMenu\",\"react\"]": {
+			"key": "normal/[\"src-built-in/components/complexMenu\",\"react\"]",
+			"size": 52,
+			"start": 19563
+		},
+		"normal/[\"src-built-in/components/appLauncher/src\",\"@chartiq/finsemble-react-controls\"]": {
+			"key": "normal/[\"src-built-in/components/appLauncher/src\",\"@chartiq/finsemble-react-controls\"]",
+			"size": 85,
+			"start": 19615
+		},
+		"normal/[\"src-built-in/components/overflowMenu/src\",\"@chartiq/finsemble-react-controls\"]": {
+			"key": "normal/[\"src-built-in/components/overflowMenu/src\",\"@chartiq/finsemble-react-controls\"]",
+			"size": 85,
+			"start": 19700
+		},
+		"normal/[\"src-built-in/components/adhocComponentForm\",\"@chartiq/finsemble-react-controls\"]": {
+			"key": "normal/[\"src-built-in/components/adhocComponentForm\",\"@chartiq/finsemble-react-controls\"]",
+			"size": 85,
+			"start": 19785
+		},
+		"normal/[\"src-built-in/components/fileMenu/src\",\"@chartiq/finsemble-react-controls\"]": {
+			"key": "normal/[\"src-built-in/components/fileMenu/src\",\"@chartiq/finsemble-react-controls\"]",
+			"size": 85,
+			"start": 19870
+		},
+		"normal/[\"src-built-in/components/workspaceManagementMenu/src\",\"@chartiq/finsemble-react-controls\"]": {
+			"key": "normal/[\"src-built-in/components/workspaceManagementMenu/src\",\"@chartiq/finsemble-react-controls\"]",
+			"size": 85,
+			"start": 19955
+		},
+		"normal/[\"src-built-in/components/yesNoDialog/src\",\"@chartiq/finsemble-react-controls\"]": {
+			"key": "normal/[\"src-built-in/components/yesNoDialog/src\",\"@chartiq/finsemble-react-controls\"]",
+			"size": 85,
+			"start": 20040
+		},
+		"normal/[\"src-built-in/components/singleInputDialog/src\",\"@chartiq/finsemble-react-controls\"]": {
+			"key": "normal/[\"src-built-in/components/singleInputDialog/src\",\"@chartiq/finsemble-react-controls\"]",
+			"size": 85,
+			"start": 20125
+		},
+		"normal/[\"src-built-in/components/inputAndSelectionDialog/src\",\"@chartiq/finsemble-react-controls\"]": {
+			"key": "normal/[\"src-built-in/components/inputAndSelectionDialog/src\",\"@chartiq/finsemble-react-controls\"]",
+			"size": 85,
+			"start": 20210
+		},
+		"normal/[\"src-built-in/components/toolbar/src\",\"@chartiq/finsemble-react-controls\"]": {
+			"key": "normal/[\"src-built-in/components/toolbar/src\",\"@chartiq/finsemble-react-controls\"]",
+			"size": 85,
+			"start": 20295
+		},
+		"normal/[\"src-built-in/components/appLauncher/src/components\",\"@chartiq/finsemble-react-controls\"]": {
+			"key": "normal/[\"src-built-in/components/appLauncher/src/components\",\"@chartiq/finsemble-react-controls\"]",
+			"size": 85,
+			"start": 20380
+		},
+		"normal/[\"src-built-in/components/workspaceManagementMenu/src/components\",\"@chartiq/finsemble-react-controls\"]": {
+			"key": "normal/[\"src-built-in/components/workspaceManagementMenu/src/components\",\"@chartiq/finsemble-react-controls\"]",
+			"size": 85,
+			"start": 20465
+		},
+		"normal/[\"node_modules/react-table\",\"../style-loader/lib/addStyles.js\"]": {
+			"key": "normal/[\"node_modules/react-table\",\"../style-loader/lib/addStyles.js\"]",
+			"size": 67,
+			"start": 20550
+		},
+		"normal/[\"src-built-in/components/appLauncher\",\"../../../node_modules/style-loader/lib/addStyles.js\"]": {
+			"key": "normal/[\"src-built-in/components/appLauncher\",\"../../../node_modules/style-loader/lib/addStyles.js\"]",
+			"size": 67,
+			"start": 20617
+		},
+		"normal/[\"src-built-in/components/adhocComponentForm\",\"../../../node_modules/style-loader/lib/addStyles.js\"]": {
+			"key": "normal/[\"src-built-in/components/adhocComponentForm\",\"../../../node_modules/style-loader/lib/addStyles.js\"]",
+			"size": 67,
+			"start": 20684
+		},
+		"normal/[\"src-built-in/components/fileMenu\",\"../../../node_modules/style-loader/lib/addStyles.js\"]": {
+			"key": "normal/[\"src-built-in/components/fileMenu\",\"../../../node_modules/style-loader/lib/addStyles.js\"]",
+			"size": 67,
+			"start": 20751
+		},
+		"normal/[\"src-built-in/components/workspaceManagementMenu\",\"../../../node_modules/style-loader/lib/addStyles.js\"]": {
+			"key": "normal/[\"src-built-in/components/workspaceManagementMenu\",\"../../../node_modules/style-loader/lib/addStyles.js\"]",
+			"size": 67,
+			"start": 20818
+		},
+		"normal/[\"src-built-in/components/appCatalog\",\"../../../node_modules/style-loader/lib/addStyles.js\"]": {
+			"key": "normal/[\"src-built-in/components/appCatalog\",\"../../../node_modules/style-loader/lib/addStyles.js\"]",
+			"size": 67,
+			"start": 20885
+		},
+		"normal/[\"src-built-in/components/userPreferences\",\"../../../node_modules/style-loader/lib/addStyles.js\"]": {
+			"key": "normal/[\"src-built-in/components/userPreferences\",\"../../../node_modules/style-loader/lib/addStyles.js\"]",
+			"size": 67,
+			"start": 20952
+		},
+		"normal/[\"src-built-in/components/searchMenu\",\"../../../node_modules/style-loader/lib/addStyles.js\"]": {
+			"key": "normal/[\"src-built-in/components/searchMenu\",\"../../../node_modules/style-loader/lib/addStyles.js\"]",
+			"size": 67,
+			"start": 21019
+		},
+		"normal/[\"src-built-in/components/inputAndSelectionDialog\",\"../../../node_modules/style-loader/lib/addStyles.js\"]": {
+			"key": "normal/[\"src-built-in/components/inputAndSelectionDialog\",\"../../../node_modules/style-loader/lib/addStyles.js\"]",
+			"size": 67,
+			"start": 21086
+		},
+		"normal/[\"src-built-in/components/processMonitor\",\"../../../node_modules/style-loader/lib/addStyles.js\"]": {
+			"key": "normal/[\"src-built-in/components/processMonitor\",\"../../../node_modules/style-loader/lib/addStyles.js\"]",
+			"size": 67,
+			"start": 21153
+		},
+		"normal/[\"src-built-in/components/assets/css\",\"../../../../node_modules/style-loader/lib/addStyles.js\"]": {
+			"key": "normal/[\"src-built-in/components/assets/css\",\"../../../../node_modules/style-loader/lib/addStyles.js\"]",
+			"size": 67,
+			"start": 21220
+		},
+		"normal/[\"src-built-in/components/linker/src/css\",\"../../../../../node_modules/style-loader/lib/addStyles.js\"]": {
+			"key": "normal/[\"src-built-in/components/linker/src/css\",\"../../../../../node_modules/style-loader/lib/addStyles.js\"]",
+			"size": 67,
+			"start": 21287
+		},
+		"normal/[\"src-built-in/components/processMonitor/src/components\",\"../helpers\"]": {
+			"key": "normal/[\"src-built-in/components/processMonitor/src/components\",\"../helpers\"]",
+			"size": 78,
+			"start": 21354
+		},
+		"normal/[\"src-built-in/components/processMonitor/src/components\",\"../constants\"]": {
+			"key": "normal/[\"src-built-in/components/processMonitor/src/components\",\"../constants\"]",
+			"size": 80,
+			"start": 21432
+		},
+		"normal/[\"src-built-in/components/processMonitor/src/components\",\"../stores/ProcessMonitorStore\"]": {
+			"key": "normal/[\"src-built-in/components/processMonitor/src/components\",\"../stores/ProcessMonitorStore\"]",
+			"size": 98,
+			"start": 21512
+		},
+		"normal/[\"src-built-in/components/userPreferences/src/components\",\"react\"]": {
+			"key": "normal/[\"src-built-in/components/userPreferences/src/components\",\"react\"]",
+			"size": 52,
+			"start": 21610
+		},
+		"normal/[\"src-built-in/components/processMonitor/src\",\"react-table\"]": {
+			"key": "normal/[\"src-built-in/components/processMonitor/src\",\"react-table\"]",
+			"size": 61,
+			"start": 21662
+		},
+		"normal/[\"src-built-in/components/processMonitor/src/components\",\"./CellRenderer\"]": {
+			"key": "normal/[\"src-built-in/components/processMonitor/src/components\",\"./CellRenderer\"]",
+			"size": 95,
+			"start": 21723
+		},
+		"normal/[\"src-built-in/components/searchMenu/src/components\",\"react\"]": {
+			"key": "normal/[\"src-built-in/components/searchMenu/src/components\",\"react\"]",
+			"size": 52,
+			"start": 21818
+		},
+		"normal/[\"src-built-in/components/toolbar/src\",\"../toolbar.css\"]": {
+			"key": "normal/[\"src-built-in/components/toolbar/src\",\"../toolbar.css\"]",
+			"size": 68,
+			"start": 21870
+		},
+		"normal/[\"src-built-in/components/toolbar\",\"../../../node_modules/style-loader/lib/addStyles.js\"]": {
+			"key": "normal/[\"src-built-in/components/toolbar\",\"../../../node_modules/style-loader/lib/addStyles.js\"]",
+			"size": 67,
+			"start": 21938
+		},
+		"normal/[\"src-built-in/components/toolbar\",\"./toolbar.css\"]": {
+			"key": "normal/[\"src-built-in/components/toolbar\",\"./toolbar.css\"]",
+			"size": 68,
+			"start": 22005
+		},
+		"normal/[\"src-built-in/components/searchMenu/src\",\"lodash.throttle\"]": {
+			"key": "normal/[\"src-built-in/components/searchMenu/src\",\"lodash.throttle\"]",
+			"size": 62,
+			"start": 22073
+		},
+		"normal/[\"src-built-in/components/processMonitor/src/components\",\"react\"]": {
+			"key": "normal/[\"src-built-in/components/processMonitor/src/components\",\"react\"]",
+			"size": 52,
+			"start": 22135
+		},
+		"normal/[\"src-built-in/components/complexMenu\",\"./menu.css\"]": {
+			"key": "normal/[\"src-built-in/components/complexMenu\",\"./menu.css\"]",
+			"size": 69,
+			"start": 22187
+		},
+		"normal/[\"src-built-in/components/complexMenu\",\"../../../node_modules/style-loader/lib/addStyles.js\"]": {
+			"key": "normal/[\"src-built-in/components/complexMenu\",\"../../../node_modules/style-loader/lib/addStyles.js\"]",
+			"size": 67,
+			"start": 22256
+		},
+		"normal/[\"src-built-in/components/fileMenu/src/stores\",\"events\"]": {
+			"key": "normal/[\"src-built-in/components/fileMenu/src/stores\",\"events\"]",
+			"size": 54,
+			"start": 22323
+		},
+		"normal/[\"src-built-in/components/linker/src/stores\",\"events\"]": {
+			"key": "normal/[\"src-built-in/components/linker/src/stores\",\"events\"]",
+			"size": 54,
+			"start": 22377
+		},
+		"normal/[\"src-built-in/components/toolbar/src\",\"../stores/toolbarStore\"]": {
+			"key": "normal/[\"src-built-in/components/toolbar/src\",\"../stores/toolbarStore\"]",
+			"size": 79,
+			"start": 22431
+		},
+		"normal/[\"src-built-in/components/fileMenu\",\"../assets/css/_globals.css\"]": {
+			"key": "normal/[\"src-built-in/components/fileMenu\",\"../assets/css/_globals.css\"]",
+			"size": 72,
+			"start": 22510
+		},
+		"normal/[\"src-built-in/components/appLauncher\",\"../assets/css/_globals.css\"]": {
+			"key": "normal/[\"src-built-in/components/appLauncher\",\"../assets/css/_globals.css\"]",
+			"size": 72,
+			"start": 22582
+		},
+		"normal/[\"src-built-in/components/workspaceManagementMenu\",\"../assets/css/_globals.css\"]": {
+			"key": "normal/[\"src-built-in/components/workspaceManagementMenu\",\"../assets/css/_globals.css\"]",
+			"size": 72,
+			"start": 22654
+		},
+		"normal/[\"src-built-in/components/searchMenu\",\"../assets/css/_globals.css\"]": {
+			"key": "normal/[\"src-built-in/components/searchMenu\",\"../assets/css/_globals.css\"]",
+			"size": 72,
+			"start": 22726
+		},
+		"normal/[\"src-built-in/components/userPreferences\",\"../assets/css/_globals.css\"]": {
+			"key": "normal/[\"src-built-in/components/userPreferences\",\"../assets/css/_globals.css\"]",
+			"size": 72,
+			"start": 22798
+		},
+		"normal/[\"src-built-in/components/appCatalog\",\"../assets/css/_globals.css\"]": {
+			"key": "normal/[\"src-built-in/components/appCatalog\",\"../assets/css/_globals.css\"]",
+			"size": 72,
+			"start": 22870
+		},
+		"normal/[\"src-built-in/components/linker/src/css\",\"../../../assets/css/_globals.css\"]": {
+			"key": "normal/[\"src-built-in/components/linker/src/css\",\"../../../assets/css/_globals.css\"]",
+			"size": 72,
+			"start": 22942
+		},
+		"normal/[\"src-built-in/components/fileMenu\",\"../assets/css/_menus.css\"]": {
+			"key": "normal/[\"src-built-in/components/fileMenu\",\"../assets/css/_menus.css\"]",
+			"size": 70,
+			"start": 23014
+		},
+		"normal/[\"src-built-in/components/appLauncher\",\"../assets/css/_menus.css\"]": {
+			"key": "normal/[\"src-built-in/components/appLauncher\",\"../assets/css/_menus.css\"]",
+			"size": 70,
+			"start": 23084
+		},
+		"normal/[\"src-built-in/components/workspaceManagementMenu\",\"../assets/css/_menus.css\"]": {
+			"key": "normal/[\"src-built-in/components/workspaceManagementMenu\",\"../assets/css/_menus.css\"]",
+			"size": 70,
+			"start": 23154
+		},
+		"normal/[\"src-built-in/components/searchMenu\",\"../assets/css/_menus.css\"]": {
+			"key": "normal/[\"src-built-in/components/searchMenu\",\"../assets/css/_menus.css\"]",
+			"size": 70,
+			"start": 23224
+		},
+		"normal/[\"src-built-in/components/userPreferences\",\"../assets/css/_menus.css\"]": {
+			"key": "normal/[\"src-built-in/components/userPreferences\",\"../assets/css/_menus.css\"]",
+			"size": 70,
+			"start": 23294
+		},
+		"normal/[\"src-built-in/components/appCatalog\",\"../assets/css/_menus.css\"]": {
+			"key": "normal/[\"src-built-in/components/appCatalog\",\"../assets/css/_menus.css\"]",
+			"size": 70,
+			"start": 23364
+		},
+		"normal/[\"src-built-in/components/assets/css\",\"./_menus.css\"]": {
+			"key": "normal/[\"src-built-in/components/assets/css\",\"./_menus.css\"]",
+			"size": 70,
+			"start": 23434
+		},
+		"normal/[\"src-built-in/components/inputAndSelectionDialog\",\"../assets/css/_variables.css\"]": {
+			"key": "normal/[\"src-built-in/components/inputAndSelectionDialog\",\"../assets/css/_variables.css\"]",
+			"size": 74,
+			"start": 23504
+		},
+		"normal/[\"src-built-in/components/assets/css\",\"./_variables.css\"]": {
+			"key": "normal/[\"src-built-in/components/assets/css\",\"./_variables.css\"]",
+			"size": 74,
+			"start": 23578
+		},
+		"normal/[\"src-built-in/components/inputAndSelectionDialog\",\"../assets/css/_variablesWhitelabel.css\"]": {
+			"key": "normal/[\"src-built-in/components/inputAndSelectionDialog\",\"../assets/css/_variablesWhitelabel.css\"]",
+			"size": 84,
+			"start": 23652
+		},
+		"normal/[\"src-built-in/components/assets/css\",\"./_variablesWhitelabel.css\"]": {
+			"key": "normal/[\"src-built-in/components/assets/css\",\"./_variablesWhitelabel.css\"]",
+			"size": 84,
+			"start": 23736
+		},
+		"normal/[\"src-built-in/components/assets/css\",\"./_windowFrame.css\"]": {
+			"key": "normal/[\"src-built-in/components/assets/css\",\"./_windowFrame.css\"]",
+			"size": 76,
+			"start": 23820
+		},
+		"normal/[\"src-built-in/components/assets/css\",\"./_fontIcons.css\"]": {
+			"key": "normal/[\"src-built-in/components/assets/css\",\"./_fontIcons.css\"]",
+			"size": 74,
+			"start": 23896
+		},
+		"normal/[\"src-built-in/components/assets/css\",\"./_scrollbars.css\"]": {
+			"key": "normal/[\"src-built-in/components/assets/css\",\"./_scrollbars.css\"]",
+			"size": 75,
+			"start": 23970
+		},
+		"normal/[\"src-built-in/components/assets/css\",\"./_windowTitleBar.css\"]": {
+			"key": "normal/[\"src-built-in/components/assets/css\",\"./_windowTitleBar.css\"]",
+			"size": 79,
+			"start": 24045
+		},
+		"normal/[\"src-built-in/components/assets/css\",\"./_toolbar.css\"]": {
+			"key": "normal/[\"src-built-in/components/assets/css\",\"./_toolbar.css\"]",
+			"size": 72,
+			"start": 24124
+		},
+		"normal/[\"src-built-in/components/assets/css\",\"./_formElements.css\"]": {
+			"key": "normal/[\"src-built-in/components/assets/css\",\"./_formElements.css\"]",
+			"size": 77,
+			"start": 24196
+		},
+		"normal/[\"src-built-in/components/assets/css\",\"./_workspaceManagement.css\"]": {
+			"key": "normal/[\"src-built-in/components/assets/css\",\"./_workspaceManagement.css\"]",
+			"size": 84,
+			"start": 24273
+		},
+		"normal/[\"src-built-in/components/assets/css\",\"./_notification.css\"]": {
+			"key": "normal/[\"src-built-in/components/assets/css\",\"./_notification.css\"]",
+			"size": 77,
+			"start": 24357
+		},
+		"normal/[\"src-built-in/components/assets/css\",\"./_styleWhitelabel.css\"]": {
+			"key": "normal/[\"src-built-in/components/assets/css\",\"./_styleWhitelabel.css\"]",
+			"size": 80,
+			"start": 24434
+		},
+		"normal/[\"src-built-in/components/assets/css\",\"./_dialogs.css\"]": {
+			"key": "normal/[\"src-built-in/components/assets/css\",\"./_dialogs.css\"]",
+			"size": 72,
+			"start": 24514
+		},
+		"normal/[\"src-built-in/components/appCatalog/src/components\",\"../stores/searchStore\"]": {
+			"key": "normal/[\"src-built-in/components/appCatalog/src/components\",\"../stores/searchStore\"]",
+			"size": 85,
+			"start": 24586
+		},
+		"normal/[\"src-built-in/components/toolbar\",\"../assets/css/_globals.css\"]": {
+			"key": "normal/[\"src-built-in/components/toolbar\",\"../assets/css/_globals.css\"]",
+			"size": 72,
+			"start": 24671
+		},
+		"normal/[\"src-built-in/components/toolbar\",\"../assets/css/_toolbar.css\"]": {
+			"key": "normal/[\"src-built-in/components/toolbar\",\"../assets/css/_toolbar.css\"]",
+			"size": 72,
+			"start": 24743
+		},
+		"normal/[\"src-built-in/components/appLauncher/src/components\",\"./componentItem\"]": {
+			"key": "normal/[\"src-built-in/components/appLauncher/src/components\",\"./componentItem\"]",
+			"size": 93,
+			"start": 24815
+		},
+		"normal/[\"src-built-in/components/fileMenu\",\"../../../node_modules/css-loader/lib/css-base.js\"]": {
+			"key": "normal/[\"src-built-in/components/fileMenu\",\"../../../node_modules/css-loader/lib/css-base.js\"]",
+			"size": 64,
+			"start": 24908
+		},
+		"normal/[\"src-built-in/components/adhocComponentForm\",\"../../../node_modules/css-loader/lib/css-base.js\"]": {
+			"key": "normal/[\"src-built-in/components/adhocComponentForm\",\"../../../node_modules/css-loader/lib/css-base.js\"]",
+			"size": 64,
+			"start": 24972
+		},
+		"normal/[\"node_modules/react-table\",\"../css-loader/lib/css-base.js\"]": {
+			"key": "normal/[\"node_modules/react-table\",\"../css-loader/lib/css-base.js\"]",
+			"size": 64,
+			"start": 25036
+		},
+		"normal/[\"src-built-in/components/appLauncher\",\"../../../node_modules/css-loader/lib/css-base.js\"]": {
+			"key": "normal/[\"src-built-in/components/appLauncher\",\"../../../node_modules/css-loader/lib/css-base.js\"]",
+			"size": 64,
+			"start": 25100
+		},
+		"normal/[\"src-built-in/components/workspaceManagementMenu\",\"../../../node_modules/css-loader/lib/css-base.js\"]": {
+			"key": "normal/[\"src-built-in/components/workspaceManagementMenu\",\"../../../node_modules/css-loader/lib/css-base.js\"]",
+			"size": 64,
+			"start": 25164
+		},
+		"normal/[\"src-built-in/components/searchMenu\",\"../../../node_modules/css-loader/lib/css-base.js\"]": {
+			"key": "normal/[\"src-built-in/components/searchMenu\",\"../../../node_modules/css-loader/lib/css-base.js\"]",
+			"size": 64,
+			"start": 25228
+		},
+		"normal/[\"src-built-in/components/userPreferences\",\"../../../node_modules/css-loader/lib/css-base.js\"]": {
+			"key": "normal/[\"src-built-in/components/userPreferences\",\"../../../node_modules/css-loader/lib/css-base.js\"]",
+			"size": 64,
+			"start": 25292
+		},
+		"normal/[\"src-built-in/components/appCatalog\",\"../../../node_modules/css-loader/lib/css-base.js\"]": {
+			"key": "normal/[\"src-built-in/components/appCatalog\",\"../../../node_modules/css-loader/lib/css-base.js\"]",
+			"size": 64,
+			"start": 25356
+		},
+		"normal/[\"src-built-in/components/inputAndSelectionDialog\",\"../../../node_modules/css-loader/lib/css-base.js\"]": {
+			"key": "normal/[\"src-built-in/components/inputAndSelectionDialog\",\"../../../node_modules/css-loader/lib/css-base.js\"]",
+			"size": 64,
+			"start": 25420
+		},
+		"normal/[\"src-built-in/components/processMonitor\",\"../../../node_modules/css-loader/lib/css-base.js\"]": {
+			"key": "normal/[\"src-built-in/components/processMonitor\",\"../../../node_modules/css-loader/lib/css-base.js\"]",
+			"size": 64,
+			"start": 25484
+		},
+		"normal/[\"src-built-in/components/assets/css\",\"../../../../node_modules/css-loader/lib/css-base.js\"]": {
+			"key": "normal/[\"src-built-in/components/assets/css\",\"../../../../node_modules/css-loader/lib/css-base.js\"]",
+			"size": 64,
+			"start": 25548
+		},
+		"normal/[\"src-built-in/components/linker/src/css\",\"../../../../../node_modules/css-loader/lib/css-base.js\"]": {
+			"key": "normal/[\"src-built-in/components/linker/src/css\",\"../../../../../node_modules/css-loader/lib/css-base.js\"]",
+			"size": 64,
+			"start": 25612
+		},
+		"normal/[\"src-built-in/components/toolbar\",\"../../../node_modules/css-loader/lib/css-base.js\"]": {
+			"key": "normal/[\"src-built-in/components/toolbar\",\"../../../node_modules/css-loader/lib/css-base.js\"]",
+			"size": 64,
+			"start": 25676
+		},
+		"normal/[\"src-built-in/components/assets/css\",\"../../../../node_modules/css-loader/lib/url/escape.js\"]": {
+			"key": "normal/[\"src-built-in/components/assets/css\",\"../../../../node_modules/css-loader/lib/url/escape.js\"]",
+			"size": 66,
+			"start": 25740
+		},
+		"normal/[\"src-built-in/components/assets/css\",\"./fonts/finfont.eot\"]": {
+			"key": "normal/[\"src-built-in/components/assets/css\",\"./fonts/finfont.eot\"]",
+			"size": 77,
+			"start": 25806
+		},
+		"normal/[\"src-built-in/components/assets/css\",\"./fonts/finfont.ttf\"]": {
+			"key": "normal/[\"src-built-in/components/assets/css\",\"./fonts/finfont.ttf\"]",
+			"size": 77,
+			"start": 25883
+		},
+		"normal/[\"src-built-in/components/assets/css\",\"./fonts/finfont.woff\"]": {
+			"key": "normal/[\"src-built-in/components/assets/css\",\"./fonts/finfont.woff\"]",
+			"size": 78,
+			"start": 25960
+		},
+		"normal/[\"src-built-in/components/assets/css\",\"./fonts/finfont.svg\"]": {
+			"key": "normal/[\"src-built-in/components/assets/css\",\"./fonts/finfont.svg\"]",
+			"size": 77,
+			"start": 26038
+		},
+		"normal/[\"src-built-in/components/workspaceManagementMenu/src/components\",\"./workspace\"]": {
+			"key": "normal/[\"src-built-in/components/workspaceManagementMenu/src/components\",\"./workspace\"]",
+			"size": 101,
+			"start": 26115
+		},
+		"normal/[\"src-built-in/components/toolbar/src\",\"../components/AlwaysOnTop\"]": {
+			"key": "normal/[\"src-built-in/components/toolbar/src\",\"../components/AlwaysOnTop\"]",
+			"size": 83,
+			"start": 26216
+		},
+		"normal/[\"src-built-in/components/toolbar/src\",\"../components/AutoArrange\"]": {
+			"key": "normal/[\"src-built-in/components/toolbar/src\",\"../components/AutoArrange\"]",
+			"size": 83,
+			"start": 26299
+		},
+		"normal/[\"src-built-in/components/toolbar/src\",\"../components/BringToFront\"]": {
+			"key": "normal/[\"src-built-in/components/toolbar/src\",\"../components/BringToFront\"]",
+			"size": 84,
+			"start": 26382
+		},
+		"normal/[\"src-built-in/components/toolbar/src\",\"../components/Search\"]": {
+			"key": "normal/[\"src-built-in/components/toolbar/src\",\"../components/Search\"]",
+			"size": 78,
+			"start": 26466
+		},
+		"normal/[\"src-built-in/components/toolbar/src\",\"../components/MinimizeAll\"]": {
+			"key": "normal/[\"src-built-in/components/toolbar/src\",\"../components/MinimizeAll\"]",
+			"size": 83,
+			"start": 26544
+		},
+		"normal/[\"src-built-in/components/toolbar/src\",\"../components/WorkspaceMenuOpener\"]": {
+			"key": "normal/[\"src-built-in/components/toolbar/src\",\"../components/WorkspaceMenuOpener\"]",
+			"size": 91,
+			"start": 26627
+		},
+		"normal/[\"src-built-in/components/toolbar/src\",\"../components/WorkspaceLauncherButton\"]": {
+			"key": "normal/[\"src-built-in/components/toolbar/src\",\"../components/WorkspaceLauncherButton\"]",
+			"size": 95,
+			"start": 26718
+		},
+		"normal/[\"src-built-in/components/appCatalog/src/components\",\"./AppDetails\"]": {
+			"key": "normal/[\"src-built-in/components/appCatalog/src/components\",\"./AppDetails\"]",
+			"size": 89,
+			"start": 26813
+		},
+		"normal/[\"src-built-in/components/appCatalog/src/components\",\"./AppList\"]": {
+			"key": "normal/[\"src-built-in/components/appCatalog/src/components\",\"./AppList\"]",
+			"size": 86,
+			"start": 26902
+		},
+		"normal/[\"node_modules/react-table/es\",\"react\"]": {
+			"key": "normal/[\"node_modules/react-table/es\",\"react\"]",
+			"size": 52,
+			"start": 26988
+		},
+		"normal/[\"src-built-in/components/complexMenu\",\"../../../node_modules/css-loader/lib/css-base.js\"]": {
+			"key": "normal/[\"src-built-in/components/complexMenu\",\"../../../node_modules/css-loader/lib/css-base.js\"]",
+			"size": 64,
+			"start": 27040
+		},
+		"normal/[\"src-built-in/components/complexMenu\",\"../assets/css/_globals.css\"]": {
+			"key": "normal/[\"src-built-in/components/complexMenu\",\"../assets/css/_globals.css\"]",
+			"size": 72,
+			"start": 27104
+		},
+		"normal/[\"src-built-in/components/complexMenu\",\"../assets/css/_menus.css\"]": {
+			"key": "normal/[\"src-built-in/components/complexMenu\",\"../assets/css/_menus.css\"]",
+			"size": 70,
+			"start": 27176
+		},
+		"normal/[\"src-built-in/components/userPreferences/src/components\",\"./content/Toolbar\"]": {
+			"key": "normal/[\"src-built-in/components/userPreferences/src/components\",\"./content/Toolbar\"]",
+			"size": 99,
+			"start": 27246
+		},
+		"normal/[\"src-built-in/components/userPreferences/src/components\",\"./content/General\"]": {
+			"key": "normal/[\"src-built-in/components/userPreferences/src/components\",\"./content/General\"]",
+			"size": 99,
+			"start": 27345
+		},
+		"normal/[\"src-built-in/components/userPreferences/src/components\",\"./content/Workspaces\"]": {
+			"key": "normal/[\"src-built-in/components/userPreferences/src/components\",\"./content/Workspaces\"]",
+			"size": 102,
+			"start": 27444
+		},
+		"normal/[\"src-built-in/components/assets/css\",\"./_globals.css\"]": {
+			"key": "normal/[\"src-built-in/components/assets/css\",\"./_globals.css\"]",
+			"size": 72,
+			"start": 27546
+		},
+		"normal/[\"node_modules/style-loader/lib\",\"./urls\"]": {
+			"key": "normal/[\"node_modules/style-loader/lib\",\"./urls\"]",
+			"size": 62,
+			"start": 27618
+		},
+		"normal/[\"node_modules/react-table/es\",\"./utils\"]": {
+			"key": "normal/[\"node_modules/react-table/es\",\"./utils\"]",
+			"size": 61,
+			"start": 27680
+		},
+		"normal/[\"node_modules/react-table/es\",\"./lifecycle\"]": {
+			"key": "normal/[\"node_modules/react-table/es\",\"./lifecycle\"]",
+			"size": 65,
+			"start": 27741
+		},
+		"normal/[\"node_modules/react-table/es\",\"./methods\"]": {
+			"key": "normal/[\"node_modules/react-table/es\",\"./methods\"]",
+			"size": 63,
+			"start": 27806
+		},
+		"normal/[\"node_modules/react-table/es\",\"./defaultProps\"]": {
+			"key": "normal/[\"node_modules/react-table/es\",\"./defaultProps\"]",
+			"size": 68,
+			"start": 27869
+		},
+		"normal/[\"node_modules/react-table/es\",\"./propTypes\"]": {
+			"key": "normal/[\"node_modules/react-table/es\",\"./propTypes\"]",
+			"size": 65,
+			"start": 27937
+		},
+		"normal/[\"src-built-in/components/assets/css\",\"../css/perfect-scrollbar.css\"]": {
+			"key": "normal/[\"src-built-in/components/assets/css\",\"../css/perfect-scrollbar.css\"]",
+			"size": 81,
+			"start": 28002
+		},
+		"normal/[\"src-built-in/components/assets/css\",\"./_fontIconWhitelabel.css\"]": {
+			"key": "normal/[\"src-built-in/components/assets/css\",\"./_fontIconWhitelabel.css\"]",
+			"size": 83,
+			"start": 28083
+		},
+		"normal/[\"src-built-in/components/assets/css\",\"../img/Finsemble_Taskbar_Icon.png\"]": {
+			"key": "normal/[\"src-built-in/components/assets/css\",\"../img/Finsemble_Taskbar_Icon.png\"]",
+			"size": 86,
+			"start": 28166
+		},
+		"normal/[\"node_modules/lodash.throttle\",\"./../webpack/buildin/global.js\"]": {
+			"key": "normal/[\"node_modules/lodash.throttle\",\"./../webpack/buildin/global.js\"]",
+			"size": 63,
+			"start": 28252
+		},
+		"normal/[\"src-built-in/components/processMonitor/src/stores\",\"async/timesSeries\"]": {
+			"key": "normal/[\"src-built-in/components/processMonitor/src/stores\",\"async/timesSeries\"]",
+			"size": 58,
+			"start": 28315
+		},
+		"normal/[\"src-built-in/components/linker/src/stores\",\"flux\"]": {
+			"key": "normal/[\"src-built-in/components/linker/src/stores\",\"flux\"]",
+			"size": 51,
+			"start": 28373
+		},
+		"normal/[\"src-built-in/components/appLauncher/src/stores\",\"async\"]": {
+			"key": "normal/[\"src-built-in/components/appLauncher/src/stores\",\"async\"]",
+			"size": 57,
+			"start": 28424
+		},
+		"normal/[\"src-built-in/components/searchMenu/src/stores\",\"async\"]": {
+			"key": "normal/[\"src-built-in/components/searchMenu/src/stores\",\"async\"]",
+			"size": 57,
+			"start": 28481
+		},
+		"normal/[\"src-built-in/components/workspaceManagementMenu/src/stores\",\"async\"]": {
+			"key": "normal/[\"src-built-in/components/workspaceManagementMenu/src/stores\",\"async\"]",
+			"size": 57,
+			"start": 28538
+		},
+		"normal/[\"src-built-in/components/userPreferences/src/stores\",\"async\"]": {
+			"key": "normal/[\"src-built-in/components/userPreferences/src/stores\",\"async\"]",
+			"size": 57,
+			"start": 28595
+		},
+		"normal/[\"src-built-in/components/toolbar/stores\",\"async\"]": {
+			"key": "normal/[\"src-built-in/components/toolbar/stores\",\"async\"]",
+			"size": 57,
+			"start": 28652
+		},
+		"normal/[\"src-built-in/components/toolbar/components\",\"../stores/toolbarStore\"]": {
+			"key": "normal/[\"src-built-in/components/toolbar/components\",\"../stores/toolbarStore\"]",
+			"size": 79,
+			"start": 28709
+		},
+		"normal/[\"src-built-in/components/toolbar/components\",\"react\"]": {
+			"key": "normal/[\"src-built-in/components/toolbar/components\",\"react\"]",
+			"size": 52,
+			"start": 28788
+		},
+		"normal/[\"src-built-in/components/toolbar/components\",\"@chartiq/finsemble-react-controls\"]": {
+			"key": "normal/[\"src-built-in/components/toolbar/components\",\"@chartiq/finsemble-react-controls\"]",
+			"size": 85,
+			"start": 28840
+		},
+		"normal/[\"src-built-in/components/toolbar/stores\",\"../config.json\"]": {
+			"key": "normal/[\"src-built-in/components/toolbar/stores\",\"../config.json\"]",
+			"size": 68,
+			"start": 28925
+		},
+		"normal/[\"node_modules/react-table/es\",\"./pagination\"]": {
+			"key": "normal/[\"node_modules/react-table/es\",\"./pagination\"]",
+			"size": 66,
+			"start": 28993
+		},
+		"normal/[\"src-built-in/components/userPreferences/src/components/content\",\"../../stores/UserPreferencesStore\"]": {
+			"key": "normal/[\"src-built-in/components/userPreferences/src/components/content\",\"../../stores/UserPreferencesStore\"]",
+			"size": 100,
+			"start": 29059
+		},
+		"normal/[\"src-built-in/components/userPreferences/src/components/content\",\"react\"]": {
+			"key": "normal/[\"src-built-in/components/userPreferences/src/components/content\",\"react\"]",
+			"size": 52,
+			"start": 29159
+		},
+		"normal/[\"src-built-in/components/userPreferences/src/components/content\",\"async\"]": {
+			"key": "normal/[\"src-built-in/components/userPreferences/src/components/content\",\"async\"]",
+			"size": 57,
+			"start": 29211
+		},
+		"normal/[\"src-built-in/components/toolbar/components\",\"../stores/searchStore\"]": {
+			"key": "normal/[\"src-built-in/components/toolbar/components\",\"../stores/searchStore\"]",
+			"size": 78,
+			"start": 29268
+		},
+		"normal/[\"node_modules/async\",\"./timesLimit\"]": {
+			"key": "normal/[\"node_modules/async\",\"./timesLimit\"]",
+			"size": 57,
+			"start": 29346
+		},
+		"normal/[\"node_modules/react-table/es\",\"classnames\"]": {
+			"key": "normal/[\"node_modules/react-table/es\",\"classnames\"]",
+			"size": 57,
+			"start": 29403
+		},
+		"normal/[\"node_modules/async\",\"./internal/doLimit\"]": {
+			"key": "normal/[\"node_modules/async\",\"./internal/doLimit\"]",
+			"size": 63,
+			"start": 29460
+		},
+		"normal/[\"src-built-in/components/appCatalog/src/components\",\"./App\"]": {
+			"key": "normal/[\"src-built-in/components/appCatalog/src/components\",\"./App\"]",
+			"size": 82,
+			"start": 29523
+		},
+		"normal/[\"node_modules/flux\",\"./lib/Dispatcher\"]": {
+			"key": "normal/[\"node_modules/flux\",\"./lib/Dispatcher\"]",
+			"size": 60,
+			"start": 29605
+		},
+		"normal/[\"src-built-in/components/userPreferences/src/components/content\",\"../checkbox\"]": {
+			"key": "normal/[\"src-built-in/components/userPreferences/src/components/content\",\"../checkbox\"]",
+			"size": 92,
+			"start": 29665
+		},
+		"normal/[\"src-built-in/components/userPreferences/src/components/content\",\"../general/ScheduledRestart\"]": {
+			"key": "normal/[\"src-built-in/components/userPreferences/src/components/content\",\"../general/ScheduledRestart\"]",
+			"size": 108,
+			"start": 29757
+		},
+		"normal/[\"src-built-in/components/appCatalog/src/stores\",\"async\"]": {
+			"key": "normal/[\"src-built-in/components/appCatalog/src/stores\",\"async\"]",
+			"size": 57,
+			"start": 29865
+		},
+		"normal/[\"node_modules/async\",\"./mapLimit\"]": {
+			"key": "normal/[\"node_modules/async\",\"./mapLimit\"]",
+			"size": 55,
+			"start": 29922
+		},
+		"normal/[\"node_modules/async\",\"./internal/wrapAsync\"]": {
+			"key": "normal/[\"node_modules/async\",\"./internal/wrapAsync\"]",
+			"size": 65,
+			"start": 29977
+		},
+		"normal/[\"node_modules/react-table/es\",\"prop-types\"]": {
+			"key": "normal/[\"node_modules/react-table/es\",\"prop-types\"]",
+			"size": 57,
+			"start": 30042
+		},
+		"normal/[\"src-built-in/components/userPreferences/src/components/content\",\"@chartiq/finsemble-react-controls\"]": {
+			"key": "normal/[\"src-built-in/components/userPreferences/src/components/content\",\"@chartiq/finsemble-react-controls\"]",
+			"size": 85,
+			"start": 30099
+		},
+		"normal/[\"src-built-in/components/toolbar/components\",\"lodash.debounce\"]": {
+			"key": "normal/[\"src-built-in/components/toolbar/components\",\"lodash.debounce\"]",
+			"size": 62,
+			"start": 30184
+		},
+		"normal/[\"src-built-in/components/appCatalog/src/components\",\"lodash.debounce\"]": {
+			"key": "normal/[\"src-built-in/components/appCatalog/src/components\",\"lodash.debounce\"]",
+			"size": 62,
+			"start": 30246
+		},
+		"normal/[\"node_modules/async\",\"lodash/_baseRange\"]": {
+			"key": "normal/[\"node_modules/async\",\"lodash/_baseRange\"]",
+			"size": 77,
+			"start": 30308
+		},
+		"normal/[\"node_modules/flux/lib\",\"fbjs/lib/invariant\"]": {
+			"key": "normal/[\"node_modules/flux/lib\",\"fbjs/lib/invariant\"]",
+			"size": 59,
+			"start": 30385
+		},
+		"normal/[\"src-built-in/components/userPreferences/src/components/general\",\"../../stores/UserPreferencesStore\"]": {
+			"key": "normal/[\"src-built-in/components/userPreferences/src/components/general\",\"../../stores/UserPreferencesStore\"]",
+			"size": 100,
+			"start": 30444
+		},
+		"normal/[\"src-built-in/components/userPreferences/src/components/general\",\"../checkbox\"]": {
+			"key": "normal/[\"src-built-in/components/userPreferences/src/components/general\",\"../checkbox\"]",
+			"size": 92,
+			"start": 30544
+		},
+		"normal/[\"node_modules/async\",\"./internal/doParallelLimit\"]": {
+			"key": "normal/[\"node_modules/async\",\"./internal/doParallelLimit\"]",
+			"size": 71,
+			"start": 30636
+		},
+		"normal/[\"node_modules/async\",\"./internal/map\"]": {
+			"key": "normal/[\"node_modules/async\",\"./internal/map\"]",
+			"size": 59,
+			"start": 30707
+		},
+		"normal/[\"src-built-in/components/userPreferences/src/components/general\",\"react\"]": {
+			"key": "normal/[\"src-built-in/components/userPreferences/src/components/general\",\"react\"]",
+			"size": 52,
+			"start": 30766
+		},
+		"normal/[\"node_modules/async/internal\",\"../asyncify\"]": {
+			"key": "normal/[\"node_modules/async/internal\",\"../asyncify\"]",
+			"size": 55,
+			"start": 30818
+		},
+		"normal/[\"node_modules/prop-types\",\"./factoryWithTypeCheckers\"]": {
+			"key": "normal/[\"node_modules/prop-types\",\"./factoryWithTypeCheckers\"]",
+			"size": 75,
+			"start": 30873
+		},
+		"normal/[\"node_modules/lodash.debounce\",\"./../webpack/buildin/global.js\"]": {
+			"key": "normal/[\"node_modules/lodash.debounce\",\"./../webpack/buildin/global.js\"]",
+			"size": 63,
+			"start": 30948
+		},
+		"normal/[\"node_modules/async/internal\",\"./wrapAsync\"]": {
+			"key": "normal/[\"node_modules/async/internal\",\"./wrapAsync\"]",
+			"size": 65,
+			"start": 31011
+		},
+		"normal/[\"node_modules/async/internal\",\"./eachOfLimit\"]": {
+			"key": "normal/[\"node_modules/async/internal\",\"./eachOfLimit\"]",
+			"size": 67,
+			"start": 31076
+		},
+		"normal/[\"node_modules/async/internal\",\"lodash/noop\"]": {
+			"key": "normal/[\"node_modules/async/internal\",\"lodash/noop\"]",
+			"size": 71,
+			"start": 31143
+		},
+		"normal/[\"node_modules/async\",\"./internal/initialParams\"]": {
+			"key": "normal/[\"node_modules/async\",\"./internal/initialParams\"]",
+			"size": 69,
+			"start": 31214
+		},
+		"normal/[\"node_modules/async\",\"./internal/setImmediate\"]": {
+			"key": "normal/[\"node_modules/async\",\"./internal/setImmediate\"]",
+			"size": 68,
+			"start": 31283
+		},
+		"normal/[\"node_modules/async\",\"lodash/isObject\"]": {
+			"key": "normal/[\"node_modules/async\",\"lodash/isObject\"]",
+			"size": 75,
+			"start": 31351
+		},
+		"normal/[\"node_modules/async/internal\",\"./once\"]": {
+			"key": "normal/[\"node_modules/async/internal\",\"./once\"]",
+			"size": 60,
+			"start": 31426
+		},
+		"normal/[\"node_modules/async/internal\",\"./iterator\"]": {
+			"key": "normal/[\"node_modules/async/internal\",\"./iterator\"]",
+			"size": 64,
+			"start": 31486
+		},
+		"normal/[\"node_modules/async/internal\",\"./onlyOnce\"]": {
+			"key": "normal/[\"node_modules/async/internal\",\"./onlyOnce\"]",
+			"size": 64,
+			"start": 31550
+		},
+		"normal/[\"node_modules/async/internal\",\"./breakLoop\"]": {
+			"key": "normal/[\"node_modules/async/internal\",\"./breakLoop\"]",
+			"size": 65,
+			"start": 31614
+		},
+		"normal/[\"node_modules/async/internal\",\"./slice\"]": {
+			"key": "normal/[\"node_modules/async/internal\",\"./slice\"]",
+			"size": 61,
+			"start": 31679
+		},
+		"normal/[\"node_modules/async/internal\",\"./../../timers-browserify/main.js\"]": {
+			"key": "normal/[\"node_modules/async/internal\",\"./../../timers-browserify/main.js\"]",
+			"size": 63,
+			"start": 31740
+		},
+		"normal/[\"node_modules/async/internal\",\"./../../process/browser.js\"]": {
+			"key": "normal/[\"node_modules/async/internal\",\"./../../process/browser.js\"]",
+			"size": 56,
+			"start": 31803
+		},
+		"normal/[\"node_modules/async/internal\",\"./getIterator\"]": {
+			"key": "normal/[\"node_modules/async/internal\",\"./getIterator\"]",
+			"size": 67,
+			"start": 31859
+		},
+		"normal/[\"node_modules/async/internal\",\"lodash/keys\"]": {
+			"key": "normal/[\"node_modules/async/internal\",\"lodash/keys\"]",
+			"size": 71,
+			"start": 31926
+		},
+		"normal/[\"node_modules/async/internal\",\"lodash/isArrayLike\"]": {
+			"key": "normal/[\"node_modules/async/internal\",\"lodash/isArrayLike\"]",
+			"size": 78,
+			"start": 31997
+		},
+		"normal/[\"node_modules/async/node_modules/lodash\",\"./isArrayLike\"]": {
+			"key": "normal/[\"node_modules/async/node_modules/lodash\",\"./isArrayLike\"]",
+			"size": 78,
+			"start": 32075
+		},
+		"normal/[\"node_modules/async/node_modules/lodash\",\"./isFunction\"]": {
+			"key": "normal/[\"node_modules/async/node_modules/lodash\",\"./isFunction\"]",
+			"size": 77,
+			"start": 32153
+		},
+		"normal/[\"node_modules/async/node_modules/lodash\",\"./isLength\"]": {
+			"key": "normal/[\"node_modules/async/node_modules/lodash\",\"./isLength\"]",
+			"size": 75,
+			"start": 32230
+		},
+		"normal/[\"node_modules/async/node_modules/lodash\",\"./_arrayLikeKeys\"]": {
+			"key": "normal/[\"node_modules/async/node_modules/lodash\",\"./_arrayLikeKeys\"]",
+			"size": 81,
+			"start": 32305
+		},
+		"normal/[\"node_modules/async/node_modules/lodash\",\"./_baseKeys\"]": {
+			"key": "normal/[\"node_modules/async/node_modules/lodash\",\"./_baseKeys\"]",
+			"size": 76,
+			"start": 32386
+		},
+		"normal/[\"node_modules/async/node_modules/lodash\",\"./isObject\"]": {
+			"key": "normal/[\"node_modules/async/node_modules/lodash\",\"./isObject\"]",
+			"size": 75,
+			"start": 32462
+		},
+		"normal/[\"node_modules/async/node_modules/lodash\",\"./_baseGetTag\"]": {
+			"key": "normal/[\"node_modules/async/node_modules/lodash\",\"./_baseGetTag\"]",
+			"size": 78,
+			"start": 32537
+		},
+		"normal/[\"node_modules/async/node_modules/lodash\",\"./_nativeKeys\"]": {
+			"key": "normal/[\"node_modules/async/node_modules/lodash\",\"./_nativeKeys\"]",
+			"size": 78,
+			"start": 32615
+		},
+		"normal/[\"node_modules/async/node_modules/lodash\",\"./_isPrototype\"]": {
+			"key": "normal/[\"node_modules/async/node_modules/lodash\",\"./_isPrototype\"]",
+			"size": 79,
+			"start": 32693
+		},
+		"normal/[\"node_modules/async/node_modules/lodash\",\"./_baseTimes\"]": {
+			"key": "normal/[\"node_modules/async/node_modules/lodash\",\"./_baseTimes\"]",
+			"size": 77,
+			"start": 32772
+		},
+		"normal/[\"node_modules/async/node_modules/lodash\",\"./isArguments\"]": {
+			"key": "normal/[\"node_modules/async/node_modules/lodash\",\"./isArguments\"]",
+			"size": 78,
+			"start": 32849
+		},
+		"normal/[\"node_modules/async/node_modules/lodash\",\"./isArray\"]": {
+			"key": "normal/[\"node_modules/async/node_modules/lodash\",\"./isArray\"]",
+			"size": 74,
+			"start": 32927
+		},
+		"normal/[\"node_modules/async/node_modules/lodash\",\"./isBuffer\"]": {
+			"key": "normal/[\"node_modules/async/node_modules/lodash\",\"./isBuffer\"]",
+			"size": 75,
+			"start": 33001
+		},
+		"normal/[\"node_modules/async/node_modules/lodash\",\"./_isIndex\"]": {
+			"key": "normal/[\"node_modules/async/node_modules/lodash\",\"./_isIndex\"]",
+			"size": 75,
+			"start": 33076
+		},
+		"normal/[\"node_modules/async/node_modules/lodash\",\"./isTypedArray\"]": {
+			"key": "normal/[\"node_modules/async/node_modules/lodash\",\"./isTypedArray\"]",
+			"size": 79,
+			"start": 33151
+		},
+		"normal/[\"node_modules/async/node_modules/lodash\",\"./../../../webpack/buildin/module.js\"]": {
+			"key": "normal/[\"node_modules/async/node_modules/lodash\",\"./../../../webpack/buildin/module.js\"]",
+			"size": 63,
+			"start": 33230
+		},
+		"normal/[\"node_modules/async/node_modules/lodash\",\"./_Symbol\"]": {
+			"key": "normal/[\"node_modules/async/node_modules/lodash\",\"./_Symbol\"]",
+			"size": 74,
+			"start": 33293
+		},
+		"normal/[\"node_modules/async/node_modules/lodash\",\"./_getRawTag\"]": {
+			"key": "normal/[\"node_modules/async/node_modules/lodash\",\"./_getRawTag\"]",
+			"size": 77,
+			"start": 33367
+		},
+		"normal/[\"node_modules/async/node_modules/lodash\",\"./_objectToString\"]": {
+			"key": "normal/[\"node_modules/async/node_modules/lodash\",\"./_objectToString\"]",
+			"size": 82,
+			"start": 33444
+		},
+		"normal/[\"node_modules/async/node_modules/lodash\",\"./_overArg\"]": {
+			"key": "normal/[\"node_modules/async/node_modules/lodash\",\"./_overArg\"]",
+			"size": 75,
+			"start": 33526
+		},
+		"normal/[\"node_modules/async/node_modules/lodash\",\"./isObjectLike\"]": {
+			"key": "normal/[\"node_modules/async/node_modules/lodash\",\"./isObjectLike\"]",
+			"size": 79,
+			"start": 33601
+		},
+		"normal/[\"node_modules/async/node_modules/lodash\",\"./_baseIsArguments\"]": {
+			"key": "normal/[\"node_modules/async/node_modules/lodash\",\"./_baseIsArguments\"]",
+			"size": 83,
+			"start": 33680
+		},
+		"normal/[\"node_modules/async/node_modules/lodash\",\"./_root\"]": {
+			"key": "normal/[\"node_modules/async/node_modules/lodash\",\"./_root\"]",
+			"size": 72,
+			"start": 33763
+		},
+		"normal/[\"node_modules/async/node_modules/lodash\",\"./stubFalse\"]": {
+			"key": "normal/[\"node_modules/async/node_modules/lodash\",\"./stubFalse\"]",
+			"size": 76,
+			"start": 33835
+		},
+		"normal/[\"node_modules/async/node_modules/lodash\",\"./_baseIsTypedArray\"]": {
+			"key": "normal/[\"node_modules/async/node_modules/lodash\",\"./_baseIsTypedArray\"]",
+			"size": 84,
+			"start": 33911
+		},
+		"normal/[\"node_modules/async/node_modules/lodash\",\"./_baseUnary\"]": {
+			"key": "normal/[\"node_modules/async/node_modules/lodash\",\"./_baseUnary\"]",
+			"size": 77,
+			"start": 33995
+		},
+		"normal/[\"node_modules/async/node_modules/lodash\",\"./_nodeUtil\"]": {
+			"key": "normal/[\"node_modules/async/node_modules/lodash\",\"./_nodeUtil\"]",
+			"size": 76,
+			"start": 34072
+		},
+		"normal/[\"node_modules/async/node_modules/lodash\",\"./_freeGlobal\"]": {
+			"key": "normal/[\"node_modules/async/node_modules/lodash\",\"./_freeGlobal\"]",
+			"size": 78,
+			"start": 34148
+		},
+		"normal/[\"node_modules/async/node_modules/lodash\",\"./../../../webpack/buildin/global.js\"]": {
+			"key": "normal/[\"node_modules/async/node_modules/lodash\",\"./../../../webpack/buildin/global.js\"]",
+			"size": 63,
+			"start": 34226
+		},
+		"loader/[\".\",\"style-loader\"]": {
+			"key": "loader/[\".\",\"style-loader\"]",
+			"size": 59,
+			"start": 34289
+		},
+		"loader/[\".\",\"css-loader\"]": {
+			"key": "loader/[\".\",\"css-loader\"]",
+			"size": 57,
+			"start": 34348
+		},
+		"loader/[\"node_modules/react-table\",\"../css-loader/index.js\"]": {
+			"key": "loader/[\"node_modules/react-table\",\"../css-loader/index.js\"]",
+			"size": 57,
+			"start": 34405
+		},
+		"loader/[\"src-built-in/components/appLauncher\",\"../../../node_modules/css-loader/index.js\"]": {
+			"key": "loader/[\"src-built-in/components/appLauncher\",\"../../../node_modules/css-loader/index.js\"]",
+			"size": 57,
+			"start": 34462
+		},
+		"loader/[\"src-built-in/components/adhocComponentForm\",\"../../../node_modules/css-loader/index.js\"]": {
+			"key": "loader/[\"src-built-in/components/adhocComponentForm\",\"../../../node_modules/css-loader/index.js\"]",
+			"size": 57,
+			"start": 34519
+		},
+		"loader/[\"src-built-in/components/fileMenu\",\"../../../node_modules/css-loader/index.js\"]": {
+			"key": "loader/[\"src-built-in/components/fileMenu\",\"../../../node_modules/css-loader/index.js\"]",
+			"size": 57,
+			"start": 34576
+		},
+		"loader/[\"src-built-in/components/workspaceManagementMenu\",\"../../../node_modules/css-loader/index.js\"]": {
+			"key": "loader/[\"src-built-in/components/workspaceManagementMenu\",\"../../../node_modules/css-loader/index.js\"]",
+			"size": 57,
+			"start": 34633
+		},
+		"loader/[\"src-built-in/components/appCatalog\",\"../../../node_modules/css-loader/index.js\"]": {
+			"key": "loader/[\"src-built-in/components/appCatalog\",\"../../../node_modules/css-loader/index.js\"]",
+			"size": 57,
+			"start": 34690
+		},
+		"loader/[\"src-built-in/components/userPreferences\",\"../../../node_modules/css-loader/index.js\"]": {
+			"key": "loader/[\"src-built-in/components/userPreferences\",\"../../../node_modules/css-loader/index.js\"]",
+			"size": 57,
+			"start": 34747
+		},
+		"loader/[\"src-built-in/components/searchMenu\",\"../../../node_modules/css-loader/index.js\"]": {
+			"key": "loader/[\"src-built-in/components/searchMenu\",\"../../../node_modules/css-loader/index.js\"]",
+			"size": 57,
+			"start": 34804
+		},
+		"loader/[\"src-built-in/components/inputAndSelectionDialog\",\"../../../node_modules/css-loader/index.js\"]": {
+			"key": "loader/[\"src-built-in/components/inputAndSelectionDialog\",\"../../../node_modules/css-loader/index.js\"]",
+			"size": 57,
+			"start": 34861
+		},
+		"loader/[\"src-built-in/components/processMonitor\",\"../../../node_modules/css-loader/index.js\"]": {
+			"key": "loader/[\"src-built-in/components/processMonitor\",\"../../../node_modules/css-loader/index.js\"]",
+			"size": 57,
+			"start": 34918
+		},
+		"loader/[\"src-built-in/components/assets/css\",\"../../../../node_modules/css-loader/index.js\"]": {
+			"key": "loader/[\"src-built-in/components/assets/css\",\"../../../../node_modules/css-loader/index.js\"]",
+			"size": 57,
+			"start": 34975
+		},
+		"loader/[\"src-built-in/components/linker/src/css\",\"../../../../../node_modules/css-loader/index.js\"]": {
+			"key": "loader/[\"src-built-in/components/linker/src/css\",\"../../../../../node_modules/css-loader/index.js\"]",
+			"size": 57,
+			"start": 35032
+		},
+		"loader/[\"src-built-in/components/toolbar\",\"../../../node_modules/css-loader/index.js\"]": {
+			"key": "loader/[\"src-built-in/components/toolbar\",\"../../../node_modules/css-loader/index.js\"]",
+			"size": 57,
+			"start": 35089
+		},
+		"loader/[\"src-built-in/components/complexMenu\",\"../../../node_modules/css-loader/index.js\"]": {
+			"key": "loader/[\"src-built-in/components/complexMenu\",\"../../../node_modules/css-loader/index.js\"]",
+			"size": 57,
+			"start": 35146
+		},
+		"loader/[\".\",\"url-loader\"]": {
+			"key": "loader/[\".\",\"url-loader\"]",
+			"size": 57,
+			"start": 35203
+		}
+	}
+}

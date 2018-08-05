@@ -1,0 +1,33 @@
+{
+	"version": 1,
+	"nextByte": 1246205,
+	"blockSize": 4096,
+	"logSize": 2097152,
+	"map": {
+		"1B2M2Y8AsgTpgAmY7PhCfg==node_modules/babel-loader/lib/index.js??ref--9!src/services/blotterdata/blotterdataService.js": {
+			"key": "1B2M2Y8AsgTpgAmY7PhCfg==node_modules/babel-loader/lib/index.js??ref--9!src/services/blotterdata/blotterdataService.js",
+			"size": 17368,
+			"start": 0
+		},
+		"1B2M2Y8AsgTpgAmY7PhCfg==node_modules/@chartiq/finsemble/dist/index.js": {
+			"key": "1B2M2Y8AsgTpgAmY7PhCfg==node_modules/@chartiq/finsemble/dist/index.js",
+			"size": 1152759,
+			"start": 17368
+		},
+		"1B2M2Y8AsgTpgAmY7PhCfg==node_modules/babel-loader/lib/index.js??ref--9!src/positiondatagenerator.js": {
+			"key": "1B2M2Y8AsgTpgAmY7PhCfg==node_modules/babel-loader/lib/index.js??ref--9!src/positiondatagenerator.js",
+			"size": 14041,
+			"start": 1170127
+		},
+		"1B2M2Y8AsgTpgAmY7PhCfg==node_modules/babel-loader/lib/index.js??ref--9!src/pricedatagenerator.js": {
+			"key": "1B2M2Y8AsgTpgAmY7PhCfg==node_modules/babel-loader/lib/index.js??ref--9!src/pricedatagenerator.js",
+			"size": 13304,
+			"start": 1184168
+		},
+		"1B2M2Y8AsgTpgAmY7PhCfg==node_modules/babel-loader/lib/index.js??ref--9!src/tradesdatagenerator.js": {
+			"key": "1B2M2Y8AsgTpgAmY7PhCfg==node_modules/babel-loader/lib/index.js??ref--9!src/tradesdatagenerator.js",
+			"size": 48733,
+			"start": 1197472
+		}
+	}
+}

@@ -1,0 +1,33 @@
+{
+	"version": 1,
+	"nextByte": 2300,
+	"blockSize": 1024,
+	"logSize": 2097152,
+	"map": {
+		"[\"1B2M2Y8AsgTpgAmY7PhCfg==\",\".\",\"src/services/blotterdata/blotterdataService.js\"]": {
+			"key": "[\"1B2M2Y8AsgTpgAmY7PhCfg==\",\".\",\"src/services/blotterdata/blotterdataService.js\"]",
+			"size": 534,
+			"start": 0
+		},
+		"[\"1B2M2Y8AsgTpgAmY7PhCfg==\",\"src/services/blotterdata\",\"../../tradesdatagenerator\"]": {
+			"key": "[\"1B2M2Y8AsgTpgAmY7PhCfg==\",\"src/services/blotterdata\",\"../../tradesdatagenerator\"]",
+			"size": 476,
+			"start": 534
+		},
+		"[\"1B2M2Y8AsgTpgAmY7PhCfg==\",\"src/services/blotterdata\",\"../../positiondatagenerator\"]": {
+			"key": "[\"1B2M2Y8AsgTpgAmY7PhCfg==\",\"src/services/blotterdata\",\"../../positiondatagenerator\"]",
+			"size": 484,
+			"start": 1010
+		},
+		"[\"1B2M2Y8AsgTpgAmY7PhCfg==\",\"src/services/blotterdata\",\"../../pricedatagenerator\"]": {
+			"key": "[\"1B2M2Y8AsgTpgAmY7PhCfg==\",\"src/services/blotterdata\",\"../../pricedatagenerator\"]",
+			"size": 472,
+			"start": 1494
+		},
+		"[\"1B2M2Y8AsgTpgAmY7PhCfg==\",\"src/services/blotterdata\",\"@chartiq/finsemble\"]": {
+			"key": "[\"1B2M2Y8AsgTpgAmY7PhCfg==\",\"src/services/blotterdata\",\"@chartiq/finsemble\"]",
+			"size": 334,
+			"start": 1966
+		}
+	}
+}

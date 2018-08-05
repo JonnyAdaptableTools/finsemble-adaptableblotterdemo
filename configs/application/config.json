@@ -1,25 +1,96 @@
 {
 	"comment": "Top-level application config for development, adding on top of the core config",
-	"mode": "",
-	"isAuthEnabled": false,
-	"defaultStorage": "localStorage",
-	"debugServiceDelay":0,
-	"storage": {},
-	"betaFeatures": {
-		"docking": {
-			"enabled": true
+	"storage": {
+		"topicToDataStoreAdapters" : {
+			"finsemble" : "LocalStorageAdapter",
+			"finsemble.workspace" : "LocalStorageAdapter",
+			"finsemble.workspace.cache" : "LocalStorageAdapter"
 		},
-		"assimilation": {
-			"enabled": false,
-			"blacklist": [],
-			"whitelist": [],
-			"onlySpawned": false
+		"dataStoreAdapters" : {
+			"LocalStorageAdapter": "$applicationRoot/adapters/LocalStorageAdapter.js"
 		}
 	},
+	"servicesConfig": {
+		"launcher": {
+			"searchProviderAction": {
+				"title": "App Catalog",
+				"component": "App Catalog"
+			}
+		}
+	},
+	"systemTrayIcon": "$applicationRoot/components/assets/img/Finsemble_Taskbar_Icon.png",
+	"systemTrayComponent": "File Menu",
+	"debugServiceDelay": 0,
+	"Window Manager": {
+		"alwaysOnTopIcon": false,
+		"showTabs": false
+	},
+	"docking": {
+		"enabled": true,
+		"groupTileBuffer": 30,
+		"headerHeight": 32
+	},
+	"betaFeatures": {
+		"assimilation": {
+			"enabled": true,
+			"blacklist": [],
+			"whitelist": [],
+			"onlySpawned": true,
+			"throttle": 20,
+			"focusDelay": 30,
+			"eventIgnore": 50
+		}
+	},
+	"splinteringConfig": {
+		"comment": "A SplinterAgent is just an openfin application that is capable of spawning specific components/services. If you try to spawn a component/service that one of these agents does not cover, it will be spawned by the defaultAgent. You can also specify maxWindowsPerAgent if you would like to limit your agents to some ceiling. This is useful when you have a particularly heavy component.",
+		"enabled": true,
+		"splinterAgents": [
+			{
+				"agentLabel": "systemComponents",
+				"components": [
+					"Toolbar",
+					"App Launcher",
+					"Workspace Management Menu",
+					"Finsemble Linker Window",
+					"defaultAuthentication",
+					"dialogSignOn",
+					"dialogTemplate",
+					"dialogTest",
+					"File Menu",
+					"AdhocComponentForm",
+					"Process Monitor"
+				]
+			},
+			{
+				"agentLabel": "Tier2",
+				"services": [
+					"launcherService",
+					"authenticationService",
+					"workspaceService",
+					"storageService",
+					"searchService"
+				]
+			},
+			{
+				"agentLabel": "dockingService",
+				"services": [
+					"dockingService"
+				]
+			}
+		]
+	},
+	"globalHotkeys": {
+		"BRING_ALL_TO_FRONT": [
+			"ctrl",
+			"shift",
+			"b"
+		]
+	},
 	"importConfig": [
+		"$applicationRoot/configs/application/presentationComponents.json",
 		"$applicationRoot/configs/application/components.json",
-		"$applicationRoot/configs/application/systemComponents.json",
-		"$applicationRoot/configs/application/services.json",
-        "$applicationRoot/configs/other/defaultWorkspaces.json"
+		"$applicationRoot/configs/application/workspaces.json",
+		"$applicationRoot/configs/application/workspaceTemplates.json",
+		"$applicationRoot/configs/application/services.json"
 	]
 }

@@ -5,6 +5,90 @@ var hypergrid = require('fin-hypergrid');
 
 let newRowTimer;
 let newRowList = [];
+
+let lightTheme = {
+    font: '12px Helvetica Neue, Helvetica, Arial, sans-serif',
+    fontBold: 'bold 12px Helvetica Neue, Helvetica, Arial, sans-serif',
+    color: '#003f59',
+    backgroundColor: 'white',
+    altbackground: '#e6f2f8',
+    foregroundSelectionColor: 'white',
+    backgroundSelectionColor: 'rgba(13, 106, 146, 0.5)',
+
+    columnHeaderFont: '12px Helvetica Neue, Helvetica, Arial, sans-serif',
+    columnHeaderColor: '#00435e',
+    columnHeaderBackgroundColor: '#d9ecf5',
+    columnHeaderForegroundSelectionColor: 'rgb(25, 25, 25)',
+    columnHeaderBackgroundSelectionColor: 'rgb(255, 220, 97)',
+
+    rowHeaderFont: '12px Helvetica Neue, Helvetica, Arial, sans-serif',
+    rowHeaderColor: '#00435e',
+    rowHeaderBackgroundColor: '#d9ecf5',
+    rowHeaderForegroundSelectionColor: 'rgb(25, 25, 25)',
+    rowHeaderBackgroundSelectionColor: 'rgb(255, 220, 97)',
+
+    backgroundColor2: 'rgb(201, 201, 201)',
+    lineColor: '#bbdceb',
+    voffset: 0,
+    scrollbarHoverOver: 'visible',
+    scrollbarHoverOff: 'visible',
+    scrollingEnabled: true,
+
+    fixedRowAlign: 'center',
+    fixedColAlign: 'center',
+    cellPadding: 15,
+    gridLinesH: false,
+    gridLinesV: true,
+
+    defaultRowHeight: 30,
+    defaultFixedRowHeight: 15,
+    showRowNumbers: false,
+    editorActivationKeys: ['alt', 'esc'],
+    columnAutosizing: true,
+    readOnly: false
+};
+
+let darkTheme = {
+    font: '12px Helvetica Neue, Helvetica, Arial, sans-serif',
+    color: 'white',
+    backgroundColor: '#07071E',
+    altbackground: '#07071E',
+    foregroundSelectionColor: 'white',
+    backgroundSelectionColor: 'rgba(61, 119, 254, 0.5)',
+
+    columnHeaderFont: '12px Helvetica Neue, Helvetica, Arial, sans-serif',
+    columnHeaderColor: 'white',
+    columnHeaderBackgroundColor: '#07071E',
+    columnHeaderForegroundSelectionColor: 'white',
+    columnHeaderBackgroundSelectionColor: '#3D77FE',
+
+    rowHeaderFont: '12px Helvetica Neue, Helvetica, Arial, sans-serif',
+    rowHeaderColor: 'white',
+    rowHeaderBackgroundColor: '#07071E',
+    rowHeaderForegroundSelectionColor: 'white',
+    rowHeaderBackgroundSelectionColor: '#3D77FE',
+
+    backgroundColor2: 'rgb(201, 201, 201)',
+    lineColor: 'rgb(199, 199, 199)',
+    voffset: 0,
+    scrollbarHoverOver: 'visible',
+    scrollbarHoverOff: 'visible',
+    scrollingEnabled: true,
+
+    fixedRowAlign: 'center',
+    fixedColAlign: 'center',
+    cellPadding: 15,
+    gridLinesH: false,
+    gridLinesV: false,
+
+    defaultRowHeight: 30,
+    defaultFixedRowHeight: 15,
+    showRowNumbers: false,
+    editorActivationKeys: ['alt', 'esc'],
+    columnAutosizing: true,
+    readOnly: false
+};
+
 function hypergridAddRow(grid, blotter, newRow) {
     if (!newRowTimer) {
         //we just want to avoid the data going out of index when editing it. 
@@ -124,16 +208,18 @@ function replacer(a, b, c) {
 }
 
 function initAdaptableBlotter(grid, blotterId, primaryKey) {
-    var container = document.getElementById('adaptableblottercontainer');
-    let adaptableblotter = new adaptableblotterhypergrid.AdaptableBlotter(grid, container, {
+    let adaptableblotter = new adaptableblotterhypergrid.AdaptableBlotter({
         blotterId: blotterId,
         primaryKey: primaryKey,
+        vendorGrid: grid,
         userName: "Jonathan",
         enableAuditLog: false,
         enableRemoteConfigServer: false,
-        predefinedConfigUrl: "defaultConfig.json"
+        predefinedConfig: "defaultConfig.json",
+        adaptableBlotterContainer: "adaptableblottercontainer"
     });
-    var origgetCell = grid.behavior.dataModel.getCell;
+
+    let origgetCell = grid.behavior.dataModel.getCell;
     grid.behavior.dataModel.getCell = (config, declaredRendererName) => {
         if (config.isDataRow) {
             var y = config.dataCell.y;
@@ -166,12 +252,12 @@ function maximizeWidgetWhenABPopupVisible(adaptableblotter, demoDataObject) {
     adaptableblotter.AdaptableBlotterStore.TheStore.subscribe(() => {
         if (demoDataObject.popupState !== adaptableblotter.AdaptableBlotterStore.TheStore.getState().Popup) {
             demoDataObject.popupState = adaptableblotter.AdaptableBlotterStore.TheStore.getState().Popup;
-            if (demoDataObject.popupState.ActionConfigurationPopup.ShowPopup === true &&
+            if (demoDataObject.popupState.ScreenPopup.ShowPopup === true &&
                 FSBL.Clients.WindowClient.windowState !== "maximized") {
                 demoDataObject.didMaximizeForPopup = true;
                 FSBL.Clients.WindowClient.maximize();
             }
-            else if (demoDataObject.popupState.ActionConfigurationPopup.ShowPopup === false &&
+            else if (demoDataObject.popupState.ScreenPopup.ShowPopup === false &&
                 demoDataObject.didMaximizeForPopup) {
                 FSBL.Clients.WindowClient.restore();
                 demoDataObject.didMaximizeForPopup = false;
@@ -287,89 +373,6 @@ function areArraysEqual(arr1, arr2) {
     }
     return arr1.every(x => arr2.indexOf(x) !== -1);
 }
-
-let lightTheme = {
-    font: '12px Helvetica Neue, Helvetica, Arial, sans-serif',
-    fontBold: 'bold 12px Helvetica Neue, Helvetica, Arial, sans-serif',
-    color: '#003f59',
-    backgroundColor: 'white',
-    altbackground: '#e6f2f8',
-    foregroundSelectionColor: 'white',
-    backgroundSelectionColor: 'rgba(13, 106, 146, 0.5)',
-
-    columnHeaderFont: '12px Helvetica Neue, Helvetica, Arial, sans-serif',
-    columnHeaderColor: '#00435e',
-    columnHeaderBackgroundColor: '#d9ecf5',
-    columnHeaderForegroundSelectionColor: 'rgb(25, 25, 25)',
-    columnHeaderBackgroundSelectionColor: 'rgb(255, 220, 97)',
-
-    rowHeaderFont: '12px Helvetica Neue, Helvetica, Arial, sans-serif',
-    rowHeaderColor: '#00435e',
-    rowHeaderBackgroundColor: '#d9ecf5',
-    rowHeaderForegroundSelectionColor: 'rgb(25, 25, 25)',
-    rowHeaderBackgroundSelectionColor: 'rgb(255, 220, 97)',
-
-    backgroundColor2: 'rgb(201, 201, 201)',
-    lineColor: '#bbdceb',
-    voffset: 0,
-    scrollbarHoverOver: 'visible',
-    scrollbarHoverOff: 'visible',
-    scrollingEnabled: true,
-
-    fixedRowAlign: 'center',
-    fixedColAlign: 'center',
-    cellPadding: 15,
-    gridLinesH: false,
-    gridLinesV: true,
-
-    defaultRowHeight: 30,
-    defaultFixedRowHeight: 15,
-    showRowNumbers: false,
-    editorActivationKeys: ['alt', 'esc'],
-    columnAutosizing: true,
-    readOnly: false
-};
-
-let darkTheme = {
-    font: '12px Helvetica Neue, Helvetica, Arial, sans-serif',
-    color: 'white',
-    backgroundColor: '#07071E',
-    altbackground: '#07071E',
-    foregroundSelectionColor: 'white',
-    backgroundSelectionColor: 'rgba(61, 119, 254, 0.5)',
-
-    columnHeaderFont: '12px Helvetica Neue, Helvetica, Arial, sans-serif',
-    columnHeaderColor: 'white',
-    columnHeaderBackgroundColor: '#07071E',
-    columnHeaderForegroundSelectionColor: 'white',
-    columnHeaderBackgroundSelectionColor: '#3D77FE',
-
-    rowHeaderFont: '12px Helvetica Neue, Helvetica, Arial, sans-serif',
-    rowHeaderColor: 'white',
-    rowHeaderBackgroundColor: '#07071E',
-    rowHeaderForegroundSelectionColor: 'white',
-    rowHeaderBackgroundSelectionColor: '#3D77FE',
-
-    backgroundColor2: 'rgb(201, 201, 201)',
-    lineColor: 'rgb(199, 199, 199)',
-    voffset: 0,
-    scrollbarHoverOver: 'visible',
-    scrollbarHoverOff: 'visible',
-    scrollingEnabled: true,
-
-    fixedRowAlign: 'center',
-    fixedColAlign: 'center',
-    cellPadding: 15,
-    gridLinesH: false,
-    gridLinesV: false,
-
-    defaultRowHeight: 30,
-    defaultFixedRowHeight: 15,
-    showRowNumbers: false,
-    editorActivationKeys: ['alt', 'esc'],
-    columnAutosizing: true,
-    readOnly: false
-};
 
 module.exports.hypergridAddRow = hypergridAddRow;
 module.exports.hypergridUpdateRowFromDataSource = hypergridUpdateRowFromDataSource;

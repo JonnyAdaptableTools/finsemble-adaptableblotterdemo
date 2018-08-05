@@ -1,0 +1,18 @@
+{
+    "blotterreceiver": {
+        "output": "components/blotterreceiver/blotterreceiver",
+        "entry": "./src/components/blotterreceiver/blotterreceiver.js"
+    },
+    "positionblotter": {
+        "output": "components/positionblotter/positionblotter",
+        "entry": "./src/components/positionblotter/positionblotter.js"
+    },
+    "priceblotter": {
+        "output": "components/priceblotter/priceblotter",
+        "entry": "./src/components/priceblotter/priceblotter.js"
+    },
+    "tradeblotter": {
+        "output": "components/tradeblotter/tradeblotter",
+        "entry": "./src/components/tradeblotter/tradeblotter.js"
+    }
+}

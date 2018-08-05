@@ -7,16 +7,7 @@
             "name": "blotterdataService",
             "file": "blotterdata/blotterdataService.js",
             "visible": false,
-            "html": "$applicationRoot/services/blotterdata/blotterdata.html",
-            "foreign": {
-                "components": {
-                    "Window Manager": {
-                        "showLinker": false,
-                        "FSBLHeader": false,
-                        "persistWindowState": false
-                    }
-                }
-            }
+            "html": "/services/blotterdata/blotterdata.html"
         }
     }
 }
