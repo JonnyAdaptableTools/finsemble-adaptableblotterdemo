@@ -1,0 +1,38 @@
+{
+	"version": 1,
+	"nextByte": 358,
+	"blockSize": 256,
+	"logSize": 2097152,
+	"map": {
+		"normal/[\".\",\"C:/code/finsemble-adaptableblotterdemo/src/services/blotterdata/blotterdataService.js\"]": {
+			"key": "normal/[\".\",\"C:/code/finsemble-adaptableblotterdemo/src/services/blotterdata/blotterdataService.js\"]",
+			"size": 71,
+			"start": 0
+		},
+		"normal/[\"src/services/blotterdata\",\"../../tradesdatagenerator\"]": {
+			"key": "normal/[\"src/services/blotterdata\",\"../../tradesdatagenerator\"]",
+			"size": 51,
+			"start": 71
+		},
+		"normal/[\"src/services/blotterdata\",\"../../positiondatagenerator\"]": {
+			"key": "normal/[\"src/services/blotterdata\",\"../../positiondatagenerator\"]",
+			"size": 53,
+			"start": 122
+		},
+		"normal/[\"src/services/blotterdata\",\"../../pricedatagenerator\"]": {
+			"key": "normal/[\"src/services/blotterdata\",\"../../pricedatagenerator\"]",
+			"size": 50,
+			"start": 175
+		},
+		"normal/[\"src/services/blotterdata\",\"@chartiq/finsemble\"]": {
+			"key": "normal/[\"src/services/blotterdata\",\"@chartiq/finsemble\"]",
+			"size": 70,
+			"start": 225
+		},
+		"loader/[\".\",\"babel-loader\"]": {
+			"key": "loader/[\".\",\"babel-loader\"]",
+			"size": 63,
+			"start": 295
+		}
+	}
+}

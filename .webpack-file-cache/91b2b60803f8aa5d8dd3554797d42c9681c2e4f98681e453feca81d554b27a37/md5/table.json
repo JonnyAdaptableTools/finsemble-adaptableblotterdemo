@@ -1,0 +1,33 @@
+{
+	"version": 1,
+	"nextByte": 325,
+	"blockSize": 128,
+	"logSize": 2097152,
+	"map": {
+		"node_modules/@chartiq/finsemble/dist/index.js": {
+			"key": "node_modules/@chartiq/finsemble/dist/index.js",
+			"size": 65,
+			"start": 0
+		},
+		"src/positiondatagenerator.js": {
+			"key": "src/positiondatagenerator.js",
+			"size": 65,
+			"start": 65
+		},
+		"src/pricedatagenerator.js": {
+			"key": "src/pricedatagenerator.js",
+			"size": 65,
+			"start": 130
+		},
+		"src/services/blotterdata/blotterdataService.js": {
+			"key": "src/services/blotterdata/blotterdataService.js",
+			"size": 65,
+			"start": 195
+		},
+		"src/tradesdatagenerator.js": {
+			"key": "src/tradesdatagenerator.js",
+			"size": 65,
+			"start": 260
+		}
+	}
+}

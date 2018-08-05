@@ -354,7 +354,7 @@ function hypergridThemeChangeWhenAbChange(adaptableblotter, grid, demoDataObject
     adaptableblotter.AdaptableBlotterStore.TheStore.subscribe(() => {
         if (demoDataObject.themeName !== adaptableblotter.AdaptableBlotterStore.TheStore.getState().Theme.CurrentTheme) {
             demoDataObject.themeName = adaptableblotter.AdaptableBlotterStore.TheStore.getState().Theme.CurrentTheme;
-            if (demoDataObject.themeName === "Slate" ||
+            if (demoDataObject.themeName === "Dark Theme" ||
                 demoDataObject.themeName === "Cyborg" ||
                 demoDataObject.themeName === "Darkly" ||
                 demoDataObject.themeName === "Superhero") {

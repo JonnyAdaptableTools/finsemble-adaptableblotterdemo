@@ -9,7 +9,7 @@ FSBL.addEventListener('onReady', function () {
 			let hypergrid = demoHelper.createGrid(response.data, "price");
 			setupEditorsAndFormats(hypergrid);
 			//we use the window generated name as the blotterId
-			let adaptableBlotter = demoHelper.initAdaptableBlotter(hypergrid, FSBL.Clients.WindowClient.windowName, "instrumentId");
+			let adaptableBlotter = demoHelper.initAdaptableBlotter(hypergrid, "Prices", "instrumentId");
 			let demoDataObject = new demoHelper.DemoDataObject();
 			demoHelper.maximizeWidgetWhenABPopupVisible(adaptableBlotter, demoDataObject);
 			// demoHelper.publishInstrumentExpressionWhenChanged(adaptableBlotter, demoDataObject);
