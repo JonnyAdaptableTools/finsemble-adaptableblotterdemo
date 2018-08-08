@@ -1,6 +1,6 @@
 {
 	"version": 1,
-	"nextByte": 200819,
+	"nextByte": 206774,
 	"blockSize": 1024,
 	"logSize": 2097152,
 	"map": {
@@ -102,7 +102,7 @@
 		"[\"1B2M2Y8AsgTpgAmY7PhCfg==\",\"src-built-in/components/userPreferences/src\",\"./navSections.json\"]": {
 			"key": "[\"1B2M2Y8AsgTpgAmY7PhCfg==\",\"src-built-in/components/userPreferences/src\",\"./navSections.json\"]",
 			"size": 442,
-			"start": 199628
+			"start": 205583
 		},
 		"[\"1B2M2Y8AsgTpgAmY7PhCfg==\",\"src/components/positionblotter\",\"../../demohelper\"]": {
 			"key": "[\"1B2M2Y8AsgTpgAmY7PhCfg==\",\"src/components/positionblotter\",\"../../demohelper\"]",
@@ -1327,7 +1327,7 @@
 		"[\"1B2M2Y8AsgTpgAmY7PhCfg==\",\"src-built-in/components/toolbar/stores\",\"../config.json\"]": {
 			"key": "[\"1B2M2Y8AsgTpgAmY7PhCfg==\",\"src-built-in/components/toolbar/stores\",\"../config.json\"]",
 			"size": 384,
-			"start": 200070
+			"start": 206025
 		},
 		"[\"1B2M2Y8AsgTpgAmY7PhCfg==\",\"node_modules/react-table/es\",\"./pagination\"]": {
 			"key": "[\"1B2M2Y8AsgTpgAmY7PhCfg==\",\"node_modules/react-table/es\",\"./pagination\"]",
@@ -1602,7 +1602,7 @@
 		"[\"1B2M2Y8AsgTpgAmY7PhCfg==\",\"node_modules/fin-hypergrid/src\",\"../package.json\"]": {
 			"key": "[\"1B2M2Y8AsgTpgAmY7PhCfg==\",\"node_modules/fin-hypergrid/src\",\"../package.json\"]",
 			"size": 365,
-			"start": 200454
+			"start": 206409
 		},
 		"[\"1B2M2Y8AsgTpgAmY7PhCfg==\",\"node_modules/fin-hypergrid/src\",\"./lib/error\"]": {
 			"key": "[\"1B2M2Y8AsgTpgAmY7PhCfg==\",\"node_modules/fin-hypergrid/src\",\"./lib/error\"]",

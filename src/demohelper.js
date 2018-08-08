@@ -50,11 +50,11 @@ let lightTheme = {
 
 let darkTheme = {
     font: '12px Helvetica Neue, Helvetica, Arial, sans-serif',
-    color: 'white',
-    backgroundColor: '#07071E',
-    altbackground: '#07071E',
-    foregroundSelectionColor: 'white',
-    backgroundSelectionColor: 'rgba(61, 119, 254, 0.5)',
+    color: '#ffffff',
+    backgroundColor: '#403E3E',
+    altbackground: '#302E2E',
+    foregroundSelectionColor: '#ffffff',
+    backgroundSelectionColor: '#546465',
 
     columnHeaderFont: '12px Helvetica Neue, Helvetica, Arial, sans-serif',
     columnHeaderColor: 'white',
@@ -343,7 +343,7 @@ function setEmittersWhenSelectionChanged(grid, adaptableblotter) {
             emitters: [
                 {
                     type: "adaptableblotter.selectedcells",
-                    data: { selectedCells: JSON.stringify(adaptableblotter.getSelectedCells().Selection) }
+                    data: { selectedCells: JSON.stringify(adaptableblotterblotter.AdaptableBlotterStore.TheStore.getState().Grid.SelectedCellInfo.Selection) }
                 }
             ]
         })

@@ -1,6 +1,6 @@
 {
 	"version": 1,
-	"nextByte": 6171009,
+	"nextByte": 6495394,
 	"blockSize": 4096,
 	"logSize": 2097152,
 	"map": {
@@ -306,8 +306,8 @@
 		},
 		"1B2M2Y8AsgTpgAmY7PhCfg==node_modules/babel-loader/lib/index.js??ref--9!src/demohelper.js": {
 			"key": "1B2M2Y8AsgTpgAmY7PhCfg==node_modules/babel-loader/lib/index.js??ref--9!src/demohelper.js",
-			"size": 46811,
-			"start": 6124198
+			"size": 46976,
+			"start": 6448418
 		},
 		"1B2M2Y8AsgTpgAmY7PhCfg==node_modules/babel-loader/lib/index.js??ref--9!src-built-in/components/workspaceManagementMenu/src/stores/workspaceManagementMenuStore.js": {
 			"key": "1B2M2Y8AsgTpgAmY7PhCfg==node_modules/babel-loader/lib/index.js??ref--9!src-built-in/components/workspaceManagementMenu/src/stores/workspaceManagementMenuStore.js",

@@ -1,6 +1,6 @@
 {
 	"version": 1,
-	"nextByte": 17550,
+	"nextByte": 18005,
 	"blockSize": 128,
 	"logSize": 2097152,
 	"map": {
@@ -1332,7 +1332,7 @@
 		"src/demohelper.js": {
 			"key": "src/demohelper.js",
 			"size": 65,
-			"start": 17485
+			"start": 17940
 		}
 	}
 }
