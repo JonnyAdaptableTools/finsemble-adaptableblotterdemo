@@ -385,3 +385,4 @@ module.exports.publishQuickSearchWhenChanged = publishQuickSearchWhenChanged;
 module.exports.hypergridThemeChangeWhenAbChange = hypergridThemeChangeWhenAbChange;
 module.exports.publishSymbolWhenSelectionChanged = publishSymbolWhenSelectionChanged;
 module.exports.setEmittersWhenSelectionChanged = setEmittersWhenSelectionChanged;
+
