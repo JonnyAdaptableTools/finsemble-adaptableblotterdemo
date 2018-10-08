@@ -15,3 +15,9 @@ crash_service.exe
 debug.log
 -
 built
+Finsemble/
+.webpack-file-cache
+.babel_cache
+build/webpack/vendor-manifest.json
+server/stats.json
+package-lock.json
