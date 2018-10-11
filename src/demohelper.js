@@ -331,15 +331,17 @@ function publishSymbolWhenSelectionChanged(grid, demoDataObject) {
             let symbol = row.instrumentId;
             demoDataObject.currentSelectedSymbol = symbol;
             //we set the current quicksearch as well as we do not want to set the quicksearch when we select a cell
-            demoDataObject.currentQuickSearch = symbol;
-            FSBL.Clients.LinkerClient.publish({ dataType: "symbol", data: symbol });
+            // demoDataObject.currentQuickSearch = symbol; -- Removed by Mark Valeiras, CIQ
+            setTimeout(() => {
+                FSBL.Clients.LinkerClient.publish({ dataType: "symbol", data: symbol });
+            }, 0);
         }
     });
 }
 
 function setEmittersWhenSelectionChanged(grid, adaptableblotter) {
     grid.addEventListener('fin-selection-changed', () => {
-        FSBL.Clients.DataTransferClient.setEmitters({
+        FSBL.Clients.DragAndDropClient.setEmitters({
             emitters: [
                 {
                     type: "adaptableblotter.selectedcells",

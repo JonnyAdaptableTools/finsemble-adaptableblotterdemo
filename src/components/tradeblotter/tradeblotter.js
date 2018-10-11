@@ -81,12 +81,12 @@ FSBL.addEventListener('onReady', function () {
 			setTimeout(() => {
 				FSBL.Clients.LinkerClient.subscribe("quickSearch", function (quickSearch) {
 					if (demoDataObject.currentQuickSearch !== quickSearch) {
-						adaptableBlotter.AdaptableBlotterStore.TheStore.dispatch({ type: 'QUICK_SEARCH_RUN', quickSearchText: quickSearch });
+						adaptableBlotter.AdaptableBlotterStore.TheStore.dispatch({ type: 'QUICK_SEARCH_APPLY', quickSearchText: quickSearch });
 					}
 				});
 				FSBL.Clients.LinkerClient.subscribe("symbol", function (symbol) {
 					if (demoDataObject.currentSelectedSymbol !== symbol) {
-						adaptableBlotter.AdaptableBlotterStore.TheStore.dispatch({ type: 'QUICK_SEARCH_RUN', quickSearchText: symbol });
+						adaptableBlotter.AdaptableBlotterStore.TheStore.dispatch({ type: 'QUICK_SEARCH_APPLY', quickSearchText: symbol });
 					}
 				});
 			}, 5000);
