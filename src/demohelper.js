@@ -345,7 +345,7 @@ function setEmittersWhenSelectionChanged(grid, adaptableblotter) {
             emitters: [
                 {
                     type: "adaptableblotter.selectedcells",
-                    data: { selectedCells: JSON.stringify(adaptableblotterblotter.AdaptableBlotterStore.TheStore.getState().Grid.SelectedCellInfo.Selection) }
+                    data: { selectedCells: JSON.stringify(adaptableblotter.AdaptableBlotterStore.TheStore.getState().Grid.SelectedCellInfo.Selection) }
                 }
             ]
         })
@@ -356,10 +356,7 @@ function hypergridThemeChangeWhenAbChange(adaptableblotter, grid, demoDataObject
     adaptableblotter.AdaptableBlotterStore.TheStore.subscribe(() => {
         if (demoDataObject.themeName !== adaptableblotter.AdaptableBlotterStore.TheStore.getState().Theme.CurrentTheme) {
             demoDataObject.themeName = adaptableblotter.AdaptableBlotterStore.TheStore.getState().Theme.CurrentTheme;
-            if (demoDataObject.themeName === "Dark Theme" ||
-                demoDataObject.themeName === "Cyborg" ||
-                demoDataObject.themeName === "Darkly" ||
-                demoDataObject.themeName === "Superhero") {
+            if (demoDataObject.themeName === "Dark Theme") {
                 grid.addProperties(darkTheme);
             }
             else {

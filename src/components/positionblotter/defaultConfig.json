@@ -1,69 +1,31 @@
 {
     "QuickSearch": {
         "QuickSearchText": "",
-        "QuickSearchOperator": "StartsWith",
-        "QuickSearchDisplayType": "ShowRowAndColourCell",
-        "QuickSearchBackColor": "#ffa500"
+        "Operator": "StartsWith",
+        "DisplayAction": "ShowRowAndHighlightCell"
     },
     "FlashingCell": {
-        "FlashingColumns": [
+        "FlashingCells": [
             {
                 "IsLive": true,
                 "ColumnName": "pnl",
                 "FlashingCellDuration": 500,
-                "UpBackColor": "#008000",
-                "DownBackColor": "#FF0000",
-                "IsPredefined": true
+                "UpColor": "#008000",
+                "DownColor": "#FF0000"
             },
             {
                 "IsLive": true,
                 "ColumnName": "currentPrice",
                 "FlashingCellDuration": 500,
-                "UpBackColor": "#008000",
-                "DownBackColor": "#FF0000",
-                "IsPredefined": true
+                "UpColor": "#008000",
+                "DownColor": "#FF0000"
             },
             {
                 "IsLive": true,
                 "ColumnName": "position",
                 "FlashingCellDuration":500,
-                "UpBackColor": "#008000",
-                "DownBackColor": "#FF0000",
-                "IsPredefined": true
-            }
-        ]
-    },
-    "Dashboard": {
-        "DashboardStrategyControls": [
-            {
-                "Strategy": "Functions",
-                "IsVisible": true
-            },
-            {
-                "Strategy": "DashboardBookmarks",
-                "IsVisible": true,
-                "ControlConfiguration": [
-                    "Dashboard",
-                    "Smart Edit",
-                    "Plus/Minus",
-                    "Conditional Style"
-                ]
-            },
-            {
-                "Strategy": "AdvancedSearch",
-                "IsVisible": false
-            },
-            {
-                "Strategy": "QuickSearch",
-                "IsVisible": true
-            },
-            {
-                "Strategy": "Layout",
-                "IsVisible": false
-            },
-            {
-                "Strategy": "Filter",
-                "IsVisible": false
+                "UpColor": "#008000",
+                "DownColor": "#FF0000"
             }
         ]
     }
