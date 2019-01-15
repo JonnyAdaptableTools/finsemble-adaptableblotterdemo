@@ -213,10 +213,10 @@ function initAdaptableBlotter(grid, blotterId, primaryKey) {
         primaryKey: primaryKey,
         vendorGrid: grid,
         userName: "Jonathan",
-        enableAuditLog: false,
-        enableRemoteConfigServer: false,
         predefinedConfig: "defaultConfig.json",
-        adaptableBlotterContainer: "adaptableblottercontainer"
+        containerOptions: {
+            adaptableBlotterContainer: "adaptableblottercontainer",
+        }
     });
 
     let origgetCell = grid.behavior.dataModel.getCell;
