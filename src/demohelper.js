@@ -303,6 +303,8 @@ function maximizeWidgetWhenABPopupVisible(adaptableblotter, demoDataObject) {
 //     });
 // }
 
+
+// JW (16/1/19) - this should listen to state changed event in api but reluctant to change while unable to build or test
 function publishQuickSearchWhenChanged(adaptableblotter, demoDataObject) {
     adaptableblotter.AdaptableBlotterStore.TheStore.subscribe(() => {
         //we first check that the state update concerns the filters
