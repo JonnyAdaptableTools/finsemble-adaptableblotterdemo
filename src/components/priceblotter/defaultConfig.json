@@ -1,8 +1,7 @@
 {
     "QuickSearch": {
         "QuickSearchText": "",
-        "Operator": "StartsWith",
-        "DisplayAction": "ShowRowAndHighlightCell"
+         "DisplayAction": "ShowRowAndHighlightCell"
       },
     "FlashingCell": {
         "FlashingCells": [
