@@ -252,12 +252,12 @@ function maximizeWidgetWhenABPopupVisible(adaptableblotter, demoDataObject) {
     adaptableblotter.AdaptableBlotterStore.TheStore.subscribe(() => {
         if (demoDataObject.popupState !== adaptableblotter.AdaptableBlotterStore.TheStore.getState().Popup) {
             demoDataObject.popupState = adaptableblotter.AdaptableBlotterStore.TheStore.getState().Popup;
-            if (demoDataObject.popupState.ScreenPopup.ShowPopup === true &&
+            if (demoDataObject.popupState.ScreenPopup.ShowScreenPopup === true &&
                 FSBL.Clients.WindowClient.windowState !== "maximized") {
                 demoDataObject.didMaximizeForPopup = true;
                 FSBL.Clients.WindowClient.maximize();
             }
-            else if (demoDataObject.popupState.ScreenPopup.ShowPopup === false &&
+            else if (demoDataObject.popupState.ScreenPopup.ShowScreenPopup === false &&
                 demoDataObject.didMaximizeForPopup) {
                 FSBL.Clients.WindowClient.restore();
                 demoDataObject.didMaximizeForPopup = false;
@@ -307,7 +307,7 @@ function publishQuickSearchWhenChanged(adaptableblotter, demoDataObject) {
     adaptableblotter.AdaptableBlotterStore.TheStore.subscribe(() => {
         //we first check that the state update concerns the filters
         if (adaptableblotter.AdaptableBlotterStore.TheStore.getState().QuickSearch.QuickSearchText !== demoDataObject.currentQuickSearch) {
-            demoDataObject.currentQuickSearch = adaptableblotter.AdaptableBlotterStore.TheStore.getState().QuickSearch.QuickSearchText;
+            demoDataObject.currentQuickSearch = adaptableblotter.api.quickSearchApi.GetValue();
             FSBL.Clients.LinkerClient.publish({ dataType: "quickSearch", data: demoDataObject.currentQuickSearch });
         }
     });
@@ -345,6 +345,7 @@ function setEmittersWhenSelectionChanged(grid, adaptableblotter) {
             emitters: [
                 {
                     type: "adaptableblotter.selectedcells",
+                    // todo: we need to add an AB api method to get this to avoid using the store - will be in 3.2!!
                     data: { selectedCells: JSON.stringify(adaptableblotter.AdaptableBlotterStore.TheStore.getState().Grid.SelectedCellInfo.Selection) }
                 }
             ]
@@ -353,9 +354,10 @@ function setEmittersWhenSelectionChanged(grid, adaptableblotter) {
 }
 
 function hypergridThemeChangeWhenAbChange(adaptableblotter, grid, demoDataObject) {
+    // jw (16/1/19): we should update this to listen to the event rather than store change but reluctant to change until its working and I can test!
     adaptableblotter.AdaptableBlotterStore.TheStore.subscribe(() => {
-        if (demoDataObject.themeName !== adaptableblotter.AdaptableBlotterStore.TheStore.getState().Theme.CurrentTheme) {
-            demoDataObject.themeName = adaptableblotter.AdaptableBlotterStore.TheStore.getState().Theme.CurrentTheme;
+        if (demoDataObject.themeName !== adaptableblotter.api.themeApi.GetCurrent()) {
+            demoDataObject.themeName =adaptableblotter.api.themeApi.GetCurrent();
             if (demoDataObject.themeName === "Dark Theme") {
                 grid.addProperties(darkTheme);
             }

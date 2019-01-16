@@ -51,7 +51,7 @@ FSBL.addEventListener('onReady', function () {
 				// FSBL.Clients.RouterClient.transmit("TradeEdited", row);
 				FSBL.Clients.RouterClient.transmit("TradeEdited", e.detail.input.event.dataRow);
 			});
-			
+
 			//we update our filters when some other blotter publish a new Filter Expression on instrumentId
 			// FSBL.Clients.LinkerClient.subscribe("instrumentExpression", function (obj) {
 			// 	if (obj) {
@@ -81,12 +81,12 @@ FSBL.addEventListener('onReady', function () {
 			setTimeout(() => {
 				FSBL.Clients.LinkerClient.subscribe("quickSearch", function (quickSearch) {
 					if (demoDataObject.currentQuickSearch !== quickSearch) {
-						adaptableBlotter.AdaptableBlotterStore.TheStore.dispatch({ type: 'QUICK_SEARCH_APPLY', quickSearchText: quickSearch });
+						adaptableBlotter.api.quickSearchApi.Apply(quickSearch)
 					}
 				});
 				FSBL.Clients.LinkerClient.subscribe("symbol", function (symbol) {
 					if (demoDataObject.currentSelectedSymbol !== symbol) {
-						adaptableBlotter.AdaptableBlotterStore.TheStore.dispatch({ type: 'QUICK_SEARCH_APPLY', quickSearchText: symbol });
+						adaptableBlotter.api.quickSearchApi.Apply(symbol)
 					}
 				});
 			}, 5000);
