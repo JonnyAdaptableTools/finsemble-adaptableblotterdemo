@@ -13,6 +13,7 @@
 			}
 			...
 		}
+
 	IMPORTANT NOTE: If you set that path incorrectly it will cause Finsemble to stop working in that component.
 	Check your component's chrome console for the existence of FSBL. If it doesn't exist then check your path.
  */
@@ -26,7 +27,7 @@
 var originalWindowOpen = window.open;
 window.open = function (URL, name, specs, replace) {
 	// For some strange reason, openfin notifications use window.open. So we make an exception for that one case.
-	if (name.indexOf("openfin-child-window") != -1) {
+	if (name && name.includes("openfin-child-window")) {
 		originalWindowOpen.call(window, URL, name, specs, replace);
 		return;
 	}

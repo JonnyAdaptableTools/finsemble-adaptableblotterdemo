@@ -106,7 +106,7 @@ function blotterdataService() {
 blotterdataService.prototype = new Finsemble.baseService({
 	startupDependencies: {
 		// add any services or clients that should be started before your service
-		services: ["dockingService", "authenticationService"],
+		services: ["authenticationService"],
 		clients: [/* "storageClient" */]
 	}
 });

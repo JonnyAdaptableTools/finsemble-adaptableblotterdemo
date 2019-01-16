@@ -15,7 +15,7 @@ crash_service.exe
 debug.log
 -
 built
-Finsemble/
+finsemble/
 .webpack-file-cache
 .babel_cache
 build/webpack/vendor-manifest.json
