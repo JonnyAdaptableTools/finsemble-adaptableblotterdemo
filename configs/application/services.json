@@ -5,9 +5,9 @@
             "useWindow": true,
             "active": true,
             "name": "blotterdataService",
-            "file": "blotterdata/blotterdataService.js",
+            "file": "http://localhost:3375/services/blotterdata/blotterdataService.js",
             "visible": false,
-            "html": "/services/blotterdata/blotterdata.html"
+            "html": "http://localhost:3375/services/blotterdata/blotterdata.html"
         }
     }
 }

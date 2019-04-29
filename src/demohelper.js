@@ -123,10 +123,13 @@ function createGrid(data, blotterType) {
     grid.localization.add('USDCurrencyFormat', new grid.localization.NumberFormatter('en-US', {
         style: 'currency',
         currency: 'USD',
-        maximumFractionDigits: 0
+        maximumFractionDigits: 0,
+        minimumFractionDigits: 0
+
     }));
     grid.localization.add('PriceFormat', new grid.localization.NumberFormatter('en-US', {
-        maximumFractionDigits: 4
+        maximumFractionDigits: 2,
+        minimumFractionDigits: 0
     }));
 
     var shortDateOptions = { year: 'numeric', month: 'long', day: 'numeric' };

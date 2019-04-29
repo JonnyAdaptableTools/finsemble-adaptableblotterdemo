@@ -1,6 +1,12 @@
 var demoHelper = require('../../demohelper');
 
-FSBL.addEventListener('onReady', function () {
+if (window.FSBL && FSBL.addEventListener) {
+	FSBL.addEventListener('onReady', init);
+} else {
+	window.addEventListener('FSBLReady', init);
+}
+
+function init() {
 
 	FSBL.Clients.WindowClient.setWindowTitle("Position Blotter");
 	FSBL.Clients.RouterClient.query("Positions", null, function (error, response) {
@@ -59,7 +65,7 @@ FSBL.addEventListener('onReady', function () {
 		}
 	});
 
-});
+};
 
 function setupEditorsAndFormats(hypergrid) {
 	//format postition
